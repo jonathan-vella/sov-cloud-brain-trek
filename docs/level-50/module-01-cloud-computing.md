@@ -20,17 +20,17 @@ Build essential understanding of cloud computing concepts, service models, and d
 
 📚 **Main Content:**
 
-- [Cloud Computing Primer]({{ site.baseurl }}{% link level-50/cloud-computing-primer.md %}) - Essential cloud computing concepts and terminology
+- [Cloud Computing Primer]({% link level-50/cloud-computing-primer.md %}) - Essential cloud computing concepts and terminology
 
 **Deep Dive Topics:**
 
-- [Cloud Service Models]({{ site.baseurl }}{% link level-50/cloud-service-models.md %}) - IaaS, PaaS, SaaS explained with examples
-- [Cloud Deployment Models]({{ site.baseurl }}{% link level-50/cloud-deployment-models.md %}) - Public, private, hybrid, and multi-cloud
-- [Cloud Benefits and Considerations]({{ site.baseurl }}{% link level-50/cloud-benefits.md %}) - Scalability, cost optimization, and challenges
+- [Cloud Service Models]({% link level-50/cloud-service-models.md %}) - IaaS, PaaS, SaaS explained with examples
+- [Cloud Deployment Models]({% link level-50/cloud-deployment-models.md %}) - Public, private, hybrid, and multi-cloud
+- [Cloud Benefits and Considerations]({% link level-50/cloud-benefits.md %}) - Scalability, cost optimization, and challenges
 
 ✅ **Assessment:**
 
-- [Cloud Computing Knowledge Check]({{ site.baseurl }}{% link level-50/cloud-computing-knowledge-check.md %}) - 10 questions on cloud fundamentals
+- [Cloud Computing Knowledge Check]({% link level-50/cloud-computing-knowledge-check.md %}) - 10 questions on cloud fundamentals
 
 ---
 

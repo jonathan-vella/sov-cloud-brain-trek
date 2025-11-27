@@ -53,19 +53,19 @@ Before starting Level 50, you should have:
 
 ## Learning Modules
 
-### [Module 1: Cloud Computing Fundamentals]({{ site.baseurl }}{% link level-50/module-01-cloud-computing.md %})
+### [Module 1: Cloud Computing Fundamentals]({% link level-50/module-01-cloud-computing.md %})
 
 **Duration:** 45-60 minutes
 
 Learn essential cloud computing concepts including service models (IaaS, PaaS, SaaS), deployment models (public, private, hybrid), and business benefits. Understand the shift from CapEx to OpEx and how cloud enables scalability and innovation.
 
-### [Module 2: Security & Compliance Fundamentals]({{ site.baseurl }}{% link level-50/module-02-security-compliance.md %})
+### [Module 2: Security & Compliance Fundamentals]({% link level-50/module-02-security-compliance.md %})
 
 **Duration:** 45-60 minutes
 
 Build foundational knowledge of security principles (CIA triad), data protection, identity and access management, and key compliance frameworks (GDPR, HIPAA, SOC 2, ISO 27001).
 
-### [Module 3: Microsoft Azure Introduction]({{ site.baseurl }}{% link level-50/module-03-azure-intro.md %})
+### [Module 3: Microsoft Azure Introduction]({% link level-50/module-03-azure-intro.md %})
 
 **Duration:** 60-90 minutes
 
@@ -196,7 +196,7 @@ Test your understanding with these questions:
 4. What is an Azure region?
 5. How does cloud computing change the cost model compared to on-premises?
 
-**[Take the Level 50 Comprehensive Quiz →]({{ site.baseurl }}{% link level-50/comprehensive-knowledge-check.md %})**
+**[Take the Level 50 Comprehensive Quiz →]({% link level-50/comprehensive-knowledge-check.md %})**
 
 ---
 

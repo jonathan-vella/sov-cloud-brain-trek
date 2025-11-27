@@ -20,18 +20,18 @@ Master the fundamentals of Azure Local architecture, deployment modes, and hybri
 
 📚 **Main Content:**
 
-- [Azure Local Overview]({{ site.baseurl }}{% link level-100/azure-local-overview.md %}) - Architecture, deployment modes, customer scenarios
+- [Azure Local Overview]({% link level-100/azure-local-overview.md %}) - Architecture, deployment modes, customer scenarios
 
 **Deep Dive Topics:**
 
-- [Azure Local Architecture]({{ site.baseurl }}{% link level-100/azure-local-architecture.md %}) - Hardware, networking, security layers
-- [Connected Mode]({{ site.baseurl }}{% link level-100/azure-local-connected-mode.md %}) - Azure integration, monitoring, update management
-- [Disconnected Mode]({{ site.baseurl }}{% link level-100/azure-local-disconnected-mode.md %}) - Air-gapped deployment, periodic sync
-- [Hardware Requirements]({{ site.baseurl }}{% link level-100/azure-local-hardware.md %}) - Validated hardware, sizing, deployment checklist
+- [Azure Local Architecture]({% link level-100/azure-local-architecture.md %}) - Hardware, networking, security layers
+- [Connected Mode]({% link level-100/azure-local-connected-mode.md %}) - Azure integration, monitoring, update management
+- [Disconnected Mode]({% link level-100/azure-local-disconnected-mode.md %}) - Air-gapped deployment, periodic sync
+- [Hardware Requirements]({% link level-100/azure-local-hardware.md %}) - Validated hardware, sizing, deployment checklist
 
 ✅ **Assessment:**
 
-- [Knowledge Check]({{ site.baseurl }}{% link level-100/azure-local-knowledge-check.md %}) - 15 questions testing deployment modes and technical concepts
+- [Knowledge Check]({% link level-100/azure-local-knowledge-check.md %}) - 15 questions testing deployment modes and technical concepts
 
 ---
 

@@ -10,6 +10,7 @@ gem "just-the-docs", "~> 0.10"
 gem "jekyll-feed", "~> 0.15"
 gem "jekyll-seo-tag", "~> 2.8"
 gem "jekyll-sitemap", "~> 1.4"
+gem "jekyll-relative-links", "~> 0.7"
 
 # Ruby 3.4+ compatibility (gems moving out of default)
 gem "csv"

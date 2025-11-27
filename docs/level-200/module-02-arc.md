@@ -16,8 +16,8 @@ Master enterprise-scale governance, cost optimization, and security hardening fo
 
 ## Module Content
 
-- [Arc Advanced Management]({{ site.baseurl }}{% link level-200/arc-advanced-management.md %})
-- [Policy & Governance]({{ site.baseurl }}{% link level-200/arc-policy-and-governance.md %})
-- [Cost Optimization]({{ site.baseurl }}{% link level-200/arc-cost-optimization.md %})
-- [Enterprise Patterns]({{ site.baseurl }}{% link level-200/arc-enterprise-patterns.md %})
-- [Knowledge Check]({{ site.baseurl }}{% link level-200/arc-advanced-knowledge-check.md %})
+- [Arc Advanced Management]({% link level-200/arc-advanced-management.md %})
+- [Policy & Governance]({% link level-200/arc-policy-and-governance.md %})
+- [Cost Optimization]({% link level-200/arc-cost-optimization.md %})
+- [Enterprise Patterns]({% link level-200/arc-enterprise-patterns.md %})
+- [Knowledge Check]({% link level-200/arc-advanced-knowledge-check.md %})

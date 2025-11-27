@@ -20,17 +20,17 @@ Understand the three Microsoft Sovereign Cloud models and learn how to select th
 
 📚 **Main Content:**
 
-- [Microsoft Sovereign Cloud Models Overview]({{ site.baseurl }}{% link level-100/sovereign-cloud-models.md %}) - Three models, comparison, and decision framework
+- [Microsoft Sovereign Cloud Models Overview]({% link level-100/sovereign-cloud-models.md %}) - Three models, comparison, and decision framework
 
 **Deep Dive Topics:**
 
-- [Sovereign Public Cloud]({{ site.baseurl }}{% link level-100/sovereign-public-cloud.md %}) - Azure with enhanced sovereignty controls and Microsoft Cloud for Sovereignty
-- [Sovereign Private Cloud]({{ site.baseurl }}{% link level-100/sovereign-private-cloud.md %}) - Azure Local (Connected and Disconnected modes) for dedicated infrastructure
-- [National Partner Clouds]({{ site.baseurl }}{% link level-100/national-partner-clouds.md %}) - Azure Government, Azure China, and partner-operated sovereign clouds
+- [Sovereign Public Cloud]({% link level-100/sovereign-public-cloud.md %}) - Azure with enhanced sovereignty controls and Microsoft Cloud for Sovereignty
+- [Sovereign Private Cloud]({% link level-100/sovereign-private-cloud.md %}) - Azure Local (Connected and Disconnected modes) for dedicated infrastructure
+- [National Partner Clouds]({% link level-100/national-partner-clouds.md %}) - Azure Government, Azure China, and partner-operated sovereign clouds
 
 ✅ **Assessment:**
 
-- [Knowledge Check]({{ site.baseurl }}{% link level-100/cloud-models-knowledge-check.md %}) - 15 questions testing model selection and technical understanding
+- [Knowledge Check]({% link level-100/cloud-models-knowledge-check.md %}) - 15 questions testing model selection and technical understanding
 
 ---
 

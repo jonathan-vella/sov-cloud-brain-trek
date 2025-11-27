@@ -20,17 +20,17 @@ Learn how Azure Arc enables unified hybrid and multi-cloud management across any
 
 📚 **Main Content:**
 
-- [Azure Arc Introduction]({{ site.baseurl }}{% link level-100/azure-arc-intro.md %}) - Hybrid management, multi-cloud governance, three Arc services
+- [Azure Arc Introduction]({% link level-100/azure-arc-intro.md %}) - Hybrid management, multi-cloud governance, three Arc services
 
 **Deep Dive Topics:**
 
-- [Arc-Enabled Servers]({{ site.baseurl }}{% link level-100/azure-arc-servers.md %}) - Windows/Linux management, policy, monitoring
-- [Arc-Enabled Kubernetes]({{ site.baseurl }}{% link level-100/azure-arc-kubernetes.md %}) - GitOps, multi-cluster management, policy enforcement
-- [Arc-Enabled Data Services]({{ site.baseurl }}{% link level-100/azure-arc-data-services.md %}) - SQL MI and PostgreSQL on any infrastructure
+- [Arc-Enabled Servers]({% link level-100/azure-arc-servers.md %}) - Windows/Linux management, policy, monitoring
+- [Arc-Enabled Kubernetes]({% link level-100/azure-arc-kubernetes.md %}) - GitOps, multi-cluster management, policy enforcement
+- [Arc-Enabled Data Services]({% link level-100/azure-arc-data-services.md %}) - SQL MI and PostgreSQL on any infrastructure
 
 ✅ **Assessment:**
 
-- [Knowledge Check]({{ site.baseurl }}{% link level-100/azure-arc-knowledge-check.md %}) - 12 questions covering all Arc services
+- [Knowledge Check]({% link level-100/azure-arc-knowledge-check.md %}) - 12 questions covering all Arc services
 
 ---
 

@@ -197,7 +197,7 @@ The skilling plan is divided into four progressive levels, each building upon th
 
 ### 📋 Level 50: Prerequisites
 
-**[Start Level 50 →]({{ site.baseurl }}{% link level-50/README.md %})**
+**[Start Level 50 →]({% link level-50/README.md %})**
 
 **Goal:** Build essential foundational knowledge in cloud computing, security, and Azure fundamentals.
 
@@ -219,7 +219,7 @@ The skilling plan is divided into four progressive levels, each building upon th
 
 ### 🎯 Level 100: Foundational Concepts
 
-**[Start Level 100 →]({{ site.baseurl }}{% link level-100/README.md %})**
+**[Start Level 100 →]({% link level-100/README.md %})**
 
 **Goal:** Build a solid understanding of core concepts, terminology, and value propositions.
 
@@ -242,7 +242,7 @@ The skilling plan is divided into four progressive levels, each building upon th
 
 ### 🏗️ Level 200: Intermediate Skills
 
-**[Start Level 200 →]({{ site.baseurl }}{% link level-200/README.md %})**
+**[Start Level 200 →]({% link level-200/README.md %})**
 
 **Goal:** Develop the ability to design solutions, plan deployments, and address customer-specific requirements.
 
@@ -264,7 +264,7 @@ The skilling plan is divided into four progressive levels, each building upon th
 
 ### 🚀 Level 300: Advanced Expertise
 
-**[Start Level 300 →]({{ site.baseurl }}{% link level-300/README.md %})**
+**[Start Level 300 →]({% link level-300/README.md %})**
 
 **Goal:** Achieve expert-level proficiency to lead complex deployments, manage production environments, and drive strategic engagements.
 
@@ -427,8 +427,8 @@ Each level has clear success metrics to validate learning outcomes:
 
 Ready to begin? Start your learning journey:
 
-1. **[Start with Level 50: Prerequisites]({{ site.baseurl }}{% link level-50/README.md %})**
-2. **[Continue to Level 100: Foundational Concepts]({{ site.baseurl }}{% link level-100/README.md %})**
+1. **[Start with Level 50: Prerequisites]({% link level-50/README.md %})**
+2. **[Continue to Level 100: Foundational Concepts]({% link level-100/README.md %})**
 3. **[Explore Additional Resources](resources/)**
 
 ---

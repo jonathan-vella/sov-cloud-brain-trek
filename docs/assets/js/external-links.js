@@ -15,7 +15,7 @@
     window.location.hostname
   ];
 
-  const BASE_PATH = '/microsoft-sovereign-cloud-brain-trek';
+  const BASE_PATH = '/sov-cloud-brain-trek';
 
   /**
    * Check if a URL is external (not within the site)

@@ -20,17 +20,17 @@ Build foundational knowledge of security principles, data protection, and compli
 
 📚 **Main Content:**
 
-- [Security & Compliance Basics]({{ site.baseurl }}{% link level-50/security-compliance-basics.md %}) - Core security principles and compliance frameworks
+- [Security & Compliance Basics]({% link level-50/security-compliance-basics.md %}) - Core security principles and compliance frameworks
 
 **Deep Dive Topics:**
 
-- [Data Protection Principles]({{ site.baseurl }}{% link level-50/data-protection-principles.md %}) - Confidentiality, integrity, availability (CIA triad)
-- [Compliance Frameworks Overview]({{ site.baseurl }}{% link level-50/compliance-frameworks.md %}) - GDPR, HIPAA, SOC 2, ISO 27001 basics
-- [Identity and Access Management]({{ site.baseurl }}{% link level-50/identity-access-basics.md %}) - Authentication, authorization, and role-based access
+- [Data Protection Principles]({% link level-50/data-protection-principles.md %}) - Confidentiality, integrity, availability (CIA triad)
+- [Compliance Frameworks Overview]({% link level-50/compliance-frameworks.md %}) - GDPR, HIPAA, SOC 2, ISO 27001 basics
+- [Identity and Access Management]({% link level-50/identity-access-basics.md %}) - Authentication, authorization, and role-based access
 
 ✅ **Assessment:**
 
-- [Security & Compliance Knowledge Check]({{ site.baseurl }}{% link level-50/security-compliance-knowledge-check.md %}) - 10 questions on security fundamentals
+- [Security & Compliance Knowledge Check]({% link level-50/security-compliance-knowledge-check.md %}) - 10 questions on security fundamentals
 
 ---
 

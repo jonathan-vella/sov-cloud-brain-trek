@@ -342,7 +342,7 @@ A: Check README.md in parent level has link with correct relative path.
 - **Content structure:** See this README.md
 - **Jekyll deployment:** See root README.md (Deployment section)
 - **Visual assets:** See `VISUAL_SPECIFICATIONS.md` in each level folder
-- **Contributing:** See [CONTRIBUTING.md](../CONTRIBUTING.md)
+- **Contributing:** See [CONTRIBUTING.md](https://github.com/jonathan-vella/sov-cloud-brain-trek/blob/main/CONTRIBUTING.md)
 - **Project status:** See root README.md
 
 ---

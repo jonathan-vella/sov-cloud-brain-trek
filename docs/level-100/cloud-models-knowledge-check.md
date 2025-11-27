@@ -553,7 +553,7 @@ After completing this assessment:
 
 ### 5. ✋ Need Help?
 
-- Review [CONTRIBUTING.md](../../CONTRIBUTING.md) for questions
+- Review [CONTRIBUTING.md](https://github.com/jonathan-vella/sov-cloud-brain-trek/blob/main/CONTRIBUTING.md) for questions
 - Check [README.md](README) for module navigation
 - Revisit missed topics before proceeding
 

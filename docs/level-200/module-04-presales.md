@@ -16,7 +16,7 @@ Master customer discovery, solution architecture, sizing methodologies, and busi
 
 ## Module Content
 
-- [Pre-Sales Solution Design]({{ site.baseurl }}{% link level-200/presales-solution-design.md %})
-- [Customer Discovery]({{ site.baseurl }}{% link level-200/customer-discovery.md %})
-- [Cost Estimation]({{ site.baseurl }}{% link level-200/cost-estimation.md %})
-- [Knowledge Check]({{ site.baseurl }}{% link level-200/presales-knowledge-check.md %})
+- [Pre-Sales Solution Design]({% link level-200/presales-solution-design.md %})
+- [Customer Discovery]({% link level-200/customer-discovery.md %})
+- [Cost Estimation]({% link level-200/cost-estimation.md %})
+- [Knowledge Check]({% link level-200/presales-knowledge-check.md %})

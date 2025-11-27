@@ -20,17 +20,17 @@ Explore Retrieval-Augmented Generation (RAG) fundamentals and learn how to deplo
 
 📚 **Main Content:**
 
-- [Edge RAG Concepts]({{ site.baseurl }}{% link level-100/edge-rag-concepts.md %}) - RAG fundamentals, edge deployment benefits, customer scenarios
+- [Edge RAG Concepts]({% link level-100/edge-rag-concepts.md %}) - RAG fundamentals, edge deployment benefits, customer scenarios
 
 **Deep Dive Topics:**
 
-- [RAG Fundamentals]({{ site.baseurl }}{% link level-100/rag-fundamentals.md %}) - Embeddings, vector databases, LLM limitations
-- [Edge RAG Architecture]({{ site.baseurl }}{% link level-100/edge-rag-architecture.md %}) - Local LLM deployment, ingestion pipeline, query processing
-- [Edge RAG Use Cases]({{ site.baseurl }}{% link level-100/edge-rag-use-cases.md %}) - Industry scenarios, best practices, ROI
+- [RAG Fundamentals]({% link level-100/rag-fundamentals.md %}) - Embeddings, vector databases, LLM limitations
+- [Edge RAG Architecture]({% link level-100/edge-rag-architecture.md %}) - Local LLM deployment, ingestion pipeline, query processing
+- [Edge RAG Use Cases]({% link level-100/edge-rag-use-cases.md %}) - Industry scenarios, best practices, ROI
 
 ✅ **Assessment:**
 
-- [Knowledge Check]({{ site.baseurl }}{% link level-100/edge-rag-knowledge-check.md %}) - 15 questions testing RAG concepts and implementation
+- [Knowledge Check]({% link level-100/edge-rag-knowledge-check.md %}) - 15 questions testing RAG concepts and implementation
 
 ---
 

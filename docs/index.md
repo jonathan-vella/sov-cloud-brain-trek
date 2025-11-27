@@ -21,8 +21,8 @@ A comprehensive learning journey for architects and solutions professionals
 > This content is currently in **public preview**. All learning modules and assessments are complete and ready for use.
 > **Hands-on labs** are currently in development and will be released in Q1 2026.
 
-[Get Started]({{ site.baseurl }}{% link introduction.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View on GitHub](https://github.com/jonathan-vella/microsoft-sovereign-cloud-brain-trek){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get Started]({% link introduction.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[View on GitHub](https://github.com/jonathan-vella/sov-cloud-brain-trek){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -32,10 +32,10 @@ This skilling plan provides a comprehensive, structured approach to mastering Mi
 
 | Level | Focus | Duration | Start |
 |:------|:------|:---------|:------|
-| 📋 **Level 50** | Prerequisites — Cloud, security & Azure fundamentals | 1-2 weeks | [Begin →]({{ site.baseurl }}{% link level-50/README.md %}) |
-| 🎯 **Level 100** | Foundation — Core concepts & value propositions | 2-4 weeks | [Begin →]({{ site.baseurl }}{% link level-100/README.md %}) |
-| 🏗️ **Level 200** | Intermediate — Solution design & deployment planning | 4-6 weeks | [Begin →]({{ site.baseurl }}{% link level-200/README.md %}) |
-| 🚀 **Level 300** | Advanced — Expert implementation & customer leadership | 8-12 weeks | [Begin →]({{ site.baseurl }}{% link level-300/README.md %}) |
+| 📋 **Level 50** | Prerequisites — Cloud, security & Azure fundamentals | 1-2 weeks | [Begin →]({% link level-50/README.md %}) |
+| 🎯 **Level 100** | Foundation — Core concepts & value propositions | 2-4 weeks | [Begin →]({% link level-100/README.md %}) |
+| 🏗️ **Level 200** | Intermediate — Solution design & deployment planning | 4-6 weeks | [Begin →]({% link level-200/README.md %}) |
+| 🚀 **Level 300** | Advanced — Expert implementation & customer leadership | 8-12 weeks | [Begin →]({% link level-300/README.md %}) |
 
 ---
 
@@ -85,17 +85,17 @@ This skilling plan provides a comprehensive, structured approach to mastering Mi
 
 ## Get Started Now
 
-1. 📖 **[Read the Introduction]({{ site.baseurl }}{% link introduction.md %})** — Understand the full program structure
-2. 📋 **[Start Level 50]({{ site.baseurl }}{% link level-50/README.md %})** — Build prerequisite knowledge
-3. 🎯 **[Continue to Level 100]({{ site.baseurl }}{% link level-100/README.md %})** — Master foundational concepts
+1. 📖 **[Read the Introduction]({% link introduction.md %})** — Understand the full program structure
+2. 📋 **[Start Level 50]({% link level-50/README.md %})** — Build prerequisite knowledge
+3. 🎯 **[Continue to Level 100]({% link level-100/README.md %})** — Master foundational concepts
 4. ✅ **Track your progress** — Use the checklists in each module
 
 ---
 
 {: .note }
-> **📚 Additional Resources:** [Contributing Guidelines](https://github.com/jonathan-vella/microsoft-sovereign-cloud-brain-trek/blob/main/CONTRIBUTING.md) ·
+> **📚 Additional Resources:** [Contributing Guidelines](https://github.com/jonathan-vella/sov-cloud-brain-trek/blob/main/CONTRIBUTING.md) ·
 > [Microsoft Learn](https://learn.microsoft.com) ·
-> [View on GitHub](https://github.com/jonathan-vella/microsoft-sovereign-cloud-brain-trek)
+> [View on GitHub](https://github.com/jonathan-vella/sov-cloud-brain-trek)
 
 {: .note }
 > This content is based on Microsoft's official documentation and is current as of October 2025.

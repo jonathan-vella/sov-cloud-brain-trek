@@ -16,8 +16,8 @@ Master production-ready Retrieval-Augmented Generation deployment patterns, LLM 
 
 ## Module Content
 
-- [Edge RAG Implementation]({{ site.baseurl }}{% link level-200/edge-rag-implementation.md %})
-- [LLM Inference Optimization]({{ site.baseurl }}{% link level-200/llm-inference-optimization.md %})
-- [RAG Deployment Strategies]({{ site.baseurl }}{% link level-200/rag-deployment-strategies.md %})
-- [Operations & Monitoring]({{ site.baseurl }}{% link level-200/rag-operations-monitoring.md %})
-- [Knowledge Check]({{ site.baseurl }}{% link level-200/rag-implementation-knowledge-check.md %})
+- [Edge RAG Implementation]({% link level-200/edge-rag-implementation.md %})
+- [LLM Inference Optimization]({% link level-200/llm-inference-optimization.md %})
+- [RAG Deployment Strategies]({% link level-200/rag-deployment-strategies.md %})
+- [Operations & Monitoring]({% link level-200/rag-operations-monitoring.md %})
+- [Knowledge Check]({% link level-200/rag-implementation-knowledge-check.md %})
