@@ -1,3 +1,11 @@
+---
+layout: default
+title: Data Classification
+nav_order: 21
+parent: Level 300 - Advanced
+description: "Data classification workflows for sovereign cloud environments"
+---
+
 # Data Classification and Protection
 
 

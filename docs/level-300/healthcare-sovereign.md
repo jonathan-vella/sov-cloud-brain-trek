@@ -1,3 +1,11 @@
+---
+layout: default
+title: Healthcare Architecture
+nav_order: 23
+parent: Level 300 - Advanced
+description: "HIPAA-compliant healthcare deployment"
+---
+
 # Healthcare Sovereign Cloud Architecture
 
 

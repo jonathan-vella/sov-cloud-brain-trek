@@ -1,6 +1,12 @@
+---
+layout: default
+title: Sovereign Landing Zone
+nav_order: 20
+parent: Level 300 - Advanced
+description: "Complete enterprise reference architecture for sovereign cloud infrastructure"
+---
+
 # Sovereign Landing Zone Architecture
-
-
 {: .no_toc }
 
 Complete enterprise reference architecture for deploying sovereign cloud infrastructure with full compliance and governance controls.
@@ -36,10 +42,17 @@ After completing this section, you will be able to:
 
 ---
 
-
 ## Sovereign Landing Zone Components
 
+<details class="diagram-container" open>
+<summary>View Diagram: Sovereign Landing Zone Architecture</summary>
+<div class="diagram-content">
 
+![Sovereign Landing Zone Architecture](../assets/images/level-300/sovereign-landing-zone.svg)
+*Figure 1: Complete sovereign landing zone with management group hierarchy, network topology, and security controls*
+
+</div>
+</details>
 
 ### Management Group Hierarchy
 
@@ -79,9 +92,16 @@ The sovereign landing zone uses a hierarchical management group structure:
 ## Multi-Region Deployment
 
 For organizations requiring geographic redundancy within sovereignty boundaries:
-_
+
+<details class="diagram-container" open>
+<summary>View Diagram: Multi-Region Sovereign Deployment</summary>
+<div class="diagram-content">
+
 ![Multi-Region Sovereign Deployment](../assets/images/level-300/multi-region-sovereign.svg)
-_Figure 2: Multi-region deployment with data residency controls and cross-region replication_
+*Figure 2: Multi-region deployment with data residency controls and cross-region replication*
+
+</div>
+</details>
 
 ### Region Selection Criteria
 
@@ -97,9 +117,16 @@ When selecting Azure regions for sovereign deployments:
 ## Hybrid Identity Architecture
 
 Organizations with on-premises Active Directory require hybrid identity integration:
-_
+
+<details class="diagram-container" open>
+<summary>View Diagram: Hybrid Identity Architecture</summary>
+<div class="diagram-content">
+
 ![Hybrid Identity Architecture](../assets/images/level-300/hybrid-identity.svg)
-_Figure 3: Hybrid identity with Microsoft Entra Connect and conditional access_
+*Figure 3: Hybrid identity with Microsoft Entra Connect and conditional access*
+
+</div>
+</details>
 
 ### Identity Synchronization Options
 

@@ -1,3 +1,11 @@
+---
+layout: default
+title: Event-Driven Architecture
+nav_order: 28
+parent: Level 300 - Advanced
+description: "Event processing with data residency compliance"
+---
+
 # Event-Driven Architecture for Sovereignty
 
 

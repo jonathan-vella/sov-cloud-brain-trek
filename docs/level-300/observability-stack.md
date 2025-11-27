@@ -1,13 +1,17 @@
+---
+layout: default
+title: Observability Stack
+nav_order: 30
+parent: Level 300 - Advanced
+description: "Monitoring and observability with data residency compliance"
+---
+
 # Observability Stack for Sovereignty
-
-
 {: .no_toc }
 
 Complete monitoring and observability with data residency compliance for logs, metrics, and traces.
 
-
 ## Table of Contents
-
 {: .no_toc .text-delta }
 
 1. TOC
@@ -30,13 +34,17 @@ After completing this section, you will be able to:
 
 ---
 
-
 ## Observability Architecture
 
+<details class="diagram-container" open>
+<summary>View Diagram: Observability Stack</summary>
+<div class="diagram-content">
 
-_
 ![Observability Stack](../assets/images/level-300/observability-stack.svg)
-_Figure 1: Complete observability stack with regional data collection and storage_
+*Figure 1: Complete observability stack with regional data collection and storage*
+
+</div>
+</details>
 
 ### Component Overview
 
@@ -78,21 +86,21 @@ Set-AzDiagnosticSetting `
 logAnalytics:
   name: "eu-logs-workspace"
   location: "westeurope"
-
+  
   dataResidency:
     region: "EU"
     dataExportBlocked: true
     crossRegionQueryBlocked: true
-
+    
   retention:
     interactive: 90  # days
     archive: 730     # 2 years for compliance
-
+    
   accessControl:
     rbac: true
     tableLevel: true
     resourceCentric: true
-
+    
   ingestion:
     dailyCap: 100  # GB
     warningThreshold: 80
@@ -113,7 +121,7 @@ public void ConfigureServices(IServiceCollection services)
         options.ConnectionString = Configuration["ApplicationInsights:ConnectionString"];
         options.EnableAdaptiveSampling = true;
     });
-
+    
     // Add telemetry processor for PII filtering
     services.AddApplicationInsightsTelemetryProcessor<SovereignTelemetryProcessor>();
 }
@@ -129,13 +137,13 @@ public class SovereignTelemetryProcessor : ITelemetryProcessor
             request.Url = MaskPiiInUrl(request.Url);
             request.Name = MaskPiiInUrl(request.Name);
         }
-
+        
         if (item is TraceTelemetry trace)
         {
             // Filter sensitive log messages
             trace.Message = FilterSensitiveData(trace.Message);
         }
-
+        
         _next.Process(item);
     }
 }
@@ -147,20 +155,20 @@ public class SovereignTelemetryProcessor : ITelemetryProcessor
 # OpenTelemetry configuration
 openTelemetry:
   serviceName: "sovereign-app"
-
+  
   exporter:
     type: "AzureMonitor"
     connectionString: "${APPLICATIONINSIGHTS_CONNECTION_STRING}"
-
+    
   sampling:
     type: "parentBased"
     rate: 0.1  # 10% sampling
-
+    
   spanProcessors:
     - type: "batch"
       maxQueueSize: 2048
       maxExportBatchSize: 512
-
+    
   resourceAttributes:
     service.region: "westeurope"
     deployment.environment: "production"
@@ -178,7 +186,7 @@ openTelemetry:
 AzureMetrics
 | where TimeGenerated > ago(1h)
 | where ResourceProvider == "MICROSOFT.WEB"
-| summarize
+| summarize 
     AvgResponseTime = avg(Average),
     P95ResponseTime = percentile(Average, 95),
     RequestCount = sum(Count)
@@ -193,21 +201,21 @@ AzureMetrics
 public class SovereigntyMetrics
 {
     private readonly TelemetryClient _telemetry;
-
+    
     public void TrackCrossRegionRequest(string sourceRegion, string targetRegion, bool blocked)
     {
         _telemetry.TrackMetric(new MetricTelemetry
         {
             Name = "CrossRegionRequest",
             Sum = 1,
-            Properties =
+            Properties = 
             {
                 ["SourceRegion"] = sourceRegion,
                 ["TargetRegion"] = targetRegion,
                 ["Blocked"] = blocked.ToString()
             }
         });
-
+        
         if (blocked)
         {
             _telemetry.TrackEvent("SovereigntyViolationBlocked", new Dictionary<string, string>

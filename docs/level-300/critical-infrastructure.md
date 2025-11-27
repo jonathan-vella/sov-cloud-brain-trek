@@ -1,3 +1,11 @@
+---
+layout: default
+title: Critical Infrastructure
+nav_order: 26
+parent: Level 300 - Advanced
+description: "OT/IT convergence for critical infrastructure"
+---
+
 # Critical Infrastructure Architecture
 
 

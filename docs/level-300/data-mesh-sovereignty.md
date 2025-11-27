@@ -1,3 +1,11 @@
+---
+layout: default
+title: Data Mesh
+nav_order: 29
+parent: Level 300 - Advanced
+description: "Domain-oriented data ownership with sovereignty"
+---
+
 # Data Mesh for Sovereignty
 
 

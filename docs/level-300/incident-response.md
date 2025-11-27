@@ -1,3 +1,11 @@
+---
+layout: default
+title: Incident Response
+nav_order: 22
+parent: Level 300 - Advanced
+description: "Security incident response for sovereign cloud environments"
+---
+
 # Incident Response Workflow
 
 

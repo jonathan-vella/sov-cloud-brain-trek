@@ -1,3 +1,11 @@
+---
+layout: default
+title: DevSecOps Pipeline
+nav_order: 31
+parent: Level 300 - Advanced
+description: "Security-integrated pipelines"
+---
+
 # DevSecOps Pipeline for Sovereign Cloud
 
 
