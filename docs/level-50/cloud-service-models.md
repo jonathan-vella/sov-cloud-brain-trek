@@ -104,19 +104,8 @@ _Figure 1: Shared Responsibility Matrix across cloud service models_
 
 _🔵 You = Customer Responsibility | 🟢 Provider = Cloud Provider Responsibility_
 
-```mermaid
-graph LR
-    subgraph Responsibility["Responsibility Shift"]
-        A["On-Premises<br/>100% You"] --> B["IaaS<br/>Infrastructure managed"]
-        B --> C["PaaS<br/>Platform managed"]
-        C --> D["SaaS<br/>Everything managed"]
-    end
-
-    style A fill:#bbdefb,stroke:#1565c0,color:#000
-    style B fill:#90caf9,stroke:#1565c0,color:#000
-    style C fill:#a5d6a7,stroke:#2e7d32,color:#000
-    style D fill:#c8e6c9,stroke:#2e7d32,color:#000
-```
+![Shared Responsibility Shift](../assets/images/level-50/shared-responsibility-shift.svg)
+_Figure: Responsibility shifts from customer to provider as you move from On-Premises to SaaS_
 
 </div>
 </details>

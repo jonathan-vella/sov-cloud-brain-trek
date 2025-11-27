@@ -23,13 +23,13 @@ AVAIL_COLOR = '#E65100'  # Orange for Availability
 
 def create_cia_triad():
     """Create a CIA Triad diagram with subcategories."""
-    
+
     fig, ax = plt.subplots(figsize=(12, 10))
-    
+
     # Triangle center and size
     center_x, center_y = 0.5, 0.45
     size = 0.25
-    
+
     # Triangle vertices (equilateral)
     angles = [90, 210, 330]  # Top, bottom-left, bottom-right
     vertices = []
@@ -38,14 +38,14 @@ def create_cia_triad():
         x = center_x + size * np.cos(rad)
         y = center_y + size * np.sin(rad)
         vertices.append((x, y))
-    
+
     # Draw connecting lines between vertices
     for i in range(3):
         j = (i + 1) % 3
-        ax.plot([vertices[i][0], vertices[j][0]], 
+        ax.plot([vertices[i][0], vertices[j][0]],
                 [vertices[i][1], vertices[j][1]],
                 color='#666666', linewidth=2, zorder=1)
-    
+
     # CIA properties
     cia = [
         {
@@ -73,10 +73,10 @@ def create_cia_triad():
             'item_dir': 'right'
         },
     ]
-    
+
     for prop in cia:
         x, y = prop['vertex']
-        
+
         # Main node
         circle = plt.Circle((x, y), 0.08, facecolor=prop['color'],
                             edgecolor='white', linewidth=3, zorder=5)
@@ -85,16 +85,16 @@ def create_cia_triad():
                 fontsize=16, zorder=6)
         ax.text(x, y - 0.04, prop['name'], ha='center', va='center',
                 fontsize=9, fontweight='bold', color='white', zorder=6)
-        
+
         # Sub-items
         if prop['item_dir'] == 'up':
             for i, item in enumerate(prop['items']):
                 ix = x - 0.15 + i * 0.15
                 iy = y + 0.18 + (1 - abs(i - 1)) * 0.05
-                
-                ax.plot([x, ix], [y + 0.08, iy - 0.025], 
+
+                ax.plot([x, ix], [y + 0.08, iy - 0.025],
                         color=prop['color'], linewidth=1.5, alpha=0.6)
-                
+
                 box = mpatches.FancyBboxPatch(
                     (ix - 0.065, iy - 0.025), 0.13, 0.05,
                     boxstyle="round,pad=0.01", facecolor=prop['color'],
@@ -103,15 +103,15 @@ def create_cia_triad():
                 ax.add_patch(box)
                 ax.text(ix, iy, item, ha='center', va='center',
                         fontsize=7, color='white')
-        
+
         elif prop['item_dir'] == 'left':
             for i, item in enumerate(prop['items']):
                 ix = x - 0.2
                 iy = y + 0.08 - i * 0.07
-                
+
                 ax.plot([x - 0.08, ix + 0.065], [y, iy],
                         color=prop['color'], linewidth=1.5, alpha=0.6)
-                
+
                 box = mpatches.FancyBboxPatch(
                     (ix - 0.08, iy - 0.02), 0.14, 0.04,
                     boxstyle="round,pad=0.01", facecolor=prop['color'],
@@ -120,15 +120,15 @@ def create_cia_triad():
                 ax.add_patch(box)
                 ax.text(ix - 0.01, iy, item, ha='center', va='center',
                         fontsize=7, color='white')
-        
+
         else:  # right
             for i, item in enumerate(prop['items']):
                 ix = x + 0.2
                 iy = y + 0.08 - i * 0.07
-                
+
                 ax.plot([x + 0.08, ix - 0.065], [y, iy],
                         color=prop['color'], linewidth=1.5, alpha=0.6)
-                
+
                 box = mpatches.FancyBboxPatch(
                     (ix - 0.06, iy - 0.02), 0.14, 0.04,
                     boxstyle="round,pad=0.01", facecolor=prop['color'],
@@ -137,21 +137,21 @@ def create_cia_triad():
                 ax.add_patch(box)
                 ax.text(ix + 0.01, iy, item, ha='center', va='center',
                         fontsize=7, color='white')
-    
+
     # Center label
     ax.text(center_x, center_y - 0.05, 'CIA\nTriad', ha='center', va='center',
             fontsize=11, fontweight='bold', color=AZURE_DARK_BLUE)
-    
+
     ax.set_xlim(0, 1)
     ax.set_ylim(0, 1)
     ax.set_aspect('equal')
     ax.axis('off')
-    
+
     # Title
     ax.text(0.5, 0.95, '🔐 The CIA Triad - Foundation of Information Security',
             ha='center', va='top', fontsize=14, fontweight='bold',
             color=AZURE_DARK_BLUE)
-    
+
     plt.tight_layout()
     return fig
 
@@ -159,15 +159,15 @@ def create_cia_triad():
 def main():
     output_dir = Path(__file__).parent.parent.parent.parent / 'images' / 'level-50'
     output_dir.mkdir(parents=True, exist_ok=True)
-    
+
     print("Generating CIA Triad Diagram...")
     fig = create_cia_triad()
-    
+
     output_path = output_dir / 'cia-triad.svg'
     fig.savefig(output_path, format='svg', dpi=150, bbox_inches='tight',
                 facecolor='white', edgecolor='none')
     print(f"  ✓ Saved: {output_path}")
-    
+
     plt.close(fig)
 
 

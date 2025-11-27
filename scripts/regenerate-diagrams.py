@@ -28,7 +28,7 @@ DIAGRAM_DIRS = {
 def get_python_scripts(level: int = None) -> list[Path]:
     """Get all Python diagram scripts, optionally filtered by level."""
     scripts = []
-    
+
     if level:
         if level in DIAGRAM_DIRS:
             dir_path = DIAGRAM_DIRS[level]
@@ -38,7 +38,7 @@ def get_python_scripts(level: int = None) -> list[Path]:
         for dir_path in DIAGRAM_DIRS.values():
             if dir_path.exists():
                 scripts.extend(sorted(dir_path.glob("*.py")))
-    
+
     return scripts
 
 
@@ -47,9 +47,9 @@ def regenerate_diagram(script_path: Path, dry_run: bool = False) -> bool:
     if dry_run:
         print(f"  [DRY RUN] Would generate: {script_path.name}")
         return True
-    
+
     print(f"  Generating: {script_path.name}...", end=" ", flush=True)
-    
+
     try:
         result = subprocess.run(
             [sys.executable, str(script_path)],
@@ -58,7 +58,7 @@ def regenerate_diagram(script_path: Path, dry_run: bool = False) -> bool:
             timeout=60,
             cwd=script_path.parent,
         )
-        
+
         if result.returncode == 0:
             print("✓")
             return True
@@ -66,7 +66,7 @@ def regenerate_diagram(script_path: Path, dry_run: bool = False) -> bool:
             print("✗")
             print(f"    Error: {result.stderr[:200]}")
             return False
-            
+
     except subprocess.TimeoutExpired:
         print("✗ (timeout)")
         return False
@@ -90,25 +90,25 @@ def main():
         action="store_true",
         help="Show what would be generated without actually running",
     )
-    
+
     args = parser.parse_args()
-    
+
     print("=" * 60)
     print("Sovereign Cloud Brain Trek - Diagram Regeneration")
     print("=" * 60)
-    
+
     scripts = get_python_scripts(args.level)
-    
+
     if not scripts:
         print(f"\nNo Python scripts found" + (f" for Level {args.level}" if args.level else ""))
         return 1
-    
+
     print(f"\nFound {len(scripts)} diagram script(s)" + (f" for Level {args.level}" if args.level else ""))
     print()
-    
+
     success_count = 0
     fail_count = 0
-    
+
     # Group by level
     current_level = None
     for script in scripts:
@@ -119,17 +119,17 @@ def main():
                     current_level = level
                     print(f"\n📂 Level {level}:")
                 break
-        
+
         if regenerate_diagram(script, args.dry_run):
             success_count += 1
         else:
             fail_count += 1
-    
+
     print()
     print("=" * 60)
     print(f"Results: {success_count} succeeded, {fail_count} failed")
     print("=" * 60)
-    
+
     return 0 if fail_count == 0 else 1
 
 

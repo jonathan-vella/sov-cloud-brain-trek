@@ -34,39 +34,10 @@ _Figure 1: Cloud deployment model architectures and their relationships_
 
 <details class="diagram-container" open>
 <summary>View Diagram: Cloud Deployment Models Overview</summary>
-<div class="diagram-content" markdown="1">
+<div class="diagram-content">
 
-```mermaid
-graph TB
-    subgraph Public["☁️ Public Cloud"]
-        P1[Shared Infrastructure]
-        P2[Internet Access]
-        P3[Pay-per-Use]
-    end
-
-    subgraph Private["🏢 Private Cloud"]
-        PR1[Dedicated Infrastructure]
-        PR2[On-Premises or Hosted]
-        PR3[Full Control]
-    end
-
-    subgraph Hybrid["🔗 Hybrid Cloud"]
-        H1[Public + Private]
-        H2[Unified Management]
-        H3[Workload Flexibility]
-    end
-
-    subgraph Multi["🌐 Multi-Cloud"]
-        M1[Multiple Providers]
-        M2[Best-of-Breed]
-        M3[Avoid Lock-in]
-    end
-
-    style Public fill:#e3f2fd,stroke:#1565c0
-    style Private fill:#fff3e0,stroke:#ef6c00
-    style Hybrid fill:#e8f5e9,stroke:#2e7d32
-    style Multi fill:#f3e5f5,stroke:#7b1fa2
-```
+![Cloud Deployment Models Overview](../assets/images/level-50/cloud-deployment-models-overview.svg)
+_Figure 2: Four primary cloud deployment models and their characteristics_
 
 </div>
 </details>

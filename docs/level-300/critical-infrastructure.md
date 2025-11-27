@@ -42,9 +42,6 @@ After completing this section, you will be able to:
 ## Critical Infrastructure Architecture
 
 
-
-### Purdue Model Levels
-
 | Level | Name | Components | Azure Integration |
 |-------|------|------------|-------------------|
 | 0-1 | Process | PLCs, RTUs, Sensors | IoT Edge (gateway) |

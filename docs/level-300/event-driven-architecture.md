@@ -42,9 +42,6 @@ After completing this section, you will be able to:
 ## Event-Driven Architecture
 
 
-
-### Component Overview
-
 | Component | Purpose | Sovereignty Role |
 |-----------|---------|-----------------|
 | Event Grid | Event routing | Regional deployment |

@@ -1,18 +1,16 @@
 ---
 layout: default
 title: Financial Services
-nav_order: 24
+nav_order: 60
 parent: Level 300 - Advanced
-description: "PCI-DSS compliant architecture for financial services"
+description: "Advanced sovereign cloud architecture for Financial Services"
 ---
 
 # Financial Services Sovereign Architecture
 
-
 {: .no_toc }
 
 PCI-DSS and regulatory compliant architecture for financial services with cardholder data protection.
-
 
 ## Table of Contents
 
@@ -37,15 +35,17 @@ After completing this section, you will be able to:
 - ✅ Meet financial regulatory requirements
 
 ---
-
+_
 
 ## Financial Services Architecture
 
-
+_
+![Financial Services Sovereign Architecture](../assets/images/level-300/financial-services.svg)
+_Figure 1: PCI-DSS compliant architecture with cardholder data environment isolation_
 
 ### Architecture Zones
 
-#### PCI Zone (Cardholder Data Environment)
+**PCI Zone (Cardholder Data Environment)**
 
 The CDE is completely isolated from general workloads:
 
@@ -58,7 +58,7 @@ The CDE is completely isolated from general workloads:
 | SQL with Always Encrypted | Column-level encryption | 3.4 |
 | Tokenized Storage | PAN tokenization | 3.5 |
 
-#### General Workload Zone
+### General Workload Zone
 
 Non-PCI workloads with controlled access to the CDE:
 

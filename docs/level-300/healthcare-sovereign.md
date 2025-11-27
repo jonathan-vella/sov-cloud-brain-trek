@@ -1,18 +1,16 @@
 ---
 layout: default
-title: Healthcare Architecture
-nav_order: 23
+title: Healthcare
+nav_order: 70
 parent: Level 300 - Advanced
-description: "HIPAA-compliant healthcare deployment"
+description: "Advanced sovereign cloud architecture for Healthcare"
 ---
 
 # Healthcare Sovereign Cloud Architecture
 
-
 {: .no_toc }
 
 HIPAA-compliant healthcare deployment with data sovereignty controls for protected health information (PHI).
-
 
 ## Table of Contents
 
@@ -37,15 +35,17 @@ After completing this section, you will be able to:
 - ✅ Enable AI/ML workloads with data sovereignty
 
 ---
-
+_
 
 ## Healthcare Architecture
 
-
+_
+![Healthcare Sovereign Cloud Architecture](../assets/images/level-300/healthcare-sovereign.svg)
+_Figure 1: HIPAA-compliant architecture with PHI protection and AI/ML capabilities_
 
 ### Key Components
 
-#### Security & Identity Layer
+**Security & Identity Layer**
 
 | Component | Purpose | Configuration |
 |-----------|---------|---------------|
@@ -54,13 +54,13 @@ After completing this section, you will be able to:
 | Microsoft Sentinel | Security monitoring | HIPAA compliance workbook enabled |
 | Key Vault (HSM) | Key management | FIPS 140-2 Level 3 HSM |
 
-#### Network Security
+**Network Security**
 
 - **Web Application Firewall (WAF) v2** — OWASP protection for patient portals
 - **Azure Firewall Premium** — Deep packet inspection, TLS termination
 - **Private VNet** — No direct internet access to PHI systems
 
-#### Data Protection
+**Data Protection**
 
 - **SQL Server with TDE + CMK** — Customer-managed encryption keys
 - **Cosmos DB with encryption** — PHI document storage
@@ -137,6 +137,7 @@ New-AzMLWorkspace `
 ```
 
 ### PHI Processing Guidelines
+>
 
 {: .warning }
 >

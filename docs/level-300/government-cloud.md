@@ -42,9 +42,6 @@ After completing this section, you will be able to:
 ## Government Cloud Architecture
 
 
-
-### Azure Government Regions
-
 | Region | Location | IL Support | Services |
 |--------|----------|------------|----------|
 | US Gov Virginia | Virginia, USA | IL2, IL4, IL5 | Full |

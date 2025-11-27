@@ -42,9 +42,6 @@ After completing this section, you will be able to:
 ## API Gateway Architecture
 
 
-
-### Gateway Components
-
 | Component | Purpose | Configuration |
 |-----------|---------|---------------|
 | Azure Front Door | Global entry, DDoS protection | Premium SKU with WAF |

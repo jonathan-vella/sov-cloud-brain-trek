@@ -30,32 +30,10 @@ Cloud computing is the delivery of computing services—including servers, stora
 
 <details class="diagram-container">
 <summary>View Diagram: Five Essential Cloud Characteristics (NIST)</summary>
-<div class="diagram-content" markdown="1">
+<div class="diagram-content">
 
-```mermaid
-mindmap
-  root((Cloud Computing))
-    On-Demand Self-Service
-      Automatic provisioning
-      No human interaction needed
-      Instant access
-    Broad Network Access
-      Available over internet
-      Multi-platform support
-      Standard protocols
-    Resource Pooling
-      Multi-tenant model
-      Dynamic allocation
-      Location independence
-    Rapid Elasticity
-      Scale out/in quickly
-      Appears unlimited
-      Demand-based
-    Measured Service
-      Pay-per-use
-      Monitoring & reporting
-      Transparent billing
-```
+![NIST Cloud Computing Essential Characteristics](../assets/images/level-50/cloud-computing-mindmap.svg)
+_Figure: The five essential characteristics of cloud computing as defined by NIST SP 800-145_
 
 </div>
 </details>
@@ -96,44 +74,10 @@ mindmap
 
 <details class="diagram-container" open>
 <summary>View Diagram: Traditional IT vs Cloud Computing</summary>
-<div class="diagram-content" markdown="1">
+<div class="diagram-content">
 
-```mermaid
-graph TB
-    subgraph Traditional["🏢 Traditional IT"]
-        T1[Purchase Hardware]
-        T2[Install & Configure]
-        T3[Maintain & Patch]
-        T4[Scale Manually]
-        T5[Decommission]
-        T1 --> T2 --> T3 --> T4 --> T5
-    end
-
-    subgraph Cloud["☁️ Cloud Computing"]
-        C1[Request Resources]
-        C2[Instant Provisioning]
-        C3[Managed by Provider]
-        C4[Auto-Scale]
-        C5[Pay per Use]
-        C1 --> C2 --> C3 --> C4 --> C5
-    end
-
-    T1 -.->|"Weeks/Months"| T2
-    C1 -.->|"Minutes"| C2
-
-    style Traditional fill:#ffebee,stroke:#c62828
-    style Cloud fill:#e3f2fd,stroke:#1565c0
-    style T1 fill:#ffcdd2,stroke:#b71c1c
-    style T2 fill:#ffcdd2,stroke:#b71c1c
-    style T3 fill:#ffcdd2,stroke:#b71c1c
-    style T4 fill:#ffcdd2,stroke:#b71c1c
-    style T5 fill:#ffcdd2,stroke:#b71c1c
-    style C1 fill:#bbdefb,stroke:#0d47a1
-    style C2 fill:#bbdefb,stroke:#0d47a1
-    style C3 fill:#bbdefb,stroke:#0d47a1
-    style C4 fill:#bbdefb,stroke:#0d47a1
-    style C5 fill:#bbdefb,stroke:#0d47a1
-```
+![Traditional IT vs Cloud Computing](../assets/images/level-50/traditional-vs-cloud.svg)
+_Figure: Traditional IT requires weeks/months for provisioning while cloud enables instant deployment_
 
 </div>
 </details>
@@ -178,44 +122,9 @@ Cloud computing is built on virtualization technology. Understanding hypervisors
 
 <details class="diagram-container" open>
 <summary>View Diagram: Hypervisor Types</summary>
-<div class="diagram-content" markdown="1">
+<div class="diagram-content">
 
-```mermaid
-graph TB
-    subgraph Type1["Type 1 Hypervisor (Bare Metal)"]
-        direction TB
-        HW1[Physical Hardware<br/>CPU, RAM, Storage]
-        HV1[Hypervisor<br/>Hyper-V, ESXi, KVM]
-        VM1A[VM 1<br/>Windows]
-        VM1B[VM 2<br/>Linux]
-        VM1C[VM 3<br/>Windows]
-
-        HW1 --> HV1
-        HV1 --> VM1A
-        HV1 --> VM1B
-        HV1 --> VM1C
-    end
-
-    subgraph Type2["Type 2 Hypervisor (Hosted)"]
-        direction TB
-        HW2[Physical Hardware]
-        OS2[Host Operating System<br/>Windows, macOS, Linux]
-        HV2[Hypervisor<br/>VirtualBox, VMware Workstation]
-        VM2A[VM 1]
-        VM2B[VM 2]
-
-        HW2 --> OS2
-        OS2 --> HV2
-        HV2 --> VM2A
-        HV2 --> VM2B
-    end
-
-    style Type1 fill:#D4E9D7,stroke:#107C10,stroke-width:2px,color:#000
-    style Type2 fill:#E8F4FD,stroke:#0078D4,stroke-width:2px,color:#000
-    style HV1 fill:#FFF4E6,stroke:#FF8C00,stroke-width:2px,color:#000
-    style HV2 fill:#FFF4E6,stroke:#FF8C00,stroke-width:2px,color:#000
-```
-
+![Hypervisor Types Comparison](../assets/images/level-50/hypervisor-types.svg)
 _Figure: Type 1 (bare-metal) hypervisors run directly on hardware for better performance; Type 2 (hosted) run on top of an OS for development/testing_
 
 </div>

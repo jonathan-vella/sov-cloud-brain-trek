@@ -42,9 +42,6 @@ After completing this section, you will be able to:
 ## Disaster Recovery Architecture
 
 
-
-### DR Strategies
-
 | Strategy | RTO | RPO | Sovereignty Impact |
 |----------|-----|-----|-------------------|
 | **Backup/Restore** | Hours | Hours | Low (data stays in region) |

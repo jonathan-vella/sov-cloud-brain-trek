@@ -15,24 +15,10 @@ Understanding how to properly classify, handle, and protect data is fundamental 
 
 <details class="diagram-container" open>
 <summary>View Diagram: Data Classification Pyramid</summary>
-<div class="diagram-content" markdown="1">
+<div class="diagram-content">
 
-```mermaid
-graph TB
-    subgraph Classification["📊 Data Classification"]
-        R[🔴 Restricted<br/>Severe damage if disclosed]
-        C[🟠 Confidential<br/>Could cause harm]
-        I[🟡 Internal<br/>Internal use only]
-        P[🟢 Public<br/>No harm if disclosed]
-    end
-
-    R --> C --> I --> P
-
-    style R fill:#ffcdd2,stroke:#c62828
-    style C fill:#ffe0b2,stroke:#ef6c00
-    style I fill:#fff9c4,stroke:#f9a825
-    style P fill:#c8e6c9,stroke:#2e7d32
-```
+![Data Classification Pyramid](../assets/images/level-50/data-classification-pyramid.svg)
+_Figure: Data classification levels from Restricted (highest protection) to Public (basic controls)_
 
 </div>
 </details>

@@ -15,32 +15,10 @@ Azure's global infrastructure enables worldwide deployment with data residency c
 
 <details class="diagram-container" open>
 <summary>View Diagram: Azure Infrastructure Hierarchy</summary>
-<div class="diagram-content" markdown="1">
+<div class="diagram-content">
 
-```mermaid
-graph TB
-    subgraph Global["🌍 Azure Global Infrastructure"]
-        G1[Geography]
-        G1 --> R1[Region 1]
-        G1 --> R2[Region 2]
-
-        R1 --> AZ1[Availability Zone 1]
-        R1 --> AZ2[Availability Zone 2]
-        R1 --> AZ3[Availability Zone 3]
-
-        AZ1 --> DC1[Data Center]
-        AZ2 --> DC2[Data Center]
-        AZ3 --> DC3[Data Center]
-    end
-
-    style Global fill:#e3f2fd,stroke:#0078d4
-    style G1 fill:#bbdefb,stroke:#1565c0
-    style R1 fill:#90caf9,stroke:#1565c0
-    style R2 fill:#90caf9,stroke:#1565c0
-    style AZ1 fill:#a5d6a7,stroke:#2e7d32
-    style AZ2 fill:#a5d6a7,stroke:#2e7d32
-    style AZ3 fill:#a5d6a7,stroke:#2e7d32
-```
+![Azure Infrastructure Hierarchy](../assets/images/level-50/azure-infrastructure-hierarchy.svg)
+_Figure: Azure global infrastructure hierarchy from Geographies to Data Centers_
 
 </div>
 </details>

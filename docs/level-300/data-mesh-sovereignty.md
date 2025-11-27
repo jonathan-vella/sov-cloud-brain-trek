@@ -42,9 +42,6 @@ After completing this section, you will be able to:
 ## Data Mesh Architecture
 
 
-
-### Data Mesh Principles
-
 | Principle | Sovereignty Implementation |
 |-----------|---------------------------|
 | **Domain Ownership** | Each domain owns data residency decisions |
