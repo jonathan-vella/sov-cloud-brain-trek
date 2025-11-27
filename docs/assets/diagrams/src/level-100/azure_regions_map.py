@@ -70,112 +70,112 @@ EU_BOUNDARY_COORDS = [
 
 def create_azure_regions_map():
     """Create a geographic map of Azure regions with sovereignty classifications."""
-    
+
     fig = plt.figure(figsize=(16, 10))
-    
+
     # Use Robinson projection for world view
     ax = fig.add_subplot(1, 1, 1, projection=ccrs.Robinson())
-    
+
     # Set global extent
     ax.set_global()
-    
+
     # Add map features
     ax.add_feature(cfeature.OCEAN, facecolor='#E6F2FF', alpha=0.8)
     ax.add_feature(cfeature.LAND, facecolor='#F5F5F5', edgecolor='#CCCCCC', linewidth=0.5)
     ax.add_feature(cfeature.BORDERS, linestyle='-', linewidth=0.3, alpha=0.5, edgecolor='#999999')
     ax.add_feature(cfeature.COASTLINE, linewidth=0.5, edgecolor='#666666')
-    
+
     # Add EU Data Boundary shading
     eu_lons = [coord[0] for coord in EU_BOUNDARY_COORDS]
     eu_lats = [coord[1] for coord in EU_BOUNDARY_COORDS]
-    ax.fill(eu_lons, eu_lats, transform=ccrs.PlateCarree(), 
-            facecolor=AZURE_PURPLE, alpha=0.15, edgecolor=AZURE_PURPLE, 
+    ax.fill(eu_lons, eu_lats, transform=ccrs.PlateCarree(),
+            facecolor=AZURE_PURPLE, alpha=0.15, edgecolor=AZURE_PURPLE,
             linewidth=2, linestyle='--', label='EU Data Boundary')
-    
+
     # Plot regions by category
     marker_size = 80
-    
+
     # Public cloud regions
     for region in AZURE_REGIONS['public']:
-        ax.scatter(region['lon'], region['lat'], 
+        ax.scatter(region['lon'], region['lat'],
                    transform=ccrs.PlateCarree(),
                    c=AZURE_BLUE, s=marker_size, marker='o',
                    edgecolors='white', linewidths=1.5, zorder=5)
-    
+
     # EU Data Boundary regions
     for region in AZURE_REGIONS['eu_boundary']:
-        ax.scatter(region['lon'], region['lat'], 
+        ax.scatter(region['lon'], region['lat'],
                    transform=ccrs.PlateCarree(),
                    c=AZURE_PURPLE, s=marker_size, marker='o',
                    edgecolors='white', linewidths=1.5, zorder=5)
-    
+
     # Sovereign cloud regions
     for region in AZURE_REGIONS['sovereign']:
-        ax.scatter(region['lon'], region['lat'], 
+        ax.scatter(region['lon'], region['lat'],
                    transform=ccrs.PlateCarree(),
                    c=AZURE_ORANGE, s=marker_size * 1.5, marker='s',
                    edgecolors='white', linewidths=2, zorder=6)
-    
+
     # Air-gapped regions
     for region in AZURE_REGIONS['airgapped']:
-        ax.scatter(region['lon'], region['lat'], 
+        ax.scatter(region['lon'], region['lat'],
                    transform=ccrs.PlateCarree(),
                    c=AZURE_RED, s=marker_size * 1.5, marker='^',
                    edgecolors='white', linewidths=2, zorder=6)
-    
+
     # Add legend
     legend_elements = [
         mpatches.Patch(facecolor=AZURE_BLUE, edgecolor='white', label='Azure Public Regions'),
         mpatches.Patch(facecolor=AZURE_PURPLE, edgecolor='white', label='EU Data Boundary Regions'),
         mpatches.Patch(facecolor=AZURE_ORANGE, edgecolor='white', label='Sovereign Clouds (Gov/China)'),
         mpatches.Patch(facecolor=AZURE_RED, edgecolor='white', label='Air-Gapped Regions'),
-        mpatches.Patch(facecolor=AZURE_PURPLE, alpha=0.15, edgecolor=AZURE_PURPLE, 
+        mpatches.Patch(facecolor=AZURE_PURPLE, alpha=0.15, edgecolor=AZURE_PURPLE,
                        linestyle='--', label='EU Data Boundary Zone'),
     ]
-    
+
     ax.legend(handles=legend_elements, loc='lower left', fontsize=10,
               framealpha=0.95, fancybox=True, shadow=True)
-    
+
     # Title
     ax.set_title('Azure Global Regions with Sovereignty Classifications',
                  fontsize=16, fontweight='bold', color=AZURE_DARK_BLUE, pad=20)
-    
+
     # Add subtitle
-    fig.text(0.5, 0.02, 
+    fig.text(0.5, 0.02,
              'Sovereign clouds provide isolated environments for regulated workloads | '
              'EU Data Boundary ensures European data residency',
              ha='center', fontsize=10, color='#666666')
-    
+
     plt.tight_layout()
-    
+
     return fig
 
 
 def main():
     """Generate and save the Azure regions map."""
-    
+
     # Output directory (relative to the docs/assets structure)
     output_dir = Path(__file__).parent.parent.parent.parent / 'images' / 'level-100'
     output_dir.mkdir(parents=True, exist_ok=True)
-    
+
     print("Generating Azure Regions Geographic Map...")
-    
+
     fig = create_azure_regions_map()
-    
+
     # Save as SVG
     output_path = output_dir / 'azure-regions-map.svg'
     fig.savefig(output_path, format='svg', dpi=150, bbox_inches='tight',
                 facecolor='white', edgecolor='none')
     print(f"  ✓ Saved: {output_path}")
-    
+
     # Also save as PNG for fallback
     output_path_png = output_dir / 'azure-regions-map.png'
     fig.savefig(output_path_png, format='png', dpi=150, bbox_inches='tight',
                 facecolor='white', edgecolor='none')
     print(f"  ✓ Saved: {output_path_png}")
-    
+
     plt.close(fig)
-    
+
     print("\n✅ Azure regions map generated successfully!")
 
 
