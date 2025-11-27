@@ -142,6 +142,73 @@ Reduce module completion times across all levels to reflect more realistic estim
 
 ---
 
+### Step 11: Content density & UX improvements
+
+Reduce scrolling and improve scanability across all documentation:
+
+**11a. Expand collapsible sections (high priority)**
+
+- Make all `<details>` blocks collapsed by default (remove `open` attribute)
+- Wrap code blocks (50+ lines) in collapsible sections
+- Collapse "Deep Dive" and "Best Practices" subsections
+- Keep only essential content expanded
+
+**11b. Split long pages into overview + sub-pages**
+
+- Identify pages over 500 lines
+- Extract detailed sections to linked sub-pages
+- Keep main module page as concise overview with navigation links
+- Pattern: "For implementation details, see [Topic Deep Dive →](link)"
+
+**11c. Add executive summary cards**
+
+Add visual card at top of each module:
+
+```markdown
+{: .note }
+> ⏱️ **Time:** 30 min | 🎯 **Objectives:** 3 key skills | 📋 **Prerequisites:** [Link]
+```
+
+**11d. Convert bullet lists to tables**
+
+Replace verbose bullet lists with compact comparison tables:
+
+| Before | After |
+|--------|-------|
+| `- **Feature:** Description` (5 items) | 5-row table |
+| Vertical space: ~15 lines | Vertical space: ~7 lines |
+
+**11e. Replace prose with decision diagrams**
+
+Convert "When to use X vs Y" text explanations to:
+
+- Flowchart SVGs (aligns with visual assets work)
+- Decision tables with checkmarks
+- "Choose this if..." callout boxes
+
+**11f. Move long code examples to linked files**
+
+- Show 5-10 line excerpt inline
+- Link to full example: "📄 [View complete script →](../examples/script.py)"
+- Create `docs/examples/` folder for reference code
+
+**11g. Consolidate repetitive content**
+
+- Create single "Best Practices" reference page per level
+- Create single "Common Pitfalls" page instead of repeating per module
+- Link from modules: "See [Level 200 Best Practices](best-practices.md)"
+
+**Files requiring density improvements (priority order):**
+
+1. `docs/level-100/azure-local-overview.md` (~1100 lines)
+2. `docs/level-100/azure-arc-intro.md` (~1100 lines)
+3. `docs/level-100/edge-rag-concepts.md` (~700 lines)
+4. `docs/level-200/edge-rag-implementation.md` (~800 lines)
+5. `docs/level-200/compliance-security-patterns.md` (~700 lines)
+6. `docs/level-300/zero-trust.md` (~600 lines)
+
+---
+
 ## Mermaid → Python Conversion Matrix (20 diagrams)
 
 | Level | Source File | Diagram Description | Python Library | Output SVG |
@@ -220,3 +287,5 @@ if __name__ == "__main__":
 4. **Duration updates (Step 10)**: Should be executed as a batch operation using sed or multi-replace to ensure consistency. Consider updating introduction.md weekly commitments proportionally (e.g., "1-2 hours/week" → "30-60 min/week").
 
 5. **Navigation audit (Step 9)**: Run this early to catch issues before other changes. Use `bundle exec jekyll build` to validate — Jekyll will warn about missing parent references.
+
+6. **Content density (Step 11)**: This is a significant undertaking. Recommend prioritizing the 6 longest files first, then applying patterns learned to remaining content. Consider creating a reusable "module template" for consistency.
