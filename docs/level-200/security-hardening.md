@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Security Hardening Patterns
-parent: Level 200 - Intermediate
+parent: Module 5 - Compliance & Security
 nav_order: 8
 ---
 

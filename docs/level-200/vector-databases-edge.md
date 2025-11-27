@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vector Databases for Edge
-parent: Level 200 - Intermediate
+parent: Module 3 - Edge RAG Implementation
 nav_order: 3
 ---
 

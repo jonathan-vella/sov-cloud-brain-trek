@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Solution Sizing & Planning
-parent: Level 200 - Intermediate
+parent: Module 4 - Pre-Sales & Solution Design
 nav_order: 4
 ---
 
