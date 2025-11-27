@@ -22,6 +22,41 @@ description: "Comprehensive analysis of cloud adoption benefits and key consider
 
 Cloud computing offers significant business advantages while introducing new considerations. Understanding both benefits and challenges enables informed adoption decisions.
 
+<details class="diagram-container" open>
+<summary>View Diagram: Cloud vs On-Premises TCO Comparison</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+graph LR
+    subgraph OnPrem["💰 Traditional On-Premises"]
+        direction TB
+        HW[Hardware Purchase<br/>$$$]
+        DC[Data Center<br/>$$]
+        Staff[IT Staff<br/>$$]
+        Power[Power/Cooling<br/>$]
+        Maint[Maintenance<br/>$]
+        Idle[Idle Capacity<br/>$$]
+    end
+
+    subgraph Cloud["☁️ Cloud Model"]
+        direction TB
+        Sub[Subscription<br/>Pay-as-you-go]
+        Scale[Auto-scaling<br/>No idle waste]
+        Mgmt[Managed Services<br/>Reduced staff]
+        NoHW[No Hardware<br/>Zero CapEx]
+    end
+
+    OnPrem -->|Migrate| Cloud
+
+    style OnPrem fill:#FFE4E1,stroke:#D13438,stroke-width:2px,color:#000
+    style Cloud fill:#D4E9D7,stroke:#107C10,stroke-width:2px,color:#000
+```
+
+_Figure 1: Cloud eliminates capital expenses and reduces operational overhead_
+
+</div>
+</details>
+
 ## Primary Business Benefits
 
 ### Cost Optimization
@@ -57,6 +92,49 @@ Cloud computing offers significant business advantages while introducing new con
 - Access to cutting-edge technologies
 
 ### Scalability and Performance
+
+<details class="diagram-container" open>
+<summary>View Diagram: Cloud Scalability Patterns</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+graph TB
+    subgraph Patterns["☁️ Cloud Scaling Patterns"]
+        direction LR
+
+        subgraph Vertical["⬆️ Vertical Scaling"]
+            V1[Small VM<br/>2 CPU, 4GB] --> V2[Medium VM<br/>4 CPU, 16GB]
+            V2 --> V3[Large VM<br/>16 CPU, 64GB]
+        end
+
+        subgraph Horizontal["↔️ Horizontal Scaling"]
+            H1[Instance 1]
+            H2[Instance 2]
+            H3[Instance 3]
+            H4[Instance N...]
+            LB[Load Balancer] --> H1
+            LB --> H2
+            LB --> H3
+            LB --> H4
+        end
+    end
+
+    subgraph Auto["🔄 Auto-Scaling"]
+        Low[Low Demand<br/>2 instances] -->|Traffic ↑| Med[Medium<br/>5 instances]
+        Med -->|Traffic ↑| High[Peak<br/>10 instances]
+        High -->|Traffic ↓| Med
+        Med -->|Traffic ↓| Low
+    end
+
+    style Vertical fill:#E8F4FD,stroke:#0078D4,stroke-width:2px,color:#000
+    style Horizontal fill:#FFF4E6,stroke:#FF8C00,stroke-width:2px,color:#000
+    style Auto fill:#D4E9D7,stroke:#107C10,stroke-width:2px,color:#000
+```
+
+_Figure 2: Cloud enables vertical, horizontal, and automatic scaling patterns_
+
+</div>
+</details>
 
 **Elastic Scaling**
 

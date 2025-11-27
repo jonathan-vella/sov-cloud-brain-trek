@@ -20,6 +20,53 @@ nav_order: 4.2
 
 ## What is Arc-Enabled Kubernetes?
 
+<details class="diagram-container" open>
+<summary>View Diagram: Arc-Enabled Kubernetes Architecture</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+graph TB
+    subgraph Azure["☁️ Azure"]
+        ARM[Azure Resource Manager]
+        GitOps[GitOps Configuration]
+        Policy[Azure Policy for K8s]
+        Monitor[Container Insights]
+        KeyVault[Key Vault Provider]
+    end
+
+    subgraph K8sCluster["⚙️ Kubernetes Cluster (Any Location)"]
+        subgraph ArcAgents["Arc Agents Namespace"]
+            Agent[Arc Agent]
+            Flux[Flux Controller]
+            PolicyAgent[Policy Agent]
+            Prometheus[Metrics Agent]
+        end
+
+        subgraph Workloads["Application Workloads"]
+            App1[App Pods]
+            App2[Services]
+            Secrets[Secrets from KV]
+        end
+    end
+
+    ARM <-->|Secure Channel| Agent
+    GitOps --> Flux
+    Flux --> Workloads
+    Policy --> PolicyAgent
+    PolicyAgent --> Workloads
+    Monitor --> Prometheus
+    KeyVault --> Secrets
+
+    style Azure fill:#E8F4FD,stroke:#0078D4,stroke-width:2px,color:#000
+    style ArcAgents fill:#FFF4E6,stroke:#FF8C00,stroke-width:2px,color:#000
+    style Workloads fill:#D4E9D7,stroke:#107C10,stroke-width:2px,color:#000
+```
+
+_Figure 1: Arc-enabled Kubernetes connects any CNCF cluster to Azure management_
+
+</div>
+</details>
+
 Azure Arc-enabled Kubernetes allows you to attach and configure Kubernetes clusters running anywhere - on-premises, in other clouds, or at the edge. Arc brings Azure services and management to any CNCF-certified Kubernetes cluster.
 
 **Key Capabilities:**

@@ -20,6 +20,60 @@ nav_order: 1
 
 ## Overview
 
+<details class="diagram-container" open>
+<summary>View Diagram: Azure Arc Overview</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+graph TB
+    subgraph Azure["☁️ Azure Control Plane"]
+        Portal[Azure Portal]
+        ARM[Azure Resource Manager]
+        Policy[Azure Policy]
+        Monitor[Azure Monitor]
+        Defender[Microsoft Defender]
+    end
+
+    subgraph Hybrid["🌐 Hybrid Resources"]
+        subgraph OnPrem["On-Premises"]
+            Servers1[Windows/Linux Servers]
+            K8s1[Kubernetes Clusters]
+            Data1[SQL/PostgreSQL]
+        end
+
+        subgraph OtherCloud["Other Clouds"]
+            Servers2[AWS/GCP VMs]
+            K8s2[EKS/GKE Clusters]
+        end
+
+        subgraph Edge["Edge Locations"]
+            Servers3[Edge Servers]
+            IoT[IoT Devices]
+        end
+    end
+
+    ARM --> Servers1
+    ARM --> K8s1
+    ARM --> Data1
+    ARM --> Servers2
+    ARM --> K8s2
+    ARM --> Servers3
+
+    Policy -.->|Governance| Hybrid
+    Monitor -.->|Observability| Hybrid
+    Defender -.->|Security| Hybrid
+
+    style Azure fill:#E8F4FD,stroke:#0078D4,stroke-width:2px,color:#000
+    style OnPrem fill:#FFF4E6,stroke:#FF8C00,stroke-width:2px,color:#000
+    style OtherCloud fill:#F3E8FF,stroke:#7B3FF2,stroke-width:2px,color:#000
+    style Edge fill:#D4E9D7,stroke:#107C10,stroke-width:2px,color:#000
+```
+
+_Figure 1: Azure Arc extends Azure management to resources anywhere_
+
+</div>
+</details>
+
 **Azure Arc** is Microsoft's hybrid and multi-cloud management platform that extends Azure management and services to any infrastructure - on-premises, multiple clouds, and the edge. Arc enables organizations to manage diverse environments with a consistent set of tools, governance policies, and security controls.
 
 ### What is Azure Arc?
