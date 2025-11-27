@@ -13,6 +13,16 @@ nav_order: 1
 
 This page provides a detailed technical architecture for implementing Zero Trust in sovereign cloud environments. It covers the components, data flows, decision points, and how all six pillars work together end-to-end.
 
+<details class="diagram-container" open>
+<summary>View Diagram: Zero Trust Architecture for Sovereign Cloud</summary>
+<div class="diagram-content">
+
+![Zero Trust Architecture showing identity verification, network security, and data protection layers](../assets/images/level-300/zero-trust-architecture.svg)
+_Figure 1: Complete Zero Trust implementation architecture with all security pillars and continuous monitoring_
+
+</div>
+</details>
+
 ---
 
 ## Complete Zero Trust Architecture

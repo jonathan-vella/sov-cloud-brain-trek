@@ -77,8 +77,18 @@ Cloud service models define the level of control and responsibility between clou
 Understanding who is responsible for what in each service model:
 
 <details class="diagram-container" open>
-<summary>View Diagram: Shared Responsibility Model</summary>
-<div class="diagram-content" markdown="1">
+<summary>View Diagram: Shared Responsibility Matrix (Visual)</summary>
+<div class="diagram-content">
+
+![Shared Responsibility Matrix showing customer vs provider responsibilities across IaaS, PaaS, and SaaS](../assets/images/level-50/shared-responsibility-matrix.svg)
+_Figure 1: Shared Responsibility Matrix across cloud service models_
+
+</div>
+</details>
+
+<details class="diagram-container" open>
+<summary>View Diagram: Shared Responsibility Model (Table)</summary>
+<div class="diagram-content">
 
 | Layer | On-Premises | IaaS | PaaS | SaaS |
 |:------|:-----------:|:----:|:----:|:----:|

@@ -26,7 +26,7 @@ Security and compliance are fundamental considerations in cloud computing. Under
 
 <details class="diagram-container" open>
 <summary>View Diagram: The CIA Triad</summary>
-<div class="diagram-content" markdown="1">
+<div class="diagram-content">
 
 ```mermaid
 graph TD
@@ -87,7 +87,7 @@ The foundation of information security rests on three core principles:
 
 <details class="diagram-container">
 <summary>View Diagram: Defense in Depth Layers</summary>
-<div class="diagram-content" markdown="1">
+<div class="diagram-content">
 
 ```mermaid
 graph TB
@@ -198,6 +198,16 @@ Monitors data movement, identifies sensitive patterns, blocks/alerts on policy v
 ### What is Compliance?
 
 Meeting legal, regulatory, and industry requirements; following standards; demonstrating due diligence.
+
+<details class="diagram-container" open>
+<summary>View Diagram: Compliance Frameworks Comparison</summary>
+<div class="diagram-content">
+
+![Compliance Frameworks showing GDPR, HIPAA, SOC 2, PCI DSS, FedRAMP, and ISO 27001 comparison](../assets/images/level-50/compliance-frameworks-comparison.svg)
+_Figure 1: Major compliance frameworks and their key focus areas_
+
+</div>
+</details>
 
 ### Major Frameworks
 

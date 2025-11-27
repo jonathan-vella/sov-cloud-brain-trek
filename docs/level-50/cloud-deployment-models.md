@@ -23,6 +23,16 @@ description: "Understanding public, private, hybrid, and multi-cloud deployment 
 Cloud deployment models define where cloud infrastructure is located, who has access to it, and how it's managed. Understanding these models is essential for designing solutions that meet sovereignty, security, and compliance requirements.
 
 <details class="diagram-container" open>
+<summary>View Diagram: Cloud Deployment Architectures</summary>
+<div class="diagram-content">
+
+![Cloud Deployment Models showing Public, Private, Hybrid, and Multi-cloud architectures](../assets/images/level-50/cloud-deployment-models.svg)
+_Figure 1: Cloud deployment model architectures and their relationships_
+
+</div>
+</details>
+
+<details class="diagram-container" open>
 <summary>View Diagram: Cloud Deployment Models Overview</summary>
 <div class="diagram-content" markdown="1">
 

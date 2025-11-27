@@ -14,6 +14,16 @@ has_children: true
 
 Deploy and operate Retrieval-Augmented Generation (RAG) systems at production scale on edge infrastructure within sovereign cloud environments. Master real-world deployment patterns, optimization techniques, and enterprise operations.
 
+<details class="diagram-container" open>
+<summary>View Diagram: Production Edge RAG Architecture</summary>
+<div class="diagram-content">
+
+![Production Edge RAG Architecture showing LLM inference, vector stores, and high availability patterns](../assets/images/level-300/edge-rag-production.svg)
+_Figure 1: Enterprise-grade Edge RAG architecture with load balancing, GPU inference, and vector storage replication_
+
+</div>
+</details>
+
 **Duration:** 10-12 hours  
 **Learning Tracks:** Both Sales & Technical  
 **Prerequisites:** Level 200 Edge RAG completion

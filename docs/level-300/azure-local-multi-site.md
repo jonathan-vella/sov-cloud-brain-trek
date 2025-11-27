@@ -11,6 +11,16 @@ nav_order: 1
 
 Deploy Azure Local clusters across multiple physical sites with synchronized operations, failover capabilities, and coordinated governance.
 
+<details class="diagram-container" open>
+<summary>View Diagram: Multi-Site Replication Topology</summary>
+<div class="diagram-content">
+
+![Azure Local Multi-Site Architecture showing primary, DR, and edge sites with replication topology](../assets/images/level-300/azure-local-multisite.svg)
+_Figure 1: Azure Local multi-site deployment with synchronous and asynchronous replication across datacenters_
+
+</div>
+</details>
+
 ---
 
 ## Multi-Site Topology Patterns
