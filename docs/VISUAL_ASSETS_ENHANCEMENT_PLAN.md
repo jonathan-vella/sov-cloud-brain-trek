@@ -67,7 +67,45 @@ Replace all Mermaid diagrams with Python-generated SVGs, embed 6 new Level-100 d
 - Hover tooltips, click-to-zoom, pan for geographic map
 - Register in `docs/_includes/head_custom.html`
 
-### Step 9: Update all module durations (~50% reduction)
+### Step 9: Audit and fix navigation structure
+
+Review and correct YAML front matter across all documentation files:
+
+**Navigation order (`nav_order`):**
+
+- Ensure sequential `nav_order` values within each level (no gaps or duplicates)
+- Verify parent pages have `has_children: true`
+- Check child pages have correct `parent:` values matching parent's `title:`
+
+**Required front matter fields:**
+
+- `layout: default`
+- `title:` (must match parent references exactly)
+- `nav_order:` (sequential integer)
+- `parent:` (for child pages)
+- `grand_parent:` (for grandchild pages)
+- `description:` (SEO and accessibility)
+- `nav_exclude: true` (for supplementary pages that shouldn't appear in sidebar)
+
+**Files to audit:**
+
+- `docs/level-50/*.md` — Module pages and sub-pages
+- `docs/level-100/*.md` — 5 modules with deep-dive topics
+- `docs/level-200/*.md` — 6 modules with labs
+- `docs/level-300/*.md` — 5 modules with supplementary content (many need `nav_exclude`)
+- `docs/resources/*.md` — Resource pages
+
+**Validation script:**
+
+```bash
+# Check for missing front matter fields
+grep -L "^nav_order:" docs/**/*.md
+grep -L "^parent:" docs/level-*/[^R]*.md  # Exclude README files
+```
+
+---
+
+### Step 10: Update all module durations (~50% reduction)
 
 Reduce module completion times across all levels to reflect more realistic estimates:
 
@@ -179,4 +217,6 @@ if __name__ == "__main__":
 
 3. **Interactive features priority**: Recommend implementing zoom/tooltips after all Mermaid conversions complete (Step 8 last) to avoid rework if diagram structure changes.
 
-4. **Duration updates (Step 9)**: Should be executed as a batch operation using sed or multi-replace to ensure consistency. Consider updating introduction.md weekly commitments proportionally (e.g., "1-2 hours/week" → "30-60 min/week").
+4. **Duration updates (Step 10)**: Should be executed as a batch operation using sed or multi-replace to ensure consistency. Consider updating introduction.md weekly commitments proportionally (e.g., "1-2 hours/week" → "30-60 min/week").
+
+5. **Navigation audit (Step 9)**: Run this early to catch issues before other changes. Use `bundle exec jekyll build` to validate — Jekyll will warn about missing parent references.
