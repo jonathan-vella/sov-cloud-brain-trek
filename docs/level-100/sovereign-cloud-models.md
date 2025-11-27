@@ -9,6 +9,16 @@ nav_order: 1
 
 {: .no_toc }
 
+<details class="diagram-container" open>
+<summary>View Diagram: Sovereign Cloud Models Comparison</summary>
+<div class="diagram-content">
+
+![Sovereign Cloud Models Comparison showing control, security, and connectivity metrics across deployment options](../assets/images/level-100/sovereign-cloud-models-comparison.svg)
+_Figure 1: Comparison of sovereign cloud deployment models_
+
+</div>
+</details>
+
 ## Table of Contents
 
 {: .no_toc .text-delta }

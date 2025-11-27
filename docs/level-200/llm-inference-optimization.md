@@ -9,6 +9,45 @@ nav_order: 3
 
 ## Overview
 
+<details class="diagram-container" open>
+<summary>View Diagram: Inference Optimization Flow</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+flowchart LR
+    subgraph Input["Input Processing"]
+        REQ[Request] --> TOK[Tokenizer]
+        TOK --> EMB[Embedding]
+    end
+
+    subgraph Opt["Optimization Layer"]
+        EMB --> QUANT{Quantization<br/>INT4/INT8}
+        QUANT --> BATCH[Batch<br/>Processing]
+        BATCH --> CACHE[KV Cache]
+    end
+
+    subgraph Inference["Model Inference"]
+        CACHE --> GPU[GPU<br/>Compute]
+        GPU --> SPEC[Speculative<br/>Decoding]
+        SPEC --> OUT[Output<br/>Tokens]
+    end
+
+    subgraph Output["Response"]
+        OUT --> STREAM[Streaming<br/>Response]
+        STREAM --> CLIENT[Client]
+    end
+
+    style Input fill:#E8F4FD,stroke:#0078D4,stroke-width:2px,color:#000
+    style Opt fill:#FFF4E6,stroke:#FF8C00,stroke-width:2px,color:#000
+    style Inference fill:#F3E8FF,stroke:#7B3FF2,stroke-width:2px,color:#000
+    style Output fill:#D4E9D7,stroke:#107C10,stroke-width:2px,color:#000
+```
+
+_Figure 1: LLM inference optimization pipeline for edge deployments_
+
+</div>
+</details>
+
 LLM inference optimization is critical for edge RAG systems where hardware is constrained and latency requirements are strict. This page covers quantization techniques, prompt engineering, batch processing, and hardware-aware optimization strategies to maximize throughput and minimize latency.
 
 ---

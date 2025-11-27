@@ -9,6 +9,16 @@ nav_order: 3
 
 ## Overview
 
+<details class="diagram-container" open>
+<summary>View Diagram: MLOps Pipeline for Edge RAG</summary>
+<div class="diagram-content">
+
+![MLOps Pipeline showing development, training, deployment, monitoring, and retraining lifecycle](../assets/images/level-300/mlops-pipeline.svg)
+_Figure 1: Complete MLOps pipeline for Edge RAG model lifecycle management_
+
+</div>
+</details>
+
 Implement machine learning operations for managing model lifecycle in production edge RAG deployments.
 
 ---

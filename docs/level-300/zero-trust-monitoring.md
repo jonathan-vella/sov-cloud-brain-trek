@@ -11,6 +11,16 @@ nav_order: 2
 
 ## Overview
 
+<details class="diagram-container" open>
+<summary>View Diagram: Security Monitoring Flow</summary>
+<div class="diagram-content">
+
+![Security Monitoring Flow showing data collection, analysis, threat detection, and response pipeline](../assets/images/level-300/security-monitoring-flow.svg)
+_Figure 1: Zero Trust security monitoring and threat detection architecture_
+
+</div>
+</details>
+
 This page covers operational aspects of Zero Trust: monitoring, compliance automation, audit logging, and day-to-day operational procedures in sovereign cloud environments.
 
 ---

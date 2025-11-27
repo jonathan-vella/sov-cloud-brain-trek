@@ -9,6 +9,56 @@ nav_order: 3
 
 This section covers advanced strategies for building highly available and resilient Azure Local deployments. Understanding these patterns is essential for designing mission-critical systems.
 
+<details class="diagram-container" open>
+<summary>View Diagram: HA Topology Options</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+graph TB
+    subgraph TwoNode["2-Node Cluster"]
+        N1A[Node 1]
+        N1B[Node 2]
+        W1[File Share Witness]
+        N1A <--> N1B
+        N1A --> W1
+        N1B --> W1
+    end
+
+    subgraph ThreeNode["3-Node Cluster"]
+        N2A[Node 1]
+        N2B[Node 2]
+        N2C[Node 3]
+        N2A <--> N2B
+        N2B <--> N2C
+        N2A <--> N2C
+    end
+
+    subgraph Stretched["Stretched Cluster"]
+        subgraph Site1["Site A"]
+            S1N1[Node 1]
+            S1N2[Node 2]
+        end
+        subgraph Site2["Site B"]
+            S2N1[Node 3]
+            S2N2[Node 4]
+        end
+        CW[Cloud Witness]
+        S1N1 <--> S2N1
+        S1N2 <--> S2N2
+        Site1 --> CW
+        Site2 --> CW
+    end
+
+    style TwoNode fill:#E8F4FD,stroke:#0078D4,stroke-width:2px,color:#000
+    style ThreeNode fill:#FFF4E6,stroke:#FF8C00,stroke-width:2px,color:#000
+    style Stretched fill:#D4E9D7,stroke:#107C10,stroke-width:2px,color:#000
+```
+
+_Figure 1: Azure Local cluster topology options for different HA requirements_
+
+</div>
+</details>
+
 ## Cluster Quorum Options
 
 Quorum prevents split-brain scenarios where cluster nodes become isolated and make conflicting decisions.

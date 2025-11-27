@@ -9,6 +9,16 @@ nav_order: 7
 
 ## Overview
 
+<details class="diagram-container" open>
+<summary>View Diagram: Encryption Key Hierarchy</summary>
+<div class="diagram-content">
+
+![Encryption Key Hierarchy showing master keys, KEKs, DEKs and key rotation lifecycle](../assets/images/level-200/encryption-key-hierarchy.svg)
+_Figure 1: Azure Key Vault key hierarchy and management architecture_
+
+</div>
+</details>
+
 Encryption is the foundation of data protection in Microsoft Sovereign Cloud deployments. This page covers encryption algorithms, key lifecycle management, Azure Key Vault architecture, disaster recovery, and compliance evidence collection for regulatory requirements like GDPR and FedRAMP.
 
 ---

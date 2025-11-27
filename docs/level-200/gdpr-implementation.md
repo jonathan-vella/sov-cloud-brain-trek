@@ -9,6 +9,53 @@ nav_order: 5
 
 ## Overview
 
+<details class="diagram-container" open>
+<summary>View Diagram: GDPR Data Flow Architecture</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+flowchart TB
+    subgraph Collection["Data Collection"]
+        DS[Data Subject] -->|Consent| WEB[Web App]
+        DS -->|Consent| MOB[Mobile App]
+        DS -->|Contract| CRM[CRM System]
+    end
+
+    subgraph Processing["Data Processing"]
+        WEB --> DLP[Data Classification]
+        MOB --> DLP
+        CRM --> DLP
+        DLP --> ENC[Encryption]
+        ENC --> STORE[(EU Storage)]
+    end
+
+    subgraph Rights["Data Subject Rights"]
+        DS -.->|Access Request| SAR[Subject Access<br/>Request Portal]
+        SAR --> STORE
+        DS -.->|Deletion| DEL[Erasure<br/>Processor]
+        DEL --> STORE
+        DS -.->|Portability| EXP[Data Export]
+        EXP --> STORE
+    end
+
+    subgraph Compliance["Compliance Layer"]
+        AUDIT[Audit Logs]
+        DPO[DPO Dashboard]
+        STORE --> AUDIT
+        AUDIT --> DPO
+    end
+
+    style Collection fill:#E8F4FD,stroke:#0078D4,stroke-width:2px,color:#000
+    style Processing fill:#FFF4E6,stroke:#FF8C00,stroke-width:2px,color:#000
+    style Rights fill:#F3E8FF,stroke:#7B3FF2,stroke-width:2px,color:#000
+    style Compliance fill:#D4E9D7,stroke:#107C10,stroke-width:2px,color:#000
+```
+
+_Figure 1: GDPR-compliant data flow architecture with data subject rights_
+
+</div>
+</details>
+
 The General Data Protection Regulation (GDPR) is the most comprehensive data protection law globally. This page covers practical implementation of GDPR requirements in Microsoft Sovereign Cloud deployments, focusing on data residency, data subject rights, compliance automation, and audit capabilities.
 
 ---

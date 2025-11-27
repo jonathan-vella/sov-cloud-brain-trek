@@ -9,6 +9,16 @@ nav_order: 1
 
 ## Overview
 
+<details class="diagram-container" open>
+<summary>View Diagram: Security Patterns Matrix</summary>
+<div class="diagram-content">
+
+![Security Patterns Matrix showing compliance framework coverage across different security domains](../assets/images/level-200/security-patterns-matrix.svg)
+_Figure 1: Compliance framework coverage matrix for sovereign cloud security_
+
+</div>
+</details>
+
 Security and compliance are foundational requirements for enterprise deployments of sovereign cloud solutions. This module covers compliance frameworks, security hardening patterns, encryption strategies, and security architecture for Microsoft Sovereign Cloud, Azure Local, and Edge AI deployments.
 
 ### Prerequisites

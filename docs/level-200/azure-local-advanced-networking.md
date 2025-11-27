@@ -9,6 +9,16 @@ nav_order: 4
 
 Network design significantly impacts Azure Local performance and reliability. This section covers advanced networking patterns used in enterprise deployments.
 
+<details class="diagram-container" open>
+<summary>View Diagram: Software-Defined Networking Architecture</summary>
+<div class="diagram-content">
+
+![SDN Architecture showing Network Controller, virtual networks, load balancers, and gateways](../assets/images/level-200/sdn-architecture.svg)
+_Figure 1: Azure Local Software-Defined Networking (SDN) architecture_
+
+</div>
+</details>
+
 ## Switch Embedded Teaming (SET)
 
 Modern Azure Local deployments use SET for network adapter redundancy and performance.

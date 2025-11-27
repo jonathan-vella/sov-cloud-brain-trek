@@ -9,6 +9,16 @@ nav_order: 1
 
 ## Overview
 
+<details class="diagram-container" open>
+<summary>View Diagram: Air-Gapped Architecture</summary>
+<div class="diagram-content">
+
+![Air-Gapped Architecture showing secure zones, data diodes, and offline update mechanisms](../assets/images/level-300/air-gapped-architecture.svg)
+_Figure 1: Air-gapped Azure Local architecture with secure transfer mechanisms_
+
+</div>
+</details>
+
 Design and implement completely isolated Azure Local deployments with zero cloud connectivity, manual processes, and complete operational autonomy.
 
 ---

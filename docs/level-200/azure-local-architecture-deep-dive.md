@@ -25,6 +25,16 @@ This module covers:
 
 ## Complete System Architecture
 
+<details class="diagram-container" open>
+<summary>View Diagram: Storage Spaces Direct Architecture</summary>
+<div class="diagram-content">
+
+![Storage Spaces Direct (S2D) architecture showing storage pool, tiering, and resiliency layers](../assets/images/level-200/storage-spaces-direct.svg)
+_Figure 1: Storage Spaces Direct (S2D) architecture with tiering and resiliency_
+
+</div>
+</details>
+
 Azure Local's architecture can be understood through four interconnected layers, each designed to work together seamlessly.
 
 ### Hardware Layer

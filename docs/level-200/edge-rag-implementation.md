@@ -9,6 +9,16 @@ nav_order: 1
 
 ## Overview
 
+<details class="diagram-container" open>
+<summary>View Diagram: Edge RAG Implementation Architecture</summary>
+<div class="diagram-content">
+
+![Edge RAG Implementation showing on-premises AI infrastructure with embedding, vector store, and LLM components](../assets/images/level-200/edge-rag-implementation.svg)
+_Figure 1: Production Edge RAG architecture on Azure Arc-enabled infrastructure_
+
+</div>
+</details>
+
 Edge RAG (Retrieval-Augmented Generation) Implementation transforms enterprise edge deployments into intelligent systems capable of processing and analyzing data locally while maintaining security and sovereignty. This module covers production-ready techniques for deploying RAG systems on Azure Arc at the edge, including LLM inference optimization, vector database tuning, and operational excellence patterns for enterprise environments.
 
 ### Prerequisites

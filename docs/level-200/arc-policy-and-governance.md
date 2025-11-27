@@ -9,6 +9,45 @@ nav_order: 2
 
 ## Overview
 
+<details class="diagram-container" open>
+<summary>View Diagram: Policy Inheritance Flow</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+graph TB
+    MG[Management Group<br/>Enterprise Policies]
+
+    MG --> SUB1[Subscription A<br/>Production]
+    MG --> SUB2[Subscription B<br/>Development]
+
+    SUB1 --> RG1[Resource Group<br/>Arc Servers - US]
+    SUB1 --> RG2[Resource Group<br/>Arc Servers - EU]
+
+    SUB2 --> RG3[Resource Group<br/>Arc Test Servers]
+
+    RG1 --> ARC1[Arc Machine 1]
+    RG1 --> ARC2[Arc Machine 2]
+    RG2 --> ARC3[Arc Machine 3]
+    RG3 --> ARC4[Arc Machine 4]
+
+    MG -.->|Inherited| SUB1
+    MG -.->|Inherited| SUB2
+    SUB1 -.->|Inherited| RG1
+    SUB1 -.->|Inherited| RG2
+
+    style MG fill:#0078D4,stroke:#004578,stroke-width:3px,color:#fff
+    style SUB1 fill:#E8F4FD,stroke:#0078D4,stroke-width:2px,color:#000
+    style SUB2 fill:#E8F4FD,stroke:#0078D4,stroke-width:2px,color:#000
+    style RG1 fill:#FFF4E6,stroke:#FF8C00,stroke-width:2px,color:#000
+    style RG2 fill:#FFF4E6,stroke:#FF8C00,stroke-width:2px,color:#000
+    style RG3 fill:#D4E9D7,stroke:#107C10,stroke-width:2px,color:#000
+```
+
+_Figure 1: Azure Policy inheritance from management groups to Arc resources_
+
+</div>
+</details>
+
 Azure Policy is the cornerstone of Arc governance at scale. This page covers how to design, deploy, and manage policies that enforce compliance, security, and operational standards across thousands of Arc-managed resources in hybrid and multi-cloud environments.
 
 ---

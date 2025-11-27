@@ -59,6 +59,58 @@ User Question → Retrieve Relevant Docs → LLM + Context → Enhanced Answer
 
 ## Edge RAG System Architecture
 
+<details class="diagram-container" open>
+<summary>View Diagram: Edge RAG System Architecture</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+graph TB
+    subgraph App["Application Layer"]
+        UI[Chat Interface]
+        API[REST API]
+    end
+
+    subgraph Orch["Orchestration Layer"]
+        QP[Query Processor]
+        CA[Context Assembler]
+        RG[Response Generator]
+    end
+
+    subgraph AI["AI Layer"]
+        EM[Embedding Model]
+        LLM[Local LLM]
+        RE[Reranker]
+    end
+
+    subgraph Data["Data Layer"]
+        VS[(Vector Store)]
+        DS[(Document Store)]
+        CH[(Cache)]
+    end
+
+    UI --> QP
+    API --> QP
+    QP --> EM
+    EM --> VS
+    VS --> CA
+    DS --> CA
+    CA --> RE
+    RE --> LLM
+    LLM --> RG
+    RG --> CH
+    RG --> UI
+    RG --> API
+
+    style App fill:#E8F4FD,stroke:#0078D4,stroke-width:2px,color:#000
+    style Orch fill:#FFF4E6,stroke:#FF8C00,stroke-width:2px,color:#000
+    style AI fill:#F3E8FF,stroke:#7B3FF2,stroke-width:2px,color:#000
+    style Data fill:#D4E9D7,stroke:#107C10,stroke-width:2px,color:#000
+```
+
+_Figure 1: Edge RAG system architecture showing the four main layers_
+
+</div>
+</details>
 
 ---
 
