@@ -261,10 +261,10 @@ ul.task-list {
 }
 
 // =============================================================================
-// KNOWLEDGE CHECK STYLING
+// COLLAPSIBLE SECTIONS - BASE STYLING
 // =============================================================================
 
-// Details/summary for expandable answers
+// Base details/summary styling
 details {
   border: 1px solid #e9ecef;
   border-radius: 8px;
@@ -276,20 +276,234 @@ details {
     background-color: #f8f9fa;
     border-radius: 8px;
     font-weight: 500;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 
     &:hover {
       background-color: #e9ecef;
+    }
+
+    // Arrow indicator
+    &::before {
+      content: "▶";
+      font-size: 0.7em;
+      transition: transform 0.2s ease;
     }
   }
 
   &[open] summary {
     border-radius: 8px 8px 0 0;
     border-bottom: 1px solid #e9ecef;
+
+    &::before {
+      transform: rotate(90deg);
+    }
   }
 
   > *:not(summary) {
     padding: 1rem;
   }
+}
+
+// =============================================================================
+// DIAGRAM CONTAINERS
+// =============================================================================
+
+details.diagram-container {
+  border-color: #0078d4;
+  background: linear-gradient(to bottom, #f0f6ff, #fff);
+
+  summary {
+    background: linear-gradient(to right, #e6f2ff, #f0f6ff);
+    color: #0078d4;
+    font-weight: 600;
+
+    &::before {
+      content: "📊";
+      font-size: 1em;
+    }
+
+    &:hover {
+      background: linear-gradient(to right, #d9ebff, #e6f2ff);
+    }
+  }
+
+  &[open] summary {
+    background: #0078d4;
+    color: #fff;
+  }
+
+  .diagram-content {
+    text-align: center;
+    padding: 1.5rem;
+
+    img, svg {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .diagram-caption {
+      margin-top: 0.75rem;
+      font-size: 0.9rem;
+      color: #6c757d;
+      font-style: italic;
+    }
+  }
+}
+
+// =============================================================================
+// CODE BLOCK CONTAINERS
+// =============================================================================
+
+details.code-container {
+  border-color: #6c757d;
+
+  summary {
+    background-color: #2d2d2d;
+    color: #e9ecef;
+
+    &::before {
+      content: "💻";
+      font-size: 1em;
+    }
+
+    &:hover {
+      background-color: #3d3d3d;
+    }
+  }
+
+  &[open] summary {
+    border-radius: 8px 8px 0 0;
+  }
+
+  pre {
+    margin: 0;
+    border-radius: 0 0 8px 8px;
+  }
+}
+
+// =============================================================================
+// DEEP DIVE / LEARN MORE SECTIONS
+// =============================================================================
+
+details.deep-dive {
+  border-color: #107c10;
+  background: linear-gradient(to bottom, #f0fff0, #fff);
+
+  summary {
+    background: linear-gradient(to right, #e6ffe6, #f0fff0);
+    color: #107c10;
+
+    &::before {
+      content: "🔍";
+      font-size: 1em;
+    }
+
+    &:hover {
+      background: linear-gradient(to right, #d9ffd9, #e6ffe6);
+    }
+  }
+
+  &[open] summary {
+    background: #107c10;
+    color: #fff;
+  }
+}
+
+// =============================================================================
+// QUIZ / KNOWLEDGE CHECK SECTIONS
+// =============================================================================
+
+details.quiz-section {
+  border-color: #8661c5;
+  background: linear-gradient(to bottom, #f5f0ff, #fff);
+
+  summary {
+    background: linear-gradient(to right, #efe6ff, #f5f0ff);
+    color: #8661c5;
+    font-weight: 600;
+
+    &::before {
+      content: "🎯";
+      font-size: 1em;
+    }
+
+    &:hover {
+      background: linear-gradient(to right, #e6d9ff, #efe6ff);
+    }
+  }
+
+  &[open] summary {
+    background: #8661c5;
+    color: #fff;
+  }
+}
+
+// Answer reveal styling (nested details)
+details.quiz-section details {
+  border-color: #dee2e6;
+  margin: 0.5rem 0;
+
+  summary {
+    background: #f8f9fa;
+    color: #495057;
+    font-weight: 500;
+
+    &::before {
+      content: "▶";
+      font-size: 0.7em;
+    }
+  }
+}
+
+// =============================================================================
+// REFERENCE / RESOURCES SECTIONS
+// =============================================================================
+
+details.reference-section {
+  border-color: #ffb900;
+  background: linear-gradient(to bottom, #fffbf0, #fff);
+
+  summary {
+    background: linear-gradient(to right, #fff5d9, #fffbf0);
+    color: #996600;
+
+    &::before {
+      content: "📚";
+      font-size: 1em;
+    }
+
+    &:hover {
+      background: linear-gradient(to right, #fff0c4, #fff5d9);
+    }
+  }
+
+  &[open] summary {
+    background: #ffb900;
+    color: #000;
+  }
+}
+
+// =============================================================================
+// MERMAID DIAGRAM STYLING
+// =============================================================================
+
+.mermaid {
+  text-align: center;
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #fafbfc;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+// Mermaid in collapsible container
+details .mermaid {
+  margin: 0;
+  border-radius: 0 0 8px 8px;
 }
 
 // =============================================================================

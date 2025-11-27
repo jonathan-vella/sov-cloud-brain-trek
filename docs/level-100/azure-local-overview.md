@@ -22,6 +22,38 @@ nav_order: 1
 
 **Azure Local** (formerly known as Azure Stack HCI) is Microsoft's hybrid cloud platform that brings Azure services and cloud-based management to on-premises infrastructure. Released in 2024 as part of Microsoft's Cloud for Sovereignty initiative, Azure Local enables organizations to run virtualized workloads on validated hardware in their own data centers while maintaining consistent management through Azure Arc.
 
+<details class="diagram-container" open>
+<summary>View Diagram: Azure Local in Sovereign Cloud Strategy</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+graph TB
+    subgraph Azure["☁️ Azure Cloud"]
+        AM[Azure Management]
+        AArc[Azure Arc]
+    end
+
+    subgraph OnPrem["🏢 On-Premises"]
+        AL[Azure Local Cluster]
+        VM[Virtual Machines]
+        K8s[Kubernetes]
+        AI[AI/ML Workloads]
+    end
+
+    AM <-->|"Connected Mode"| AArc
+    AArc <-->|"Management & Governance"| AL
+    AL --> VM
+    AL --> K8s
+    AL --> AI
+
+    style Azure fill:#e3f2fd,stroke:#0078d4
+    style OnPrem fill:#fff3e0,stroke:#ef6c00
+    style AL fill:#c8e6c9,stroke:#2e7d32
+```
+
+</div>
+</details>
+
 ### Key Characteristics
 
 Azure Local provides:

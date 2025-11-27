@@ -28,6 +28,38 @@ Cloud computing has revolutionized how organizations consume and manage technolo
 
 Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the internet ("the cloud") to offer faster innovation, flexible resources, and economies of scale.
 
+<details class="diagram-container">
+<summary>View Diagram: Five Essential Cloud Characteristics (NIST)</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+mindmap
+  root((Cloud Computing))
+    On-Demand Self-Service
+      Automatic provisioning
+      No human interaction needed
+      Instant access
+    Broad Network Access
+      Available over internet
+      Multi-platform support
+      Standard protocols
+    Resource Pooling
+      Multi-tenant model
+      Dynamic allocation
+      Location independence
+    Rapid Elasticity
+      Scale out/in quickly
+      Appears unlimited
+      Demand-based
+    Measured Service
+      Pay-per-use
+      Monitoring & reporting
+      Transparent billing
+```
+
+</div>
+</details>
+
 ### Key Characteristics
 
 **On-Demand Self-Service**
@@ -61,6 +93,50 @@ Cloud computing is the delivery of computing services—including servers, stora
 - Pay-per-use model based on actual consumption
 
 ## Traditional IT vs. Cloud Computing
+
+<details class="diagram-container" open>
+<summary>View Diagram: Traditional IT vs Cloud Computing</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+graph TB
+    subgraph Traditional["🏢 Traditional IT"]
+        T1[Purchase Hardware]
+        T2[Install & Configure]
+        T3[Maintain & Patch]
+        T4[Scale Manually]
+        T5[Decommission]
+        T1 --> T2 --> T3 --> T4 --> T5
+    end
+
+    subgraph Cloud["☁️ Cloud Computing"]
+        C1[Request Resources]
+        C2[Instant Provisioning]
+        C3[Managed by Provider]
+        C4[Auto-Scale]
+        C5[Pay per Use]
+        C1 --> C2 --> C3 --> C4 --> C5
+    end
+
+    T1 -.->|"Weeks/Months"| T2
+    C1 -.->|"Minutes"| C2
+
+    style Traditional fill:#ffebee,stroke:#c62828
+    style Cloud fill:#e3f2fd,stroke:#1565c0
+    style T1 fill:#ffcdd2,stroke:#b71c1c
+    style T2 fill:#ffcdd2,stroke:#b71c1c
+    style T3 fill:#ffcdd2,stroke:#b71c1c
+    style T4 fill:#ffcdd2,stroke:#b71c1c
+    style T5 fill:#ffcdd2,stroke:#b71c1c
+    style C1 fill:#bbdefb,stroke:#0d47a1
+    style C2 fill:#bbdefb,stroke:#0d47a1
+    style C3 fill:#bbdefb,stroke:#0d47a1
+    style C4 fill:#bbdefb,stroke:#0d47a1
+    style C5 fill:#bbdefb,stroke:#0d47a1
+```
+
+</div>
+</details>
 
 ### Traditional On-Premises Model
 

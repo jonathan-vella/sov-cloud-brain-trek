@@ -13,6 +13,29 @@ description: "Fundamentals of identity and access management"
 
 Identity and Access Management (IAM) is the foundation of cloud security, controlling who can access what resources and under what conditions.
 
+<details class="diagram-container" open>
+<summary>View Diagram: Authentication vs Authorization Flow</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+graph LR
+    U[👤 User] --> A[🔐 Authentication]
+    A -->|"Who are you?"| V{Verify Identity}
+    V -->|Valid| B[🎫 Authorization]
+    V -->|Invalid| D[❌ Denied]
+    B -->|"What can you do?"| P{Check Permissions}
+    P -->|Allowed| R[✅ Access Resource]
+    P -->|Not Allowed| D
+
+    style A fill:#bbdefb,stroke:#1565c0
+    style B fill:#c8e6c9,stroke:#2e7d32
+    style R fill:#a5d6a7,stroke:#1b5e20
+    style D fill:#ffcdd2,stroke:#c62828
+```
+
+</div>
+</details>
+
 ## Core Concepts
 
 ### Authentication vs Authorization

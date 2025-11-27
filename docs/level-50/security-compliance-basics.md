@@ -24,6 +24,43 @@ Security and compliance are fundamental considerations in cloud computing. Under
 
 ## Core Security Principles
 
+<details class="diagram-container" open>
+<summary>View Diagram: The CIA Triad</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+graph TD
+    subgraph CIA["🔐 CIA Triad"]
+        C[("🔒 Confidentiality")]
+        I[("✅ Integrity")]
+        A[("⚡ Availability")]
+    end
+
+    C --- I
+    I --- A
+    A --- C
+
+    C --> C1["Access Controls"]
+    C --> C2["Encryption"]
+    C --> C3["Authentication"]
+
+    I --> I1["Checksums"]
+    I --> I2["Digital Signatures"]
+    I --> I3["Version Control"]
+
+    A --> A1["Redundancy"]
+    A --> A2["Backups"]
+    A --> A3["Disaster Recovery"]
+
+    style C fill:#e3f2fd,stroke:#1565c0,color:#0d47a1
+    style I fill:#e8f5e9,stroke:#2e7d32,color:#1b5e20
+    style A fill:#fff3e0,stroke:#ef6c00,color:#e65100
+    style CIA fill:#fafafa,stroke:#424242
+```
+
+</div>
+</details>
+
 ### The CIA Triad
 
 The foundation of information security rests on three core principles:
@@ -47,6 +84,45 @@ The foundation of information security rests on three core principles:
 - Implemented through redundancy, backup systems, and disaster recovery
 
 ### Defense in Depth
+
+<details class="diagram-container">
+<summary>View Diagram: Defense in Depth Layers</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+graph TB
+    subgraph Layers["🛡️ Defense in Depth"]
+        L1["🏢 Physical Security"]
+        L2["🌐 Network Security"]
+        L3["💻 Endpoint Security"]
+        L4["📱 Application Security"]
+        L5["💾 Data Security"]
+        L6["👤 Identity Security"]
+        L7["📋 Administrative Controls"]
+    end
+
+    L1 --> L2 --> L3 --> L4 --> L5 --> L6 --> L7
+
+    L1 -.-> P1["Data centers, locks, guards"]
+    L2 -.-> P2["Firewalls, VPNs, segmentation"]
+    L3 -.-> P3["Antivirus, patching, encryption"]
+    L4 -.-> P4["WAF, input validation, SAST"]
+    L5 -.-> P5["Encryption, DLP, classification"]
+    L6 -.-> P6["MFA, RBAC, SSO"]
+    L7 -.-> P7["Policies, training, audits"]
+
+    style Layers fill:#e8eaf6,stroke:#3f51b5
+    style L1 fill:#ffcdd2,stroke:#c62828
+    style L2 fill:#ffe0b2,stroke:#ef6c00
+    style L3 fill:#fff9c4,stroke:#f9a825
+    style L4 fill:#c8e6c9,stroke:#2e7d32
+    style L5 fill:#b3e5fc,stroke:#0277bd
+    style L6 fill:#e1bee7,stroke:#7b1fa2
+    style L7 fill:#d7ccc8,stroke:#5d4037
+```
+
+</div>
+</details>
 
 Multiple layers of security controls (physical, network, endpoint, application, data, identity, administrative) provide comprehensive protection.
 

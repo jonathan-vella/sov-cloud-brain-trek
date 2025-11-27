@@ -46,6 +46,10 @@ search:
 # Enable copy button on code blocks
 enable_copy_code_button: true
 
+# Enable Mermaid diagrams
+mermaid:
+  version: "10.6.0"
+
 # Heading anchor links
 heading_anchors: true
 

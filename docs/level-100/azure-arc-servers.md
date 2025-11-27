@@ -22,6 +22,39 @@ nav_order: 4.1
 
 Azure Arc-enabled Servers extends Azure management to Windows and Linux machines hosted outside of Azure - in your datacenter, at the edge, or in other clouds.
 
+<details class="diagram-container" open>
+<summary>View Diagram: Arc-Enabled Servers Architecture</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+graph LR
+    subgraph Azure["☁️ Azure"]
+        ARM[Azure Resource Manager]
+        POL[Azure Policy]
+        MON[Azure Monitor]
+        DEF[Microsoft Defender]
+    end
+
+    subgraph OnPrem["🏢 On-Premises / Other Clouds"]
+        AG[Arc Agent]
+        SRV1[Windows Server]
+        SRV2[Linux Server]
+    end
+
+    ARM <--> AG
+    AG --> SRV1
+    AG --> SRV2
+    POL --> AG
+    MON --> AG
+    DEF --> AG
+
+    style Azure fill:#e3f2fd,stroke:#0078d4
+    style OnPrem fill:#fff3e0,stroke:#ef6c00
+```
+
+</div>
+</details>
+
 **Key Capabilities:**
 
 - Organize and inventory servers using Azure Resource Manager

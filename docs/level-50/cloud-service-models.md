@@ -76,6 +76,41 @@ Cloud service models define the level of control and responsibility between clou
 
 Understanding who is responsible for what in each service model:
 
+<details class="diagram-container" open>
+<summary>View Diagram: Shared Responsibility Model</summary>
+<div class="diagram-content" markdown="1">
+
+| Layer | On-Premises | IaaS | PaaS | SaaS |
+|:------|:-----------:|:----:|:----:|:----:|
+| **Data** | 🔵 You | 🔵 You | 🔵 You | 🔵 You |
+| **Applications** | 🔵 You | 🔵 You | 🔵 You | 🟢 Provider |
+| **Runtime** | 🔵 You | 🔵 You | 🟢 Provider | 🟢 Provider |
+| **Middleware** | 🔵 You | 🔵 You | 🟢 Provider | 🟢 Provider |
+| **Operating System** | 🔵 You | 🔵 You | 🟢 Provider | 🟢 Provider |
+| **Virtualization** | 🔵 You | 🟢 Provider | 🟢 Provider | 🟢 Provider |
+| **Servers** | 🔵 You | 🟢 Provider | 🟢 Provider | 🟢 Provider |
+| **Storage** | 🔵 You | 🟢 Provider | 🟢 Provider | 🟢 Provider |
+| **Networking** | 🔵 You | 🟢 Provider | 🟢 Provider | 🟢 Provider |
+
+_🔵 You = Customer Responsibility | 🟢 Provider = Cloud Provider Responsibility_
+
+```mermaid
+graph LR
+    subgraph Responsibility["Responsibility Shift"]
+        A["On-Premises<br/>100% You"] --> B["IaaS<br/>Infrastructure managed"]
+        B --> C["PaaS<br/>Platform managed"]
+        C --> D["SaaS<br/>Everything managed"]
+    end
+
+    style A fill:#bbdefb,stroke:#1565c0,color:#000
+    style B fill:#90caf9,stroke:#1565c0,color:#000
+    style C fill:#a5d6a7,stroke:#2e7d32,color:#000
+    style D fill:#c8e6c9,stroke:#2e7d32,color:#000
+```
+
+</div>
+</details>
+
 ### IaaS Responsibilities
 
 **Customer Responsible For:**
