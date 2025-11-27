@@ -2,7 +2,7 @@
     "name": "Sovereign Cloud Brain Trek",
     "image": "mcr.microsoft.com/devcontainers/jekyll:2-bookworm",
 
-    // Features to add - Node.js for markdownlint-cli2, Python for pre-commit
+    // Features to add - Node.js for markdownlint-cli2, Python for diagram generation
     "features": {
         "ghcr.io/devcontainers/features/node:1": {
             "version": "lts"
@@ -38,5 +38,5 @@
     "forwardPorts": [4000],
 
     // Use 'postCreateCommand' to run commands after the container is created.
-    "postCreateCommand": "sh /usr/local/post-create.sh && pip install pre-commit && npm install -g markdownlint-cli2 && pre-commit install"
+    "postCreateCommand": "sh /usr/local/post-create.sh && sudo apt-get update && sudo apt-get install -y graphviz && pip install -r requirements.txt && npm install -g markdownlint-cli2 && pre-commit install"
 }
