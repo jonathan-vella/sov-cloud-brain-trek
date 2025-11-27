@@ -60,289 +60,289 @@
 <path fill="#f3e8ff" stroke="#aeb6be" d="M877,-86.46C877,-86.46 970,-86.46 970,-86.46 976,-86.46 982,-92.46 982,-98.46 982,-98.46 982,-451.46 982,-451.46 982,-457.46 976,-463.46 970,-463.46 970,-463.46 877,-463.46 877,-463.46 871,-463.46 865,-457.46 865,-451.46 865,-451.46 865,-98.46 865,-98.46 865,-92.46 871,-86.46 877,-86.46"/>
 <text text-anchor="middle" x="897.5" y="-449.86" font-family="Sans-Serif" font-size="12.00" fill="#2d3436">External</text>
 </g>
-<!-- 9f96f02ed38f4a68b76a15a7b65a3421 -->
+<!-- 666082998b114df1ba9cad0592308ad8 -->
 <g id="node1" class="node">
-<title>9f96f02ed38f4a68b76a15a7b65a3421</title>
+<title>666082998b114df1ba9cad0592308ad8</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/onprem/compute/server.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="24" y="-1296.96"/>
 <text text-anchor="middle" x="74.5" y="-1181.56" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">System Logs</text>
 </g>
-<!-- bb2a55c53876426aa671f785de1dd524 -->
+<!-- d18ec1943cef46e1a937a486730eab7b -->
 <g id="node8" class="node">
-<title>bb2a55c53876426aa671f785de1dd524</title>
+<title>d18ec1943cef46e1a937a486730eab7b</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/azure/analytics/event-hubs.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="184" y="-948.956"/>
 <text text-anchor="middle" x="234.5" y="-833.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Event Hub</text>
 <text text-anchor="middle" x="234.5" y="-819.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">(Streaming)</text>
 </g>
-<!-- 9f96f02ed38f4a68b76a15a7b65a3421&#45;&gt;bb2a55c53876426aa671f785de1dd524 -->
+<!-- 666082998b114df1ba9cad0592308ad8&#45;&gt;d18ec1943cef46e1a937a486730eab7b -->
 <g id="edge1" class="edge">
-<title>9f96f02ed38f4a68b76a15a7b65a3421&#45;&gt;bb2a55c53876426aa671f785de1dd524</title>
+<title>666082998b114df1ba9cad0592308ad8&#45;&gt;d18ec1943cef46e1a937a486730eab7b</title>
 <path fill="none" stroke="#7b8894" d="M125.28,-1194.77C134,-1183.99 142.39,-1172.29 149,-1160.46 178.46,-1107.74 199.42,-1043.23 213.1,-991.42"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="216.53,-992.12 215.66,-981.57 209.76,-990.37 216.53,-992.12"/>
 </g>
-<!-- 2f150c948706401f8d26e9e6c3b45a17 -->
+<!-- 9255d29ac7374be8873594f54d46e048 -->
 <g id="node2" class="node">
-<title>2f150c948706401f8d26e9e6c3b45a17</title>
+<title>9255d29ac7374be8873594f54d46e048</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/onprem/compute/server.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="24" y="-1123.96"/>
 <text text-anchor="middle" x="74.5" y="-1008.56" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Security Events</text>
 </g>
-<!-- 2f150c948706401f8d26e9e6c3b45a17&#45;&gt;bb2a55c53876426aa671f785de1dd524 -->
+<!-- 9255d29ac7374be8873594f54d46e048&#45;&gt;d18ec1943cef46e1a937a486730eab7b -->
 <g id="edge2" class="edge">
-<title>2f150c948706401f8d26e9e6c3b45a17&#45;&gt;bb2a55c53876426aa671f785de1dd524</title>
+<title>9255d29ac7374be8873594f54d46e048&#45;&gt;d18ec1943cef46e1a937a486730eab7b</title>
 <path fill="none" stroke="#7b8894" d="M125.06,-1018.56C141.45,-1000.41 159.82,-980.07 176.71,-961.36"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="179.74,-963.22 183.85,-953.45 174.55,-958.53 179.74,-963.22"/>
 </g>
-<!-- ebcaa3411edf46338909453d471a5e3b -->
+<!-- accc9435918245c8a548fb59bde6ff5f -->
 <g id="node3" class="node">
-<title>ebcaa3411edf46338909453d471a5e3b</title>
+<title>accc9435918245c8a548fb59bde6ff5f</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/onprem/compute/server.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="24" y="-950.956"/>
 <text text-anchor="middle" x="74.5" y="-835.56" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Performance</text>
 </g>
-<!-- 3150210fcba04d0e936c2f46218f15f4 -->
+<!-- f38a35b116e4460e882f0adb54d1403c -->
 <g id="node9" class="node">
-<title>3150210fcba04d0e936c2f46218f15f4</title>
+<title>f38a35b116e4460e882f0adb54d1403c</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/azure/analytics/log-analytics-workspaces.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="336" y="-948.956"/>
 <text text-anchor="middle" x="386.5" y="-833.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Log Analytics</text>
 <text text-anchor="middle" x="386.5" y="-819.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Workspace</text>
 </g>
-<!-- ebcaa3411edf46338909453d471a5e3b&#45;&gt;3150210fcba04d0e936c2f46218f15f4 -->
+<!-- accc9435918245c8a548fb59bde6ff5f&#45;&gt;f38a35b116e4460e882f0adb54d1403c -->
 <g id="edge3" class="edge">
-<title>ebcaa3411edf46338909453d471a5e3b&#45;&gt;3150210fcba04d0e936c2f46218f15f4</title>
+<title>accc9435918245c8a548fb59bde6ff5f&#45;&gt;f38a35b116e4460e882f0adb54d1403c</title>
 <path fill="none" stroke="#7b8894" d="M125.06,-849.25C149.95,-823.59 175.08,-797.84 176,-797.46 220.64,-778.64 240.27,-778.86 285,-797.46 300.85,-804.04 315.49,-814.48 328.41,-826.19"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="326.15,-828.88 335.82,-833.22 330.97,-823.8 326.15,-828.88"/>
 </g>
-<!-- 723fcd7c339a40e1b87db8f6581fd4e7 -->
+<!-- 5aa163916dfe4a12b3491cfad3f66d31 -->
 <g id="node4" class="node">
-<title>723fcd7c339a40e1b87db8f6581fd4e7</title>
+<title>5aa163916dfe4a12b3491cfad3f66d31</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/generic/network/firewall.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="24" y="-382.956"/>
 <text text-anchor="middle" x="74.5" y="-267.56" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Firewall Logs</text>
 </g>
-<!-- 723fcd7c339a40e1b87db8f6581fd4e7&#45;&gt;bb2a55c53876426aa671f785de1dd524 -->
+<!-- 5aa163916dfe4a12b3491cfad3f66d31&#45;&gt;d18ec1943cef46e1a937a486730eab7b -->
 <g id="edge4" class="edge">
-<title>723fcd7c339a40e1b87db8f6581fd4e7&#45;&gt;bb2a55c53876426aa671f785de1dd524</title>
+<title>5aa163916dfe4a12b3491cfad3f66d31&#45;&gt;d18ec1943cef46e1a937a486730eab7b</title>
 <path fill="none" stroke="#7b8894" d="M125.17,-388.9C134.28,-401.57 142.85,-415.43 149,-429.46 202.92,-552.39 222.44,-707.9 229.5,-805.3"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="226.02,-805.69 230.2,-815.42 233,-805.2 226.02,-805.69"/>
 </g>
-<!-- 211437f2341d438697b49611add3cda4 -->
+<!-- 43af77a10fc84c7abbd1ea8bf5de24d0 -->
 <g id="node5" class="node">
-<title>211437f2341d438697b49611add3cda4</title>
+<title>43af77a10fc84c7abbd1ea8bf5de24d0</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/onprem/compute/server.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="24" y="-209.956"/>
 <text text-anchor="middle" x="74.5" y="-94.56" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Flow Logs</text>
 </g>
-<!-- 211437f2341d438697b49611add3cda4&#45;&gt;3150210fcba04d0e936c2f46218f15f4 -->
+<!-- 43af77a10fc84c7abbd1ea8bf5de24d0&#45;&gt;f38a35b116e4460e882f0adb54d1403c -->
 <g id="edge5" class="edge">
-<title>211437f2341d438697b49611add3cda4&#45;&gt;3150210fcba04d0e936c2f46218f15f4</title>
+<title>43af77a10fc84c7abbd1ea8bf5de24d0&#45;&gt;f38a35b116e4460e882f0adb54d1403c</title>
 <path fill="none" stroke="#7b8894" d="M125.3,-212.47C133.92,-223.23 142.26,-234.82 149,-246.46 256.37,-431.94 328.76,-674.68 362.91,-805.39"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="359.6,-806.58 365.5,-815.38 366.38,-804.82 359.6,-806.58"/>
 </g>
-<!-- c5ab9660095c455590cf71d915b13730 -->
+<!-- fd5b5f7bf8924356953f202afde8877e -->
 <g id="node6" class="node">
-<title>c5ab9660095c455590cf71d915b13730</title>
+<title>fd5b5f7bf8924356953f202afde8877e</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/onprem/security/vault.png" width="101px" height="102.494px" preserveAspectRatio="xMinYMin meet" x="24" y="-768.703"/>
 <text text-anchor="middle" x="74.5" y="-652.56" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Auth Logs</text>
 </g>
-<!-- c5ab9660095c455590cf71d915b13730&#45;&gt;bb2a55c53876426aa671f785de1dd524 -->
+<!-- fd5b5f7bf8924356953f202afde8877e&#45;&gt;d18ec1943cef46e1a937a486730eab7b -->
 <g id="edge6" class="edge">
-<title>c5ab9660095c455590cf71d915b13730&#45;&gt;bb2a55c53876426aa671f785de1dd524</title>
+<title>fd5b5f7bf8924356953f202afde8877e&#45;&gt;d18ec1943cef46e1a937a486730eab7b</title>
 <path fill="none" stroke="#7b8894" d="M125.06,-774.23C141.6,-793.17 160.14,-814.42 177.16,-833.91"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="174.63,-836.34 183.85,-841.57 179.91,-831.74 174.63,-836.34"/>
 </g>
-<!-- 5bbaf8ba65f44b6cb4d1f36cb53ef148 -->
+<!-- 2bff74c362cb45a18c6ff6b40f28ca06 -->
 <g id="node7" class="node">
-<title>5bbaf8ba65f44b6cb4d1f36cb53ef148</title>
+<title>2bff74c362cb45a18c6ff6b40f28ca06</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/onprem/security/vault.png" width="101px" height="102.494px" preserveAspectRatio="xMinYMin meet" x="24" y="-580.703"/>
 <text text-anchor="middle" x="74.5" y="-464.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Privileged</text>
 <text text-anchor="middle" x="74.5" y="-450.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Access</text>
 </g>
-<!-- 5bbaf8ba65f44b6cb4d1f36cb53ef148&#45;&gt;bb2a55c53876426aa671f785de1dd524 -->
+<!-- 2bff74c362cb45a18c6ff6b40f28ca06&#45;&gt;d18ec1943cef46e1a937a486730eab7b -->
 <g id="edge7" class="edge">
-<title>5bbaf8ba65f44b6cb4d1f36cb53ef148&#45;&gt;bb2a55c53876426aa671f785de1dd524</title>
+<title>2bff74c362cb45a18c6ff6b40f28ca06&#45;&gt;d18ec1943cef46e1a937a486730eab7b</title>
 <path fill="none" stroke="#7b8894" d="M125.04,-591.68C133.78,-604.38 142.24,-618 149,-631.46 176.73,-686.67 197.76,-752.87 211.9,-805.54"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="208.51,-806.44 214.46,-815.21 215.28,-804.64 208.51,-806.44"/>
 </g>
-<!-- bb2a55c53876426aa671f785de1dd524&#45;&gt;3150210fcba04d0e936c2f46218f15f4 -->
+<!-- d18ec1943cef46e1a937a486730eab7b&#45;&gt;f38a35b116e4460e882f0adb54d1403c -->
 <g id="edge8" class="edge">
-<title>bb2a55c53876426aa671f785de1dd524&#45;&gt;3150210fcba04d0e936c2f46218f15f4</title>
+<title>d18ec1943cef46e1a937a486730eab7b&#45;&gt;f38a35b116e4460e882f0adb54d1403c</title>
 <path fill="none" stroke="#7b8894" d="M285.03,-898.46C298.02,-898.46 312.16,-898.46 325.63,-898.46"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="325.76,-901.96 335.76,-898.46 325.76,-894.96 325.76,-901.96"/>
 </g>
-<!-- 6fe3ce248b064c269b3bd6ef745fcfee -->
+<!-- 4304754b56ac496ba1af4496a3a98f8b -->
 <g id="node10" class="node">
-<title>6fe3ce248b064c269b3bd6ef745fcfee</title>
+<title>4304754b56ac496ba1af4496a3a98f8b</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/azure/security/sentinel.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="488" y="-1030.96"/>
 <text text-anchor="middle" x="538.5" y="-915.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Microsoft</text>
 <text text-anchor="middle" x="538.5" y="-901.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Sentinel</text>
 </g>
-<!-- 3150210fcba04d0e936c2f46218f15f4&#45;&gt;6fe3ce248b064c269b3bd6ef745fcfee -->
+<!-- f38a35b116e4460e882f0adb54d1403c&#45;&gt;4304754b56ac496ba1af4496a3a98f8b -->
 <g id="edge9" class="edge">
-<title>3150210fcba04d0e936c2f46218f15f4&#45;&gt;6fe3ce248b064c269b3bd6ef745fcfee</title>
+<title>f38a35b116e4460e882f0adb54d1403c&#45;&gt;4304754b56ac496ba1af4496a3a98f8b</title>
 <path fill="none" stroke="#7b8894" d="M437.03,-925.53C450.4,-932.84 465,-940.82 478.82,-948.38"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="477.31,-951.54 487.76,-953.27 480.67,-945.4 477.31,-951.54"/>
 </g>
-<!-- f18b2132b49243ed87e56ef5224564af -->
+<!-- 26936e29ee8b461a8e1b0daf1b628a19 -->
 <g id="node11" class="node">
-<title>f18b2132b49243ed87e56ef5224564af</title>
+<title>26936e29ee8b461a8e1b0daf1b628a19</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/azure/security/security-center.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="488" y="-828.956"/>
 <text text-anchor="middle" x="538.5" y="-713.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Defender</text>
 <text text-anchor="middle" x="538.5" y="-699.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">for Cloud</text>
 </g>
-<!-- 3150210fcba04d0e936c2f46218f15f4&#45;&gt;f18b2132b49243ed87e56ef5224564af -->
+<!-- f38a35b116e4460e882f0adb54d1403c&#45;&gt;26936e29ee8b461a8e1b0daf1b628a19 -->
 <g id="edge10" class="edge">
-<title>3150210fcba04d0e936c2f46218f15f4&#45;&gt;f18b2132b49243ed87e56ef5224564af</title>
+<title>f38a35b116e4460e882f0adb54d1403c&#45;&gt;26936e29ee8b461a8e1b0daf1b628a19</title>
 <path fill="none" stroke="#7b8894" d="M437.03,-858.83C450.66,-847.93 465.55,-836.01 479.61,-824.77"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="482.14,-827.22 487.76,-818.24 477.77,-821.76 482.14,-827.22"/>
 </g>
-<!-- f1569dd565164dd2970257315036bb35 -->
+<!-- c13a24be9a4f4ff4a387e33dfc34a7af -->
 <g id="node12" class="node">
-<title>f1569dd565164dd2970257315036bb35</title>
+<title>c13a24be9a4f4ff4a387e33dfc34a7af</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/onprem/compute/server.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="662" y="-836.956"/>
 <text text-anchor="middle" x="712.5" y="-721.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">ML&#45;Based</text>
 <text text-anchor="middle" x="712.5" y="-707.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Detection</text>
 </g>
-<!-- 6fe3ce248b064c269b3bd6ef745fcfee&#45;&gt;f1569dd565164dd2970257315036bb35 -->
+<!-- 4304754b56ac496ba1af4496a3a98f8b&#45;&gt;c13a24be9a4f4ff4a387e33dfc34a7af -->
 <g id="edge11" class="edge">
-<title>6fe3ce248b064c269b3bd6ef745fcfee&#45;&gt;f1569dd565164dd2970257315036bb35</title>
+<title>4304754b56ac496ba1af4496a3a98f8b&#45;&gt;c13a24be9a4f4ff4a387e33dfc34a7af</title>
 <path fill="none" stroke="#7b8894" d="M589.02,-924.6C609.62,-901.37 633.64,-874.28 654.93,-850.26"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="657.72,-852.39 661.74,-842.59 652.48,-847.75 657.72,-852.39"/>
 </g>
-<!-- d4eba24ff47c41adacb62a5ffab3f58e -->
+<!-- 82f64853716d44f5bfcfaf6d95a6bffb -->
 <g id="node13" class="node">
-<title>d4eba24ff47c41adacb62a5ffab3f58e</title>
+<title>82f64853716d44f5bfcfaf6d95a6bffb</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/onprem/compute/server.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="662" y="-1038.96"/>
 <text text-anchor="middle" x="712.5" y="-923.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Custom</text>
 <text text-anchor="middle" x="712.5" y="-909.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Analytics</text>
 </g>
-<!-- 6fe3ce248b064c269b3bd6ef745fcfee&#45;&gt;d4eba24ff47c41adacb62a5ffab3f58e -->
+<!-- 4304754b56ac496ba1af4496a3a98f8b&#45;&gt;82f64853716d44f5bfcfaf6d95a6bffb -->
 <g id="edge12" class="edge">
-<title>6fe3ce248b064c269b3bd6ef745fcfee&#45;&gt;d4eba24ff47c41adacb62a5ffab3f58e</title>
+<title>4304754b56ac496ba1af4496a3a98f8b&#45;&gt;82f64853716d44f5bfcfaf6d95a6bffb</title>
 <path fill="none" stroke="#7b8894" d="M589.25,-982.77C608.77,-983.68 631.34,-984.73 651.74,-985.68"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="651.71,-989.18 661.86,-986.15 652.04,-982.19 651.71,-989.18"/>
 </g>
-<!-- 085a88cd0dd64127b53d63b20b271a65 -->
+<!-- 2f2058d6efd94d24bb26ba7f769f0097 -->
 <g id="node14" class="node">
-<title>085a88cd0dd64127b53d63b20b271a65</title>
+<title>2f2058d6efd94d24bb26ba7f769f0097</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/onprem/compute/server.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="662" y="-1240.96"/>
 <text text-anchor="middle" x="712.5" y="-1125.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Scheduled</text>
 <text text-anchor="middle" x="712.5" y="-1111.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Queries</text>
 </g>
-<!-- 6fe3ce248b064c269b3bd6ef745fcfee&#45;&gt;085a88cd0dd64127b53d63b20b271a65 -->
+<!-- 4304754b56ac496ba1af4496a3a98f8b&#45;&gt;2f2058d6efd94d24bb26ba7f769f0097 -->
 <g id="edge13" class="edge">
-<title>6fe3ce248b064c269b3bd6ef745fcfee&#45;&gt;085a88cd0dd64127b53d63b20b271a65</title>
+<title>4304754b56ac496ba1af4496a3a98f8b&#45;&gt;2f2058d6efd94d24bb26ba7f769f0097</title>
 <path fill="none" stroke="#7b8894" d="M589.02,-1040.91C609.7,-1066.17 633.85,-1095.65 655.2,-1121.72"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="652.69,-1124.18 661.74,-1129.7 658.11,-1119.74 652.69,-1124.18"/>
 </g>
-<!-- 03c5e27aa1074b7c99830ce07af77e82 -->
+<!-- e198341b4b0548648ea189bbb1359002 -->
 <g id="node18" class="node">
-<title>03c5e27aa1074b7c99830ce07af77e82</title>
+<title>e198341b4b0548648ea189bbb1359002</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/onprem/monitoring/grafana.png" width="101px" height="104.945px" preserveAspectRatio="xMinYMin meet" x="662" y="-619.928"/>
 <text text-anchor="middle" x="712.5" y="-502.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Azure</text>
 <text text-anchor="middle" x="712.5" y="-488.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Workbooks</text>
 </g>
-<!-- 6fe3ce248b064c269b3bd6ef745fcfee&#45;&gt;03c5e27aa1074b7c99830ce07af77e82 -->
+<!-- 4304754b56ac496ba1af4496a3a98f8b&#45;&gt;e198341b4b0548648ea189bbb1359002 -->
 <g id="edge20" class="edge">
-<title>6fe3ce248b064c269b3bd6ef745fcfee&#45;&gt;03c5e27aa1074b7c99830ce07af77e82</title>
+<title>4304754b56ac496ba1af4496a3a98f8b&#45;&gt;e198341b4b0548648ea189bbb1359002</title>
 <path fill="none" stroke="#7b8894" d="M582.12,-897.34C584.61,-891.35 586.93,-885.35 589,-879.46 618.1,-796.53 597.45,-767.26 632,-686.46 638.61,-670.99 647.29,-655.38 656.48,-640.78"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="659.46,-642.62 661.93,-632.31 653.58,-638.82 659.46,-642.62"/>
 </g>
-<!-- df2dd382be8444c1b4a85afd376c0eaf -->
+<!-- de2a1b676d0e4701b4adbe8370d1b8f5 -->
 <g id="node20" class="node">
-<title>df2dd382be8444c1b4a85afd376c0eaf</title>
+<title>de2a1b676d0e4701b4adbe8370d1b8f5</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/onprem/compute/server.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="662" y="-415.956"/>
 <text text-anchor="middle" x="712.5" y="-300.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Alert</text>
 <text text-anchor="middle" x="712.5" y="-286.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Notifications</text>
 </g>
-<!-- 6fe3ce248b064c269b3bd6ef745fcfee&#45;&gt;df2dd382be8444c1b4a85afd376c0eaf -->
+<!-- 4304754b56ac496ba1af4496a3a98f8b&#45;&gt;de2a1b676d0e4701b4adbe8370d1b8f5 -->
 <g id="edge22" class="edge">
-<title>6fe3ce248b064c269b3bd6ef745fcfee&#45;&gt;df2dd382be8444c1b4a85afd376c0eaf</title>
+<title>4304754b56ac496ba1af4496a3a98f8b&#45;&gt;de2a1b676d0e4701b4adbe8370d1b8f5</title>
 <path fill="none" stroke="#7b8894" d="M583.02,-897.31C585.27,-891.35 587.3,-885.37 589,-879.46 639.95,-702.08 562.64,-637.47 632,-466.46 637.81,-452.12 646.31,-438.15 655.6,-425.38"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="658.57,-427.27 661.81,-417.18 652.98,-423.04 658.57,-427.27"/>
 </g>
-<!-- 0165767a1cab424bb258bfa708c59be2 -->
+<!-- b98eba6f6a3945c58fd092a24c781dec -->
 <g id="node19" class="node">
-<title>0165767a1cab424bb258bfa708c59be2</title>
+<title>b98eba6f6a3945c58fd092a24c781dec</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/onprem/compute/server.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="662" y="-213.956"/>
 <text text-anchor="middle" x="712.5" y="-98.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Compliance</text>
 <text text-anchor="middle" x="712.5" y="-84.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Reports</text>
 </g>
-<!-- f18b2132b49243ed87e56ef5224564af&#45;&gt;0165767a1cab424bb258bfa708c59be2 -->
+<!-- 26936e29ee8b461a8e1b0daf1b628a19&#45;&gt;b98eba6f6a3945c58fd092a24c781dec -->
 <g id="edge21" class="edge">
-<title>f18b2132b49243ed87e56ef5224564af&#45;&gt;0165767a1cab424bb258bfa708c59be2</title>
+<title>26936e29ee8b461a8e1b0daf1b628a19&#45;&gt;b98eba6f6a3945c58fd092a24c781dec</title>
 <path fill="none" stroke="#7b8894" d="M542.16,-695.15C548.23,-590.36 567.97,-406.9 632,-264.46 638.19,-250.68 646.67,-237.13 655.78,-224.65"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="658.62,-226.7 661.85,-216.61 653.03,-222.48 658.62,-226.7"/>
 </g>
-<!-- 9f8e74e5c6e14d92b587cafde5fbc927 -->
+<!-- 10a35c3b06254425acf9c320c56d5ac6 -->
 <g id="node15" class="node">
-<title>9f8e74e5c6e14d92b587cafde5fbc927</title>
+<title>10a35c3b06254425acf9c320c56d5ac6</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/azure/integration/logic-apps.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="873" y="-836.956"/>
 <text text-anchor="middle" x="923.5" y="-721.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">SOAR</text>
 <text text-anchor="middle" x="923.5" y="-707.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Playbooks</text>
 </g>
-<!-- f1569dd565164dd2970257315036bb35&#45;&gt;9f8e74e5c6e14d92b587cafde5fbc927 -->
+<!-- c13a24be9a4f4ff4a387e33dfc34a7af&#45;&gt;10a35c3b06254425acf9c320c56d5ac6 -->
 <g id="edge15" class="edge">
-<title>f1569dd565164dd2970257315036bb35&#45;&gt;9f8e74e5c6e14d92b587cafde5fbc927</title>
+<title>c13a24be9a4f4ff4a387e33dfc34a7af&#45;&gt;10a35c3b06254425acf9c320c56d5ac6</title>
 <path fill="none" stroke="red" d="M763.03,-786.46C792.98,-786.46 831.36,-786.46 862.96,-786.46"/>
 <polygon fill="red" stroke="red" points="862.96,-789.96 872.96,-786.46 862.96,-782.96 862.96,-789.96"/>
 <text text-anchor="middle" x="825" y="-790.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Trigger</text>
 </g>
-<!-- d4eba24ff47c41adacb62a5ffab3f58e&#45;&gt;9f8e74e5c6e14d92b587cafde5fbc927 -->
+<!-- 82f64853716d44f5bfcfaf6d95a6bffb&#45;&gt;10a35c3b06254425acf9c320c56d5ac6 -->
 <g id="edge16" class="edge">
-<title>d4eba24ff47c41adacb62a5ffab3f58e&#45;&gt;9f8e74e5c6e14d92b587cafde5fbc927</title>
+<title>82f64853716d44f5bfcfaf6d95a6bffb&#45;&gt;10a35c3b06254425acf9c320c56d5ac6</title>
 <path fill="none" stroke="#7b8894" d="M763.03,-940.58C793.76,-910.88 833.36,-872.61 865.41,-841.63"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="868.21,-843.8 872.96,-834.33 863.34,-838.77 868.21,-843.8"/>
 </g>
-<!-- 5cf8b1f47e53462cba4779fa99b59bda -->
+<!-- d74075fbafc84f2c8f386846ef624ebd -->
 <g id="node16" class="node">
-<title>5cf8b1f47e53462cba4779fa99b59bda</title>
+<title>d74075fbafc84f2c8f386846ef624ebd</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/azure/integration/logic-apps.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1025" y="-836.956"/>
 <text text-anchor="middle" x="1075.5" y="-721.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Auto</text>
 <text text-anchor="middle" x="1075.5" y="-707.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Remediation</text>
 </g>
-<!-- 9f8e74e5c6e14d92b587cafde5fbc927&#45;&gt;5cf8b1f47e53462cba4779fa99b59bda -->
+<!-- 10a35c3b06254425acf9c320c56d5ac6&#45;&gt;d74075fbafc84f2c8f386846ef624ebd -->
 <g id="edge17" class="edge">
-<title>9f8e74e5c6e14d92b587cafde5fbc927&#45;&gt;5cf8b1f47e53462cba4779fa99b59bda</title>
+<title>10a35c3b06254425acf9c320c56d5ac6&#45;&gt;d74075fbafc84f2c8f386846ef624ebd</title>
 <path fill="none" stroke="#7b8894" d="M974.03,-786.46C987.02,-786.46 1001.16,-786.46 1014.63,-786.46"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1014.76,-789.96 1024.76,-786.46 1014.76,-782.96 1014.76,-789.96"/>
 </g>
-<!-- 10b04224a4a1482182889c5c2b5fe16e -->
+<!-- 39b2c900809e4ab4a89430454e93e333 -->
 <g id="node17" class="node">
-<title>10b04224a4a1482182889c5c2b5fe16e</title>
+<title>39b2c900809e4ab4a89430454e93e333</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/azure/devops/boards.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="1025" y="-634.956"/>
 <text text-anchor="middle" x="1075.5" y="-519.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Incident</text>
 <text text-anchor="middle" x="1075.5" y="-505.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Tickets</text>
 </g>
-<!-- 9f8e74e5c6e14d92b587cafde5fbc927&#45;&gt;10b04224a4a1482182889c5c2b5fe16e -->
+<!-- 10a35c3b06254425acf9c320c56d5ac6&#45;&gt;39b2c900809e4ab4a89430454e93e333 -->
 <g id="edge18" class="edge">
-<title>9f8e74e5c6e14d92b587cafde5fbc927&#45;&gt;10b04224a4a1482182889c5c2b5fe16e</title>
+<title>10a35c3b06254425acf9c320c56d5ac6&#45;&gt;39b2c900809e4ab4a89430454e93e333</title>
 <path fill="none" stroke="#7b8894" d="M974.03,-719.75C988.36,-700.46 1004.09,-679.28 1018.76,-659.51"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="1021.61,-661.55 1024.76,-651.43 1015.99,-657.37 1021.61,-661.55"/>
 </g>
-<!-- 850374200f4b47beb41736bbe6e950ee -->
+<!-- 78e72d595d104f01b4f11e31f29ce641 -->
 <g id="node21" class="node">
-<title>850374200f4b47beb41736bbe6e950ee</title>
+<title>78e72d595d104f01b4f11e31f29ce641</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/onprem/compute/server.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="873" y="-415.956"/>
 <text text-anchor="middle" x="923.5" y="-300.56" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">SOC Team</text>
 </g>
-<!-- 10b04224a4a1482182889c5c2b5fe16e&#45;&gt;850374200f4b47beb41736bbe6e950ee -->
+<!-- 39b2c900809e4ab4a89430454e93e333&#45;&gt;78e72d595d104f01b4f11e31f29ce641 -->
 <g id="edge19" class="edge">
-<title>10b04224a4a1482182889c5c2b5fe16e&#45;&gt;850374200f4b47beb41736bbe6e950ee</title>
+<title>39b2c900809e4ab4a89430454e93e333&#45;&gt;78e72d595d104f01b4f11e31f29ce641</title>
 <path fill="none" stroke="#7b8894" d="M1024.76,-511.84C1009.56,-489.64 992.79,-465.15 977.38,-442.66"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="980.09,-440.42 971.55,-434.15 974.31,-444.38 980.09,-440.42"/>
 </g>
-<!-- df2dd382be8444c1b4a85afd376c0eaf&#45;&gt;850374200f4b47beb41736bbe6e950ee -->
+<!-- de2a1b676d0e4701b4adbe8370d1b8f5&#45;&gt;78e72d595d104f01b4f11e31f29ce641 -->
 <g id="edge23" class="edge">
-<title>df2dd382be8444c1b4a85afd376c0eaf&#45;&gt;850374200f4b47beb41736bbe6e950ee</title>
+<title>de2a1b676d0e4701b4adbe8370d1b8f5&#45;&gt;78e72d595d104f01b4f11e31f29ce641</title>
 <path fill="none" stroke="#7b8894" d="M763.03,-365.46C792.98,-365.46 831.36,-365.46 862.96,-365.46"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="862.96,-368.96 872.96,-365.46 862.96,-361.96 862.96,-368.96"/>
 </g>
-<!-- a0592ef9b52e4d64ba4eb59e5264bbdc -->
+<!-- fc689ca25e4c4fd38a4875b10756bf23 -->
 <g id="node22" class="node">
-<title>a0592ef9b52e4d64ba4eb59e5264bbdc</title>
+<title>fc689ca25e4c4fd38a4875b10756bf23</title>
 <image xlink:href="/workspaces/sov-cloud-brain-trek/.venv/lib/python3.12/site-packages/resources/onprem/network/internet.png" width="101px" height="101px" preserveAspectRatio="xMinYMin meet" x="873" y="-227.956"/>
 <text text-anchor="middle" x="923.5" y="-112.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Threat</text>
 <text text-anchor="middle" x="923.5" y="-98.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Intelligence</text>
 </g>
-<!-- a0592ef9b52e4d64ba4eb59e5264bbdc&#45;&gt;6fe3ce248b064c269b3bd6ef745fcfee -->
+<!-- fc689ca25e4c4fd38a4875b10756bf23&#45;&gt;4304754b56ac496ba1af4496a3a98f8b -->
 <g id="edge14" class="edge">
-<title>a0592ef9b52e4d64ba4eb59e5264bbdc&#45;&gt;6fe3ce248b064c269b3bd6ef745fcfee</title>
+<title>fc689ca25e4c4fd38a4875b10756bf23&#45;&gt;4304754b56ac496ba1af4496a3a98f8b</title>
 <path fill="none" stroke="#7b8894" stroke-dasharray="5,2" d="M872.84,-109.89C851.26,-86.1 823.85,-62.13 793,-49.46 726.81,-22.27 683.89,-0.18 632,-49.46 565.03,-113.04 612.18,-790.07 589,-879.46 588.28,-882.25 587.47,-885.05 586.6,-887.86"/>
 <polygon fill="#7b8894" stroke="#7b8894" points="583.26,-886.81 583.37,-897.4 589.89,-889.05 583.26,-886.81"/>
 <text text-anchor="middle" x="712.5" y="-53.06" font-family="Sans-Serif" font-size="13.00" fill="#2d3436">Enrichment</text>
