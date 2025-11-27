@@ -3,6 +3,7 @@ layout: default
 title: Observability Stack
 nav_order: 30
 parent: Level 300 - Advanced
+nav_exclude: true
 description: "Monitoring and observability with data residency compliance"
 ---
 

@@ -3,6 +3,7 @@ layout: default
 title: Sovereign Landing Zone
 nav_order: 20
 parent: Level 300 - Advanced
+nav_exclude: true
 description: "Complete enterprise reference architecture for sovereign cloud infrastructure"
 ---
 

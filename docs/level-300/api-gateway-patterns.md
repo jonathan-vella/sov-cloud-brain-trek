@@ -3,6 +3,7 @@ layout: default
 title: API Gateway Patterns
 nav_order: 27
 parent: Level 300 - Advanced
+nav_exclude: true
 description: "Secure API management with sovereignty controls"
 ---
 

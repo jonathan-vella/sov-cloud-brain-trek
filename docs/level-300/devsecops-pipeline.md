@@ -3,6 +3,7 @@ layout: default
 title: DevSecOps Pipeline
 nav_order: 31
 parent: Level 300 - Advanced
+nav_exclude: true
 description: "Security-integrated pipelines"
 ---
 

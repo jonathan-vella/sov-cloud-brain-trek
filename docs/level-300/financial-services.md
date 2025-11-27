@@ -3,6 +3,7 @@ layout: default
 title: Financial Services
 nav_order: 60
 parent: Level 300 - Advanced
+nav_exclude: true
 description: "Advanced sovereign cloud architecture for Financial Services"
 ---
 

@@ -3,6 +3,7 @@ layout: default
 title: Incident Response
 nav_order: 22
 parent: Level 300 - Advanced
+nav_exclude: true
 description: "Security incident response for sovereign cloud environments"
 ---
 

@@ -3,6 +3,7 @@ layout: default
 title: Healthcare
 nav_order: 70
 parent: Level 300 - Advanced
+nav_exclude: true
 description: "Advanced sovereign cloud architecture for Healthcare"
 ---
 

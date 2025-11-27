@@ -3,6 +3,7 @@ layout: default
 title: Critical Infrastructure
 nav_order: 26
 parent: Level 300 - Advanced
+nav_exclude: true
 description: "OT/IT convergence for critical infrastructure"
 ---
 

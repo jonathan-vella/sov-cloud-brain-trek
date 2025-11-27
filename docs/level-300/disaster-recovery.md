@@ -3,6 +3,7 @@ layout: default
 title: Disaster Recovery
 nav_order: 32
 parent: Level 300 - Advanced
+nav_exclude: true
 description: "Multi-region disaster recovery patterns"
 ---
 
