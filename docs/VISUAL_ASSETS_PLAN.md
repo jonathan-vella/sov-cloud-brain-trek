@@ -56,12 +56,12 @@ This document outlines the plan for adding visual diagrams and infographics to t
 |----|------|---------|------|--------|
 | L50-11 | cloud-benefits.md | TCO comparison chart | mermaid | ✅ |
 | L50-12 | cloud-benefits.md | Scalability patterns | mermaid | ✅ |
-| L50-13 | networking-basics.md | OSI model layers | mermaid | ⏭️ File N/A |
-| L50-15 | networking-basics.md | IP addressing diagram | matplotlib | ⏭️ File N/A |
-| L50-16 | virtualization-basics.md | Hypervisor types | mermaid | ⏭️ File N/A |
-| L50-18 | azure-global-infrastructure.md | Azure regions map | mermaid | ✅ (existing) |
-| L50-19 | storage-concepts.md | Storage tiers pyramid | mermaid | ⏭️ File N/A |
-| L50-20 | compute-concepts.md | Compute options matrix | matplotlib | ⏭️ File N/A |
+| L50-13 | azure-service-categories.md | Networking fundamentals | mermaid | ✅ |
+| L50-15 | azure-service-categories.md | Storage tiers pyramid | mermaid | ✅ |
+| L50-16 | cloud-computing-primer.md | Hypervisor types | mermaid | ✅ |
+| L50-18 | azure-global-infrastructure.md | Azure hierarchy | mermaid | ✅ (existing) |
+| L50-19 | azure-service-categories.md | Compute options | mermaid | ✅ |
+| L50-20 | azure-service-categories.md | Compute options matrix | mermaid | ✅ |
 
 ### Level 100 - Foundational
 
@@ -201,7 +201,7 @@ docs/
 ## Progress Tracking
 
 - [x] Phase 1: Foundation diagrams (18 assets)
-- [x] Phase 2: Deep-dive visuals (30 assets completed, 5 files N/A)
+- [x] Phase 2: Deep-dive visuals (35 assets - all complete)
 - [ ] Phase 3: Advanced architecture (15 assets)
 
 ---

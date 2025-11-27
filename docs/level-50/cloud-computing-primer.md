@@ -172,6 +172,67 @@ graph TB
 - No upfront capital investments
 - Variable costs based on actual usage
 
+## Virtualization: The Foundation of Cloud
+
+Cloud computing is built on virtualization technology. Understanding hypervisors and virtual machines is essential for grasping how cloud resources work.
+
+<details class="diagram-container" open>
+<summary>View Diagram: Hypervisor Types</summary>
+<div class="diagram-content" markdown="1">
+
+```mermaid
+graph TB
+    subgraph Type1["Type 1 Hypervisor (Bare Metal)"]
+        direction TB
+        HW1[Physical Hardware<br/>CPU, RAM, Storage]
+        HV1[Hypervisor<br/>Hyper-V, ESXi, KVM]
+        VM1A[VM 1<br/>Windows]
+        VM1B[VM 2<br/>Linux]
+        VM1C[VM 3<br/>Windows]
+
+        HW1 --> HV1
+        HV1 --> VM1A
+        HV1 --> VM1B
+        HV1 --> VM1C
+    end
+
+    subgraph Type2["Type 2 Hypervisor (Hosted)"]
+        direction TB
+        HW2[Physical Hardware]
+        OS2[Host Operating System<br/>Windows, macOS, Linux]
+        HV2[Hypervisor<br/>VirtualBox, VMware Workstation]
+        VM2A[VM 1]
+        VM2B[VM 2]
+
+        HW2 --> OS2
+        OS2 --> HV2
+        HV2 --> VM2A
+        HV2 --> VM2B
+    end
+
+    style Type1 fill:#D4E9D7,stroke:#107C10,stroke-width:2px,color:#000
+    style Type2 fill:#E8F4FD,stroke:#0078D4,stroke-width:2px,color:#000
+    style HV1 fill:#FFF4E6,stroke:#FF8C00,stroke-width:2px,color:#000
+    style HV2 fill:#FFF4E6,stroke:#FF8C00,stroke-width:2px,color:#000
+```
+
+_Figure: Type 1 (bare-metal) hypervisors run directly on hardware for better performance; Type 2 (hosted) run on top of an OS for development/testing_
+
+</div>
+</details>
+
+**Type 1 (Bare-Metal) Hypervisors** - Used in cloud data centers:
+
+- Microsoft Hyper-V, VMware ESXi, KVM
+- Direct hardware access for best performance
+- Powers Azure, AWS, GCP infrastructure
+
+**Type 2 (Hosted) Hypervisors** - Used for development/testing:
+
+- VirtualBox, VMware Workstation, Parallels
+- Runs on top of a host operating system
+- Good for local development environments
+
 **Dynamic Resource Management**
 
 - Elastic scaling based on demand
