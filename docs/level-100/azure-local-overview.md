@@ -18,11 +18,16 @@ nav_order: 1
 
 ---
 
+{: .note }
+> ⏱️ **Reading Time:** 20-25 min | 🎯 **Key Topics:** Hyperconverged infrastructure, Azure hybrid, sovereign deployment | 📋 **Prerequisites:** [Cloud Computing Primer](../level-50/cloud-computing-primer.md)
+
+---
+
 ## What is Azure Local?
 
 **Azure Local** (formerly known as Azure Stack HCI) is Microsoft's hybrid cloud platform that brings Azure services and cloud-based management to on-premises infrastructure. Released in 2024 as part of Microsoft's Cloud for Sovereignty initiative, Azure Local enables organizations to run virtualized workloads on validated hardware in their own data centers while maintaining consistent management through Azure Arc.
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Azure Local in Sovereign Cloud Strategy</summary>
 <div class="diagram-content" markdown="1">
 

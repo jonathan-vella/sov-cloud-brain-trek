@@ -17,7 +17,7 @@ FedRAMP (Federal Risk and Authorization Management Program) is the U.S. governme
 
 ### What is FedRAMP?
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: FedRAMP Control Families Overview</summary>
 <div class="diagram-content">
 

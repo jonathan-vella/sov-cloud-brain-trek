@@ -9,7 +9,7 @@ nav_order: 3
 
 ## Overview
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Inference Optimization Flow</summary>
 <div class="diagram-content" markdown="1">
 

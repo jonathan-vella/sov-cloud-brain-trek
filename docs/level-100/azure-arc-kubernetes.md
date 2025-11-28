@@ -20,7 +20,7 @@ nav_order: 4.2
 
 ## What is Arc-Enabled Kubernetes?
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Arc-Enabled Kubernetes Architecture</summary>
 <div class="diagram-content" markdown="1">
 

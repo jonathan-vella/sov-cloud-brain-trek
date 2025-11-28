@@ -11,7 +11,7 @@ nav_order: 2
 
 ## Overview
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Security Monitoring Flow</summary>
 <div class="diagram-content">
 

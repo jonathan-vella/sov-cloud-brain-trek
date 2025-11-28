@@ -13,7 +13,7 @@ description: "Azure regions, availability zones, and global infrastructure overv
 
 Azure's global infrastructure enables worldwide deployment with data residency compliance and high availability. This section provides key concepts with references to official documentation.
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Azure Global Regions Map</summary>
 <div class="diagram-content">
 

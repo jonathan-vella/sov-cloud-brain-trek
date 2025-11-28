@@ -9,7 +9,7 @@ nav_order: 3
 
 ## Overview
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: MLOps Pipeline for Edge RAG</summary>
 <div class="diagram-content">
 

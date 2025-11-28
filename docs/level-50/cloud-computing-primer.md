@@ -72,7 +72,7 @@ _Figure: The five essential characteristics of cloud computing as defined by NIS
 
 ## Traditional IT vs. Cloud Computing
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Traditional IT vs Cloud Computing</summary>
 <div class="diagram-content">
 
@@ -130,7 +130,7 @@ _Figure: Capital Expenditure (CapEx) vs Operational Expenditure (OpEx) cost mode
 
 Cloud computing is built on virtualization technology. Understanding hypervisors and virtual machines is essential for grasping how cloud resources work.
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Hypervisor Types</summary>
 <div class="diagram-content">
 

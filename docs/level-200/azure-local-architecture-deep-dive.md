@@ -9,6 +9,9 @@ has_children: true
 
 ## Overview
 
+{: .note }
+> ⏱️ **Reading Time:** 30-40 min | 🎯 **Key Topics:** S2D, SDN, cluster architecture, capacity planning | 📋 **Prerequisites:** [Azure Local Overview](../level-100/azure-local-overview.md)
+
 Building on the foundational knowledge from Level 100 Module 3 (Azure Local Overview), this module explores the advanced technical architecture of Azure Local systems. This deep dive is designed for technical professionals and solutions architects who need to plan, deploy, and optimize production Azure Local environments.
 
 This module covers:
@@ -25,7 +28,7 @@ This module covers:
 
 ## Complete System Architecture
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Storage Spaces Direct Architecture</summary>
 <div class="diagram-content">
 

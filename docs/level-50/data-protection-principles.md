@@ -13,7 +13,7 @@ description: "Core principles for protecting data in cloud environments"
 
 Understanding how to properly classify, handle, and protect data is fundamental to cloud security and compliance.
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Data Classification Pyramid</summary>
 <div class="diagram-content">
 

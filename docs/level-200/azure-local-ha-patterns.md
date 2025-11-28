@@ -9,7 +9,7 @@ nav_order: 3
 
 This section covers advanced strategies for building highly available and resilient Azure Local deployments. Understanding these patterns is essential for designing mission-critical systems.
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: HA Topology Options</summary>
 <div class="diagram-content" markdown="1">
 

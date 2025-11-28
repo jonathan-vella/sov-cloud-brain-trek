@@ -59,7 +59,7 @@ User Question → Retrieve Relevant Docs → LLM + Context → Enhanced Answer
 
 ## Edge RAG System Architecture
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Edge RAG System Architecture</summary>
 <div class="diagram-content" markdown="1">
 

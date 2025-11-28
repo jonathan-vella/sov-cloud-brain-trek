@@ -9,7 +9,7 @@ nav_order: 5.1
 
 {: .no_toc }
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Vector Embedding Process</summary>
 <div class="diagram-content">
 

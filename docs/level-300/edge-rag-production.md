@@ -14,7 +14,7 @@ has_children: true
 
 Deploy and operate Retrieval-Augmented Generation (RAG) systems at production scale on edge infrastructure within sovereign cloud environments. Master real-world deployment patterns, optimization techniques, and enterprise operations.
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Production Edge RAG Architecture</summary>
 <div class="diagram-content">
 

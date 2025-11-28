@@ -45,7 +45,7 @@ After completing this section, you will be able to:
 
 ## Sovereign Landing Zone Components
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Sovereign Landing Zone Architecture</summary>
 <div class="diagram-content">
 _
@@ -94,7 +94,7 @@ The sovereign landing zone uses a hierarchical management group structure:
 
 For organizations requiring geographic redundancy within sovereignty boundaries:
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Multi-Region Sovereign Deployment</summary>
 <div class="diagram-content">
 _
@@ -119,7 +119,7 @@ When selecting Azure regions for sovereign deployments:
 
 Organizations with on-premises Active Directory require hybrid identity integration:
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Hybrid Identity Architecture</summary>
 <div class="diagram-content">
 _

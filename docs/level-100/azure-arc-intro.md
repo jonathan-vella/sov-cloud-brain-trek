@@ -18,9 +18,14 @@ nav_order: 1
 
 ---
 
+{: .note }
+> ⏱️ **Reading Time:** 15-20 min | 🎯 **Key Topics:** Hybrid management, multi-cloud governance, Arc-enabled services | 📋 **Prerequisites:** [Azure Core Services](../level-50/azure-core-services.md)
+
+---
+
 ## Overview
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Azure Arc Overview</summary>
 <div class="diagram-content" markdown="1">
 

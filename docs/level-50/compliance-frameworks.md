@@ -13,7 +13,7 @@ description: "Overview of major compliance frameworks and regulations"
 
 Compliance frameworks provide structured approaches to meeting regulatory and industry requirements for data protection, security, and governance.
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Major Compliance Framework Timeline</summary>
 <div class="diagram-content">
 

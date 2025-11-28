@@ -39,7 +39,7 @@ After completing this section, you will be able to:
 
 ## Observability Architecture
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 _summary>View Diagram: Observability Stack</summary>_
 <div class="diagram-content">
 _

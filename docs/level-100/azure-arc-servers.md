@@ -22,7 +22,7 @@ nav_order: 4.1
 
 Azure Arc-enabled Servers extends Azure management to Windows and Linux machines hosted outside of Azure - in your datacenter, at the edge, or in other clouds.
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Arc-Enabled Servers Architecture</summary>
 <div class="diagram-content" markdown="1">
 

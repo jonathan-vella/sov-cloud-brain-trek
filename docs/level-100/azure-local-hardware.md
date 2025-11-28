@@ -18,6 +18,11 @@ nav_order: 3.4
 
 ---
 
+{: .note }
+> ⏱️ **Reading Time:** 15-20 min | 🎯 **Key Topics:** Validated hardware, sizing, vendor selection | 📋 **Prerequisites:** [Azure Local Overview](azure-local-overview.md)
+
+---
+
 ## Overview
 
 Selecting the right hardware is critical for Azure Local success. This page provides comprehensive guidance on hardware requirements, validated partners, sizing strategies, and deployment planning.

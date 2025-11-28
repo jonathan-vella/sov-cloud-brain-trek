@@ -53,7 +53,7 @@ On April 30, 2025, Microsoft announced five comprehensive commitments to support
 
 **Commitment:** Enable customers to store and process their data within the European Union, with limited and transparent exceptions.
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: EU Data Boundary</summary>
 <div class="diagram-content">
 

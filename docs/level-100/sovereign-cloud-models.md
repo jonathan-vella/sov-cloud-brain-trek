@@ -9,7 +9,7 @@ nav_order: 1
 
 {: .no_toc }
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Sovereign Cloud Models Comparison</summary>
 <div class="diagram-content">
 
@@ -25,6 +25,11 @@ _Figure 1: Comparison of sovereign cloud deployment models_
 
 1. TOC
 {:toc}
+
+---
+
+{: .note }
+> ⏱️ **Reading Time:** 20-25 min | 🎯 **Key Topics:** Public vs private sovereign cloud, decision criteria, use cases | 📋 **Prerequisites:** [Digital Sovereignty](digital-sovereignty.md)
 
 ---
 

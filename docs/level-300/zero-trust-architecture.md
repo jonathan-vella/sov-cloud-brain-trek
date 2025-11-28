@@ -13,7 +13,7 @@ nav_order: 1
 
 This page provides a detailed technical architecture for implementing Zero Trust in sovereign cloud environments. It covers the components, data flows, decision points, and how all six pillars work together end-to-end.
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Zero Trust Architecture for Sovereign Cloud</summary>
 <div class="diagram-content">
 

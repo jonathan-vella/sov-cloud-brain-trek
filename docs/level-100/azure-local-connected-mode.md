@@ -18,6 +18,11 @@ nav_order: 3.2
 
 ---
 
+{: .note }
+> ⏱️ **Reading Time:** 15-20 min | 🎯 **Key Topics:** Hybrid management, Azure Arc integration, outbound connectivity | 📋 **Prerequisites:** [Azure Local Overview](azure-local-overview.md)
+
+---
+
 ## What is Connected Mode?
 
 **Connected Mode** is the default and recommended deployment mode for Azure Local. In this mode, the cluster maintains regular connectivity to Microsoft Azure services, enabling hybrid cloud capabilities, centralized management, and cloud-based monitoring and backup services.

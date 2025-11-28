@@ -9,7 +9,7 @@ nav_order: 4
 
 Network design significantly impacts Azure Local performance and reliability. This section covers advanced networking patterns used in enterprise deployments.
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Software-Defined Networking Architecture</summary>
 <div class="diagram-content">
 

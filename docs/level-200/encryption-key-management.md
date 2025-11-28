@@ -7,6 +7,9 @@ nav_order: 7
 
 # Encryption & Key Management
 
+{: .note }
+> ⏱️ **Reading Time:** 25-30 min | 🎯 **Key Topics:** Key Vault, HSM, BYOK, key rotation, GDPR/FedRAMP | 📋 **Prerequisites:** [Security Compliance Basics](../level-50/security-compliance-basics.md)
+
 ## Overview
 
 <details class="diagram-container" open>

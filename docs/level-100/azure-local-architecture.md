@@ -22,7 +22,7 @@ nav_order: 3.1
 
 Azure Local architecture combines physical infrastructure with software-defined technologies to create a hyper-converged platform. Understanding the architecture is essential for planning deployments, sizing infrastructure, and troubleshooting issues.
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Azure Local Architecture Stack</summary>
 <div class="diagram-content">
 

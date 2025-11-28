@@ -9,7 +9,7 @@ nav_order: 4
 
 ## Overview
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Enterprise Arc Topology</summary>
 <div class="diagram-content">
 

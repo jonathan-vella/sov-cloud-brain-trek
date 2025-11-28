@@ -22,7 +22,7 @@ description: "Comprehensive analysis of cloud adoption benefits and key consider
 
 Cloud computing offers significant business advantages while introducing new considerations. Understanding both benefits and challenges enables informed adoption decisions.
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Cloud vs On-Premises TCO Comparison</summary>
 <div class="diagram-content">
 
@@ -68,7 +68,7 @@ _Figure 1: Cloud eliminates capital expenses and reduces operational overhead_
 
 ### Scalability and Performance
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Cloud Scalability Patterns</summary>
 <div class="diagram-content">
 

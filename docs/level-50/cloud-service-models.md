@@ -76,7 +76,7 @@ Cloud service models define the level of control and responsibility between clou
 
 Understanding who is responsible for what in each service model:
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Shared Responsibility Matrix (Visual)</summary>
 <div class="diagram-content">
 
@@ -86,7 +86,7 @@ _Figure 1: Shared Responsibility Matrix across cloud service models_
 </div>
 </details>
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Shared Responsibility Model (Table)</summary>
 <div class="diagram-content">
 

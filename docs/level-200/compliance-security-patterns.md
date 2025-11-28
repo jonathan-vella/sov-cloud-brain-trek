@@ -9,7 +9,7 @@ nav_order: 1
 
 ## Overview
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Security Patterns Matrix</summary>
 <div class="diagram-content">
 

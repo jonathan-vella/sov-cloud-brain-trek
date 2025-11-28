@@ -17,7 +17,7 @@ Azure provides hundreds of services organized into key categories. Rather than d
 
 ### Compute Services
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Azure Compute Options</summary>
 <div class="diagram-content">
 
@@ -42,7 +42,7 @@ Essential services for running applications and workloads.
 
 ### Storage Services
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Azure Storage Tiers</summary>
 <div class="diagram-content">
 
@@ -67,7 +67,7 @@ Scalable storage solutions for all data types.
 
 ### Networking Services
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Azure Networking Fundamentals</summary>
 <div class="diagram-content">
 

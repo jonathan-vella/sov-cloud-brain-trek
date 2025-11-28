@@ -9,7 +9,7 @@ nav_order: 5
 
 ## Overview
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: GDPR Data Flow Architecture</summary>
 <div class="diagram-content" markdown="1">
 

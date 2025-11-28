@@ -18,6 +18,11 @@ nav_order: 3.3
 
 ---
 
+{: .note }
+> ⏱️ **Reading Time:** 15-20 min | 🎯 **Key Topics:** Air-gapped operations, manual updates, certificate management | 📋 **Prerequisites:** [Connected Mode](azure-local-connected-mode.md)
+
+---
+
 ## What is Disconnected Mode?
 
 **Disconnected Mode** enables Azure Local clusters to operate completely independently without continuous connectivity to Microsoft Azure or the internet. This mode is designed for air-gapped environments, classified networks, and scenarios where data must remain completely isolated.

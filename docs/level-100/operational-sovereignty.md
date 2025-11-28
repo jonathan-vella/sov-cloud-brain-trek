@@ -22,7 +22,7 @@ nav_order: 5
 
 Operational sovereignty refers to an organization's ability to maintain control and independence over the operation, management, and access of their IT infrastructure and data. While data residency focuses on _where_ data is stored, operational sovereignty addresses _who_ can access it, _how_ it's managed, and _under what conditions_.
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Operational Sovereignty Dimensions</summary>
 <div class="diagram-content" markdown="1">
 

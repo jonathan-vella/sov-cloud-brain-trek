@@ -24,7 +24,7 @@ Security and compliance are fundamental considerations in cloud computing. Under
 
 ## Core Security Principles
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: The CIA Triad</summary>
 <div class="diagram-content">
 
@@ -143,7 +143,7 @@ Monitors data movement, identifies sensitive patterns, blocks/alerts on policy v
 
 Meeting legal, regulatory, and industry requirements; following standards; demonstrating due diligence.
 
-<details class="diagram-container" open>
+<details class="diagram-container">
 <summary>View Diagram: Compliance Frameworks Comparison</summary>
 <div class="diagram-content">
 
