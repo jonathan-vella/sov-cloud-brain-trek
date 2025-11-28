@@ -43,4 +43,4 @@ Build foundational knowledge of security principles, data protection, and compli
 - Data classification
 - Risk management principles
 
-**Duration:** 45-60 minutes
+**Duration:** 20-30 minutes

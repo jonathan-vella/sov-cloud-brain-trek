@@ -46,9 +46,9 @@ Before starting Level 100, ensure you have:
 - [ ] Access to Microsoft Learn (free account) - [Sign up here](https://learn.microsoft.com)
 - [ ] (Optional) Azure free account for hands-on exploration - [Get started](https://azure.microsoft.com/free)
 
-**Estimated Time Commitment:** 2-3 hours per week  
+**Estimated Time Commitment:** 1-2 hours per week  
 **Total Duration:** 2-4 weeks  
-**Total Hours:** 4-12 hours
+**Total Hours:** 2-6 hours
 
 ---
 
@@ -56,7 +56,7 @@ Before starting Level 100, ensure you have:
 
 ### 1. Digital Sovereignty Fundamentals
 
-**Duration:** 1-2 hours
+**Duration:** 30-60 minutes
 
 📚 **Main Content:**
 
@@ -83,7 +83,7 @@ Before starting Level 100, ensure you have:
 
 ### 2. Microsoft Sovereign Cloud Models
 
-**Duration:** 2-3 hours
+**Duration:** 1-1.5 hours
 
 📚 **Main Content:**
 
@@ -110,7 +110,7 @@ Before starting Level 100, ensure you have:
 
 ### 3. Azure Local Overview
 
-**Duration:** 2-3 hours
+**Duration:** 1-1.5 hours
 
 📚 **Main Content:**
 
@@ -140,7 +140,7 @@ Before starting Level 100, ensure you have:
 
 ### 4. Azure Arc Introduction
 
-**Duration:** 1.5-2 hours
+**Duration:** 45-60 minutes
 
 📚 **Main Content:**
 
@@ -169,7 +169,7 @@ Before starting Level 100, ensure you have:
 
 ### 5. Edge RAG Concepts
 
-**Duration:** 2-2.5 hours
+**Duration:** 1-1.25 hours
 
 📚 **Main Content:**
 

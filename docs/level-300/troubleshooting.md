@@ -14,7 +14,7 @@ has_children: true
 
 Master advanced troubleshooting techniques, diagnostic tools, and system optimization for production sovereign cloud environments. Learn how to investigate complex issues, optimize performance, and escalate appropriately.
 
-**Duration:** 6-8 hours  
+**Duration:** 3-4 hours  
 **Learning Tracks:** Both Sales & Technical  
 **Prerequisites:** Level 200 completion (all modules)
 

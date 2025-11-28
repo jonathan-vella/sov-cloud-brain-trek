@@ -14,7 +14,7 @@ has_children: true
 
 Master air-gapped Azure Local deployments with manual updates, certificate management, and complete operational independence. This module covers the most stringent sovereign cloud scenarios with zero cloud dependency.
 
-**Duration:** 8-10 hours  
+**Duration:** 4-5 hours  
 **Learning Tracks:** Both Sales & Technical  
 **Prerequisites:** Level 200 Azure Local completion
 

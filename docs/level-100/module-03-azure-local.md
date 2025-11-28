@@ -44,4 +44,4 @@ Master the fundamentals of Azure Local architecture, deployment modes, and hybri
 - Validated hardware ecosystem
 - High availability and disaster recovery
 
-**Duration:** 2-3 hours
+**Duration:** 1-1.5 hours

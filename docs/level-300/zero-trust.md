@@ -16,7 +16,7 @@ has_children: true
 
 Master the Zero Trust security model and its application to sovereign cloud environments. This module covers foundational principles, sovereign-specific requirements, implementation patterns, and compliance integration for advanced security architects.
 
-**Duration:** 6-8 hours  
+**Duration:** 3-4 hours  
 **Learning Tracks:** Sales & Technical  
 **Prerequisites:** Level 200 completion
 

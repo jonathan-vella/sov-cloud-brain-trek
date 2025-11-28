@@ -12,7 +12,7 @@ has_children: true
 
 Master customer discovery, solution architecture, sizing methodologies, and business case development for sovereign cloud implementations.
 
-**Duration:** 5-7 hours
+**Duration:** 2.5-3.5 hours
 
 ## Module Content
 

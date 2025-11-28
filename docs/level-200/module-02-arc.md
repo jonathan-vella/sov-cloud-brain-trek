@@ -12,7 +12,7 @@ has_children: true
 
 Master enterprise-scale governance, cost optimization, and security hardening for Azure Arc across hybrid and multi-cloud environments.
 
-**Duration:** 7-9 hours
+**Duration:** 3.5-4.5 hours
 
 ## Module Content
 

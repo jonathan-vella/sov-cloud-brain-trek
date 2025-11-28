@@ -45,10 +45,10 @@ Before starting Level 200, ensure you have:
 - [ ] Access to an Azure subscription (for technical track)
 - [ ] Access to lab environment or Azure Local hardware for hands-on exercises
 
-**Estimated Time Commitment:** 6-10 hours per week  
+**Estimated Time Commitment:** 3-5 hours per week  
 **Total Program Duration:** 4-6 weeks (to complete all 3 modules)  
 **Completed to Date:** 2 of 6 planned modules (~234 KB of content)  
-**Total Planned Hours:** 21-27 hours core content + hands-on labs
+**Total Planned Hours:** 11-14 hours core content + hands-on labs
 
 ---
 
@@ -56,7 +56,7 @@ Before starting Level 200, ensure you have:
 
 ### Module 1: Azure Local Architecture Deep Dive
 
-**Duration:** 6-8 hours | **Status:** ✅ Complete
+**Duration:** 3-4 hours | **Status:** ✅ Complete
 
 Explore advanced Azure Local deployment patterns, hardware planning, high-availability architectures, and advanced networking scenarios for enterprise edge deployments.
 
@@ -72,7 +72,7 @@ Explore advanced Azure Local deployment patterns, hardware planning, high-availa
 
 ### Module 2: Arc Advanced Management
 
-**Duration:** 7-9 hours | **Status:** ✅ Complete
+**Duration:** 3.5-4.5 hours | **Status:** ✅ Complete
 
 Master enterprise-scale governance, cost optimization, and security hardening for Azure Arc across hybrid and multi-cloud environments.
 
@@ -88,7 +88,7 @@ Master enterprise-scale governance, cost optimization, and security hardening fo
 
 ### Module 3: Edge RAG Implementation
 
-**Duration:** 8-10 hours | **Status:** ✅ Complete
+**Duration:** 4-5 hours | **Status:** ✅ Complete
 
 Master production-ready Retrieval-Augmented Generation deployment patterns, LLM optimization, vector database tuning, and operational excellence for enterprise edge deployments.
 
@@ -105,7 +105,7 @@ Master production-ready Retrieval-Augmented Generation deployment patterns, LLM 
 
 ### Module 4: Pre-Sales & Solution Design
 
-**Duration:** 5-7 hours | **Status:** ✅ Complete
+**Duration:** 2.5-3.5 hours | **Status:** ✅ Complete
 
 Master customer discovery, solution architecture, sizing methodologies, and business case development for sovereign cloud implementations.
 
@@ -121,7 +121,7 @@ Master customer discovery, solution architecture, sizing methodologies, and busi
 
 ### Module 5: Compliance & Security Patterns
 
-**Duration:** 6-8 hours | **Status:** ✅ Complete
+**Duration:** 3-4 hours | **Status:** ✅ Complete
 
 Master regulatory compliance frameworks (GDPR, FedRAMP), encryption strategies, key management, security hardening, and incident response for sovereign cloud deployments.
 
@@ -138,7 +138,7 @@ Master regulatory compliance frameworks (GDPR, FedRAMP), encryption strategies, 
 
 ### Module 6: Hands-On Labs
 
-**Duration:** 11-16 hours | **Status:** ✅ Complete
+**Duration:** 6-8 hours | **Status:** ✅ Complete
 
 Five progressive hands-on labs reinforcing Modules 1-5 through practical implementation of Azure Local, Azure Arc, Edge RAG, policy governance, and monitoring in a complete sovereign cloud environment.
 

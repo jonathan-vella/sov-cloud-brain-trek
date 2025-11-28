@@ -24,7 +24,7 @@ _Figure 1: Enterprise-grade Edge RAG architecture with load balancing, GPU infer
 </div>
 </details>
 
-**Duration:** 10-12 hours  
+**Duration:** 5-6 hours  
 **Learning Tracks:** Both Sales & Technical  
 **Prerequisites:** Level 200 Edge RAG completion
 

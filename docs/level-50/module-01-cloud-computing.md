@@ -43,4 +43,4 @@ Build essential understanding of cloud computing concepts, service models, and d
 - Scalability and elasticity
 - OpEx vs CapEx models
 
-**Duration:** 45-60 minutes
+**Duration:** 20-30 minutes

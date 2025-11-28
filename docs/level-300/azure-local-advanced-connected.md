@@ -14,7 +14,7 @@ has_children: true
 
 Scale Azure Local deployments across multiple sites while maintaining cloud connectivity. This module covers multi-site architectures, advanced networking, cloud-integrated updates, and cost optimization for production environments.
 
-**Duration:** 8-10 hours  
+**Duration:** 4-5 hours  
 **Learning Tracks:** Both Sales & Technical  
 **Prerequisites:** Level 200 Azure Local completion
 

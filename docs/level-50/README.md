@@ -45,9 +45,9 @@ Before starting Level 50, you should have:
 - [ ] Access to a web browser for online learning resources
 - [ ] (Optional) Microsoft Learn account - [Sign up here](https://learn.microsoft.com)
 
-**Estimated Time Commitment:** 1-2 hours per week
+**Estimated Time Commitment:** 30-60 minutes per week
 **Total Duration:** 1-2 weeks
-**Total Hours:** 2-4 hours
+**Total Hours:** 1-2 hours
 
 ---
 
@@ -55,19 +55,19 @@ Before starting Level 50, you should have:
 
 ### [Module 1: Cloud Computing Fundamentals]({% link level-50/module-01-cloud-computing.md %})
 
-**Duration:** 45-60 minutes
+**Duration:** 20-30 minutes
 
 Learn essential cloud computing concepts including service models (IaaS, PaaS, SaaS), deployment models (public, private, hybrid), and business benefits. Understand the shift from CapEx to OpEx and how cloud enables scalability and innovation.
 
 ### [Module 2: Security & Compliance Fundamentals]({% link level-50/module-02-security-compliance.md %})
 
-**Duration:** 45-60 minutes
+**Duration:** 20-30 minutes
 
 Build foundational knowledge of security principles (CIA triad), data protection, identity and access management, and key compliance frameworks (GDPR, HIPAA, SOC 2, ISO 27001).
 
 ### [Module 3: Microsoft Azure Introduction]({% link level-50/module-03-azure-intro.md %})
 
-**Duration:** 60-90 minutes
+**Duration:** 30-45 minutes
 
 Explore Microsoft Azure's platform, global infrastructure, service categories, and management tools. Understand regions, availability zones, and key Azure services.
 

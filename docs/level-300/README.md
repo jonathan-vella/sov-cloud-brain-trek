@@ -46,9 +46,9 @@ Before starting Level 300, ensure you have:
 - [ ] Experience with at least one Azure Local deployment
 - [ ] Familiarity with PowerShell and infrastructure-as-code tools
 
-**Estimated Time Commitment:** 6-10 hours per week  
-**Total Duration:** 8-12 weeks  
-**Total Hours:** 48-120 hours
+**Estimated Time Commitment:** 3-5 hours per week  
+**Total Duration:** 4-6 weeks  
+**Total Hours:** 24-60 hours
 
 ---
 
@@ -56,7 +56,7 @@ Before starting Level 300, ensure you have:
 
 ### 1. Zero Trust Security for Sovereign Clouds
 
-**Duration:** 6-8 hours
+**Duration:** 3-4 hours
 
 - [Zero Trust Principles](zero-trust.md)
 - [Implementation Patterns](zero-trust#implementation)
@@ -64,7 +64,7 @@ Before starting Level 300, ensure you have:
 
 ### 2. Azure Local at Scale - Connected
 
-**Duration:** 8-10 hours
+**Duration:** 4-5 hours
 
 - [Advanced Networking](azure-local-advanced-connected.md)
 - [Multi-Site Deployments](azure-local-advanced-connected#multi-site)
@@ -72,7 +72,7 @@ Before starting Level 300, ensure you have:
 
 ### 3. Azure Local at Scale - Disconnected
 
-**Duration:** 8-10 hours
+**Duration:** 4-5 hours
 
 - [Air-Gapped Operations](azure-local-advanced-disconnected.md)
 - [Manual Update Procedures](azure-local-advanced-disconnected#updates)
@@ -80,7 +80,7 @@ Before starting Level 300, ensure you have:
 
 ### 4. Production Edge RAG Deployment
 
-**Duration:** 10-12 hours
+**Duration:** 5-6 hours
 
 - [Production Architecture](edge-rag-production.md)
 - [Performance Optimization](edge-rag-production#optimization)
@@ -88,7 +88,7 @@ Before starting Level 300, ensure you have:
 
 ### 5. Advanced Troubleshooting
 
-**Duration:** 6-8 hours
+**Duration:** 3-4 hours
 
 - [Diagnostic Tools and Techniques](troubleshooting.md)
 - [Common Issues and Resolutions](troubleshooting#common-issues)
@@ -134,7 +134,7 @@ Before starting Level 300, ensure you have:
 - Azure subscription
 - Test workload environment
 
-**Estimated Time:** 4-6 hours
+**Estimated Time:** 2-3 hours
 
 **[Lab Instructions →](zero-trust-lab.md)**
 
@@ -152,7 +152,7 @@ Before starting Level 300, ensure you have:
 - Azure Local hardware or nested virtualization environment
 - Offline update packages
 
-**Estimated Time:** 8-10 hours
+**Estimated Time:** 4-5 hours
 
 **[Lab Instructions →](azure-local-disconnected-lab.md)**
 
@@ -170,7 +170,7 @@ Before starting Level 300, ensure you have:
 - Completion of Level 200 Edge RAG labs
 - AKS Arc cluster with adequate resources
 
-**Estimated Time:** 10-12 hours
+**Estimated Time:** 5-6 hours
 
 **[Lab Instructions →](edge-rag-production-lab.md)**
 

@@ -43,4 +43,4 @@ Build foundational understanding of Microsoft Azure platform, services, global i
 - Azure Active Directory basics
 - Resource groups and subscriptions
 
-**Duration:** 60-90 minutes
+**Duration:** 30-45 minutes

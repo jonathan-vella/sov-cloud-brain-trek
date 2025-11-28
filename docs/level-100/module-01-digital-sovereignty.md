@@ -43,4 +43,4 @@ Build foundational understanding of digital sovereignty concepts, regulatory req
 - EU Data Boundary
 - Control plane models
 
-**Duration:** 1-2 hours
+**Duration:** 30-60 minutes

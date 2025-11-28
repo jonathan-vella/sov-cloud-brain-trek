@@ -43,4 +43,4 @@ Explore Retrieval-Augmented Generation (RAG) fundamentals and learn how to deplo
 - Edge computing benefits
 - Industry-specific use cases
 
-**Duration:** 2-2.5 hours
+**Duration:** 1-1.25 hours
