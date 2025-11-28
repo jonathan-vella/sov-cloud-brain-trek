@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Multi-Site Azure Local Architectures
-parent: Azure Local at Scale - Connected Mode
+parent: Module 2 - Azure Local Connected
 nav_order: 1
 ---
 

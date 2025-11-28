@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab - Connected Mode Multi-Site
-parent: Azure Local at Scale - Connected Mode
+parent: Module 2 - Azure Local Connected
 nav_order: 3
 ---
 

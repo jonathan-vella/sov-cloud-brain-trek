@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Escalation & Advanced Support
-parent: Advanced Troubleshooting & Optimization
+parent: Module 5 - Advanced Troubleshooting
 nav_order: 3
 ---
 

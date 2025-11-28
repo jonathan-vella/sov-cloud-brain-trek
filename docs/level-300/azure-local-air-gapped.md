@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Air-Gapped Architecture Design
-parent: Azure Local at Scale - Disconnected Mode
+parent: Module 3 - Azure Local Disconnected
 nav_order: 1
 ---
 

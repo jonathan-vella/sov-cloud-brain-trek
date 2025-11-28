@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Common Issues & Resolution Patterns
-parent: Advanced Troubleshooting & Optimization
+parent: Module 5 - Advanced Troubleshooting
 nav_order: 2
 ---
 

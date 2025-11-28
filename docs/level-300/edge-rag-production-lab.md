@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab - Production RAG Deployment
-parent: Production Edge RAG at Scale
+parent: Module 4 - Production Edge RAG
 nav_order: 4
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Advanced Networking for Connected Mode
-parent: Azure Local at Scale - Connected Mode
+parent: Module 2 - Azure Local Connected
 nav_order: 2
 ---
 

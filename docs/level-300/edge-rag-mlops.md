@@ -1,7 +1,7 @@
 ---
 layout: default
 title: MLOps for Edge RAG Systems
-parent: Production Edge RAG at Scale
+parent: Module 4 - Production Edge RAG
 nav_order: 3
 ---
 

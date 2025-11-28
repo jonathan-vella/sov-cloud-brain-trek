@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Zero Trust Implementation Architecture
-parent: Zero Trust Security for Sovereign Clouds
+parent: Module 1 - Zero Trust Security
 nav_order: 1
 ---
 

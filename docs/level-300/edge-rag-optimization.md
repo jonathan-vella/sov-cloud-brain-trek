@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Performance Optimization for Edge RAG
-parent: Production Edge RAG at Scale
+parent: Module 4 - Production Edge RAG
 nav_order: 2
 ---
 

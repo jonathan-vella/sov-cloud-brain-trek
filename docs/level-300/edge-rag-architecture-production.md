@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Production RAG Architecture Deep Dive
-parent: Production Edge RAG at Scale
+parent: Module 4 - Production Edge RAG
 nav_order: 1
 ---
 
