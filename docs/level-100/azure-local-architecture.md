@@ -22,9 +22,9 @@ nav_order: 3.1
 
 Azure Local architecture combines physical infrastructure with software-defined technologies to create a hyper-converged platform. Understanding the architecture is essential for planning deployments, sizing infrastructure, and troubleshooting issues.
 
-<details class="diagram-container">
+<details class="diagram-container" open>
 <summary>View Diagram: Azure Local Architecture Stack</summary>
-<div class="diagram-content" markdown="1">
+<div class="diagram-content">
 
 ![Azure Local Architecture showing the full stack from hardware through Azure integration](../assets/images/level-100/azure-local-architecture.svg)
 _Figure 1: Complete Azure Local architecture with all layers from hardware to Azure cloud integration_
@@ -932,12 +932,8 @@ For scenarios beyond 16 nodes:
 - Workload placement by cluster
 - Good for multi-site deployments
 
-**Stretched Clusters (Advanced):**
-
-- Single cluster across two sites
-- Synchronous replication between sites
-- Low latency requirement (< 5ms)
-- Complex configuration
+{: .warning }
+> **⚠️ Stretch Clusters Not Supported:** Azure Local does **not** support stretch clusters (single cluster spanning two sites). For multi-site high availability, use Azure Site Recovery or Storage Replica between separate Azure Local clusters at each site.
 
 ---
 
