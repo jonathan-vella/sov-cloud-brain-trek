@@ -310,6 +310,43 @@ Use these standard terms throughout:
 - **Technical accuracy** is paramount — verify against Microsoft Learn
 - **Accessible language** — define acronyms on first use
 
+### Source Verification (Critical)
+
+**All technical content must be verified against authoritative Microsoft documentation.** Do not generate specifications, feature lists, or technical details from memory or assumption.
+
+**Required verification sources:**
+
+| Topic | Authoritative URL |
+|-------|-------------------|
+| Azure Local | `https://learn.microsoft.com/en-us/azure/azure-local/` |
+| Azure Arc | `https://learn.microsoft.com/en-us/azure/azure-arc/` |
+| Sovereign Cloud | `https://learn.microsoft.com/en-us/industry/sovereignty/` |
+| Edge RAG | `https://learn.microsoft.com/en-us/azure/azure-arc/edge-rag/` |
+| Disconnected Ops | `https://learn.microsoft.com/en-us/azure/azure-local/manage/disconnected-operations-overview` |
+
+**Verification requirements:**
+
+1. **Fetch before writing:** Always retrieve current documentation before adding technical specifications (node counts, feature availability, hardware requirements)
+2. **Mark preview features:** Clearly indicate features in Preview vs GA status
+3. **Include references:** Add Microsoft Learn links for verifiable claims
+4. **Date-stamp volatile content:** Note the documentation version date for rapidly-changing features
+5. **Avoid assumptions:** If documentation is unclear, state "verify with current Microsoft documentation" rather than guessing
+
+**Example of proper attribution:**
+
+```markdown
+{: .note }
+> **📝 Source:** [Article Title](https://learn.microsoft.com/...) — Microsoft Learn (Month YYYY)
+```
+
+**Features known to change frequently:**
+
+- Node count limits and scaling
+- Preview feature availability
+- Hardware requirements
+- Regional availability
+- Pricing and licensing
+
 ### Role-Specific Content
 
 When content differs by audience:

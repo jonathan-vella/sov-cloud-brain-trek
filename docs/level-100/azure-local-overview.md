@@ -27,7 +27,7 @@ nav_order: 1
 
 **Azure Local** (formerly known as Azure Stack HCI) is Microsoft's hybrid cloud platform that brings Azure services and cloud-based management to on-premises infrastructure. Released in 2024 as part of Microsoft's Cloud for Sovereignty initiative, Azure Local enables organizations to run virtualized workloads on validated hardware in their own data centers while maintaining consistent management through Azure Arc.
 
-<details class="diagram-container">
+<details class="diagram-container" open>
 <summary>View Diagram: Azure Local in Sovereign Cloud Strategy</summary>
 <div class="diagram-content" markdown="1">
 
@@ -117,6 +117,85 @@ The transition to Azure Local reflects Microsoft's commitment to:
 ---
 
 ## Architecture and Deployment Models
+
+Azure Local supports multiple deployment models to meet different scale and infrastructure requirements:
+
+### Deployment Types
+
+| Deployment Type | Scale | Storage | Status | Use Cases |
+|-----------------|-------|---------|--------|-----------|
+| **Hyperconverged** | 1-16 machines | Storage Spaces Direct | GA | Standard HCI, edge sites, branch offices |
+| **Rack-Aware** | 4-8 machines (2 racks) | Storage Spaces Direct | Preview | Room/building-level HA, manufacturing |
+| **Multi-Rack** | 100s of machines (4+ racks) | SAN storage | Preview | Large-scale enterprise, data centers |
+| **Disconnected Operations** | 3+ node mgmt cluster | Storage Spaces Direct | Preview | Air-gapped, regulated environments |
+
+{: .note }
+> **📝 Source:** [Azure Local Scalability and Deployments](https://learn.microsoft.com/en-us/azure/azure-local/scalability-deployments) — Microsoft Learn (November 2025)
+
+### Hyperconverged Deployments (GA)
+
+The standard deployment model for most Azure Local scenarios:
+
+**Characteristics:**
+
+- **Scale:** 1-16 physical machines per cluster
+- **Storage:** Storage Spaces Direct (local NVMe/SSD/HDD)
+- **Networking:** Customer-managed physical switches and VLANs
+- **Management:** Azure portal, CLI, ARM templates, Windows Admin Center
+
+**Best For:**
+
+- Edge computing and branch offices
+- Sovereign and regulated workloads
+- AI/ML inference at the edge
+- Development and test environments
+- Small to medium production workloads
+
+**Reference:** [Hyperconverged Deployments Overview](https://learn.microsoft.com/en-us/azure/azure-local/overview/hyperconverged-overview)
+
+### Rack-Aware Clustering (Preview)
+
+Advanced architecture providing rack-level fault tolerance:
+
+**Characteristics:**
+
+- **Scale:** 4-8 machines across exactly 2 physical racks
+- **Configuration:** Balanced nodes (2+2, 3+3, or 4+4)
+- **Latency:** ≤1ms round-trip between racks required
+- **Availability Zones:** Each rack functions as a local availability zone
+
+**Best For:**
+
+- Room or building-level high availability
+- Manufacturing plants, hospitals, airports
+- Environments requiring rack-level fault tolerance
+- Mission-critical applications
+
+**Reference:** [Rack-Aware Clustering Overview](https://learn.microsoft.com/en-us/azure/azure-local/concepts/rack-aware-cluster-overview)
+
+### Multi-Rack Deployments (Preview)
+
+Enterprise-scale deployments for large data center environments:
+
+**Characteristics:**
+
+- **Scale:** Hundreds of servers across multiple racks
+- **Minimum:** 4 racks (1 aggregation + 3 compute racks)
+- **Storage:** Built-in SAN storage shared across compute racks
+- **Networking:** Azure-managed network devices and configuration
+- **Hardware:** Prescriptive BOM with preintegrated racks
+
+**Best For:**
+
+- Large enterprise data centers
+- High-performance computing environments
+- Massive AI/ML training workloads
+- Hyperscale sovereign deployments
+
+{: .important }
+> **Preview Access:** Multi-rack deployments are available for qualified opportunities. Contact your Microsoft account team to participate.
+
+**Reference:** [Multi-Rack Deployments Overview](https://learn.microsoft.com/en-us/azure/azure-local/multi-rack/multi-rack-overview)
 
 ### System Architecture
 
