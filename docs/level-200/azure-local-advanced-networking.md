@@ -11,7 +11,7 @@ Network design significantly impacts Azure Local performance and reliability. Th
 
 <details class="diagram-container">
 <summary>View Diagram: Software-Defined Networking Architecture</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![SDN Architecture showing Network Controller, virtual networks, load balancers, and gateways](../assets/images/level-200/sdn-architecture.svg)
 _Figure 1: Azure Local Software-Defined Networking (SDN) architecture_

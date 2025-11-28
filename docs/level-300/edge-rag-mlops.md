@@ -11,7 +11,7 @@ nav_order: 3
 
 <details class="diagram-container">
 <summary>View Diagram: MLOps Pipeline for Edge RAG</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![MLOps Pipeline showing development, training, deployment, monitoring, and retraining lifecycle](../assets/images/level-300/mlops-pipeline.svg)
 _Figure 1: Complete MLOps pipeline for Edge RAG model lifecycle management_

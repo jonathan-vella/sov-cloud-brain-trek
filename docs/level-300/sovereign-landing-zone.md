@@ -47,7 +47,7 @@ After completing this section, you will be able to:
 
 <details class="diagram-container">
 <summary>View Diagram: Sovereign Landing Zone Architecture</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 _
 _[Sovereign Landing Zone Architecture](../assets/images/level-300/sovereign-landing-zone.svg)_
 _Figure 1: Complete sovereign landing zone with management group hierarchy, network topology, and security controls_
@@ -96,7 +96,7 @@ For organizations requiring geographic redundancy within sovereignty boundaries:
 
 <details class="diagram-container">
 <summary>View Diagram: Multi-Region Sovereign Deployment</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 _
 _[Multi-Region Sovereign Deployment](../assets/images/level-300/multi-region-sovereign.svg)_
 _Figure 2: Multi-region deployment with data residency controls and cross-region replication_
@@ -121,7 +121,7 @@ Organizations with on-premises Active Directory require hybrid identity integrat
 
 <details class="diagram-container">
 <summary>View Diagram: Hybrid Identity Architecture</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 _
 _[Hybrid Identity Architecture](../assets/images/level-300/hybrid-identity.svg_
 _Figure 3: Hybrid identity with Microsoft Entra Connect and conditional access_

@@ -15,7 +15,7 @@ Identity and Access Management (IAM) is the foundation of cloud security, contro
 
 <details class="diagram-container">
 <summary>View Diagram: Authentication vs Authorization Flow</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Authentication vs Authorization Flow](../assets/images/level-50/authentication-authorization-flow.svg)
 _Figure: Authentication verifies identity; Authorization determines permissions_

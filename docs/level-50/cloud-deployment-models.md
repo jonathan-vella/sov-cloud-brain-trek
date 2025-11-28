@@ -24,7 +24,7 @@ Cloud deployment models define where cloud infrastructure is located, who has ac
 
 <details class="diagram-container">
 <summary>View Diagram: Cloud Deployment Architectures</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Cloud Deployment Models showing Public, Private, Hybrid, and Multi-cloud architectures](../assets/images/level-50/cloud-deployment-models.svg)
 _Figure 1: Cloud deployment model architectures and their relationships_
@@ -34,7 +34,7 @@ _Figure 1: Cloud deployment model architectures and their relationships_
 
 <details class="diagram-container">
 <summary>View Diagram: Cloud Deployment Models Overview</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Cloud Deployment Models Overview](../assets/images/level-50/cloud-deployment-models-overview.svg)
 _Figure 2: Four primary cloud deployment models and their characteristics_

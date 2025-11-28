@@ -15,7 +15,7 @@ Azure's global infrastructure enables worldwide deployment with data residency c
 
 <details class="diagram-container">
 <summary>View Diagram: Azure Global Regions Map</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Azure Global Regions Map](../assets/images/level-100/azure-regions-map.svg)
 _Figure: Azure global datacenter regions with EU Data Boundary highlighted_
@@ -25,7 +25,7 @@ _Figure: Azure global datacenter regions with EU Data Boundary highlighted_
 
 <details class="diagram-container">
 <summary>View Diagram: Azure Infrastructure Hierarchy</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Azure Infrastructure Hierarchy](../assets/images/level-50/azure-infrastructure-hierarchy.svg)
 _Figure: Azure global infrastructure hierarchy from Geographies to Data Centers_

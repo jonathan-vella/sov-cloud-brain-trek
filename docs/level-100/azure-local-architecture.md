@@ -24,7 +24,7 @@ Azure Local architecture combines physical infrastructure with software-defined 
 
 <details class="diagram-container">
 <summary>View Diagram: Azure Local Architecture Stack</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Azure Local Architecture showing the full stack from hardware through Azure integration](../assets/images/level-100/azure-local-architecture.svg)
 _Figure 1: Complete Azure Local architecture with all layers from hardware to Azure cloud integration_

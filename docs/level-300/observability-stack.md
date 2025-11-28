@@ -41,7 +41,7 @@ After completing this section, you will be able to:
 
 <details class="diagram-container">
 _summary>View Diagram: Observability Stack</summary>_
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 _
 ![Observability Stack](../assets/images/level-300/observability-stack.svg)
 _Figure 1: Complete observability stack with regional data collection and storage_

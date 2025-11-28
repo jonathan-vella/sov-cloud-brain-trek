@@ -11,7 +11,7 @@ nav_order: 5.1
 
 <details class="diagram-container">
 <summary>View Diagram: Vector Embedding Process</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Vector Embedding Process showing text to vector pipeline, semantic similarity, and model comparison](../assets/images/level-100/vector-embedding-process.svg)
 _Figure 1: How text is converted to vector embeddings for RAG retrieval_

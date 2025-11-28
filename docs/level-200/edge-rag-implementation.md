@@ -7,11 +7,14 @@ nav_order: 1
 
 # Edge RAG Implementation
 
+{: .note }
+> ⏱️ **Reading Time:** 25-30 min | 🎯 **Key Topics:** LLM inference, vector databases, AKS Arc deployment | 📋 **Prerequisites:** [Edge RAG Concepts](../level-100/edge-rag-concepts.md)
+
 ## Overview
 
-<details class="diagram-container">
+<details class="diagram-container" open>
 <summary>View Diagram: Edge RAG Implementation Architecture</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Edge RAG Implementation showing on-premises AI infrastructure with embedding, vector store, and LLM components](../assets/images/level-200/edge-rag-implementation.svg)
 _Figure 1: Production Edge RAG architecture on Azure Arc-enabled infrastructure_

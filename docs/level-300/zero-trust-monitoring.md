@@ -13,7 +13,7 @@ nav_order: 2
 
 <details class="diagram-container">
 <summary>View Diagram: Security Monitoring Flow</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Security Monitoring Flow showing data collection, analysis, threat detection, and response pipeline](../assets/images/level-300/security-monitoring-flow.svg)
 _Figure 1: Zero Trust security monitoring and threat detection architecture_

@@ -30,7 +30,7 @@ This module covers:
 
 <details class="diagram-container">
 <summary>View Diagram: Storage Spaces Direct Architecture</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Storage Spaces Direct (S2D) architecture showing storage pool, tiering, and resiliency layers](../assets/images/level-200/storage-spaces-direct.svg)
 _Figure 1: Storage Spaces Direct (S2D) architecture with tiering and resiliency_

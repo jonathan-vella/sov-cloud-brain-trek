@@ -24,7 +24,7 @@ Cloud computing offers significant business advantages while introducing new con
 
 <details class="diagram-container">
 <summary>View Diagram: Cloud vs On-Premises TCO Comparison</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Cloud vs On-Premises TCO Comparison](../assets/images/level-50/cloud-tco-comparison.svg)
 _Figure 1: Cloud eliminates capital expenses and reduces operational overhead_
@@ -70,7 +70,7 @@ _Figure 1: Cloud eliminates capital expenses and reduces operational overhead_
 
 <details class="diagram-container">
 <summary>View Diagram: Cloud Scalability Patterns</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Cloud Scalability Patterns](../assets/images/level-50/cloud-scalability-patterns.svg)
 _Figure 2: Cloud enables vertical, horizontal, and automatic scaling patterns_

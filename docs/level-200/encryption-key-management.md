@@ -14,7 +14,7 @@ nav_order: 7
 
 <details class="diagram-container" open>
 <summary>View Diagram: Encryption Key Hierarchy</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Encryption Key Hierarchy showing master keys, KEKs, DEKs and key rotation lifecycle](../assets/images/level-200/encryption-key-hierarchy.svg)
 _Figure 1: Azure Key Vault key hierarchy and management architecture_

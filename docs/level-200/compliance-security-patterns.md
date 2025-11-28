@@ -11,7 +11,7 @@ nav_order: 1
 
 <details class="diagram-container">
 <summary>View Diagram: Security Patterns Matrix</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Security Patterns Matrix showing compliance framework coverage across different security domains](../assets/images/level-200/security-patterns-matrix.svg)
 _Figure 1: Compliance framework coverage matrix for sovereign cloud security_

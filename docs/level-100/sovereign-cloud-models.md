@@ -11,7 +11,7 @@ nav_order: 1
 
 <details class="diagram-container">
 <summary>View Diagram: Sovereign Cloud Models Comparison</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Sovereign Cloud Models Comparison showing control, security, and connectivity metrics across deployment options](../assets/images/level-100/sovereign-cloud-models-comparison.svg)
 _Figure 1: Comparison of sovereign cloud deployment models_

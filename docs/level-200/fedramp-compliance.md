@@ -19,7 +19,7 @@ FedRAMP (Federal Risk and Authorization Management Program) is the U.S. governme
 
 <details class="diagram-container">
 <summary>View Diagram: FedRAMP Control Families Overview</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![FedRAMP Control Families showing controls per family and categorization](../assets/images/level-200/fedramp-control-families.svg)
 _Figure 1: FedRAMP control families based on NIST SP 800-53, organized by technical, operational, and management categories_

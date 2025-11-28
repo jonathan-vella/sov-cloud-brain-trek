@@ -15,7 +15,7 @@ This page provides a detailed technical architecture for implementing Zero Trust
 
 <details class="diagram-container">
 <summary>View Diagram: Zero Trust Architecture for Sovereign Cloud</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Zero Trust Architecture showing identity verification, network security, and data protection layers](../assets/images/level-300/zero-trust-architecture.svg)
 _Figure 1: Complete Zero Trust implementation architecture with all security pillars and continuous monitoring_

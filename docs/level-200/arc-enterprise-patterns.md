@@ -11,7 +11,7 @@ nav_order: 4
 
 <details class="diagram-container">
 <summary>View Diagram: Enterprise Arc Topology</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Enterprise Azure Arc Topology showing hub-spoke model with central governance and distributed Arc agents](../assets/images/level-200/enterprise-arc-topology.svg)
 _Figure 1: Enterprise Azure Arc hub-spoke governance topology_

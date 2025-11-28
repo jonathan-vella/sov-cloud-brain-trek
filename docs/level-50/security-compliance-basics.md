@@ -26,7 +26,7 @@ Security and compliance are fundamental considerations in cloud computing. Under
 
 <details class="diagram-container">
 <summary>View Diagram: The CIA Triad</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![CIA Triad showing Confidentiality, Integrity, and Availability](../assets/images/level-50/cia-triad.svg)
 _Figure: The CIA Triad forms the foundation of information security_
@@ -60,7 +60,7 @@ The foundation of information security rests on three core principles:
 
 <details class="diagram-container">
 <summary>View Diagram: Defense in Depth Layers</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Defense in Depth showing 7 security layers](../assets/images/level-50/defense-in-depth.svg)
 _Figure: Multiple layers of security controls provide comprehensive protection_
@@ -145,7 +145,7 @@ Meeting legal, regulatory, and industry requirements; following standards; demon
 
 <details class="diagram-container">
 <summary>View Diagram: Compliance Frameworks Comparison</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Compliance Frameworks showing GDPR, HIPAA, SOC 2, PCI DSS, FedRAMP, and ISO 27001 comparison](../assets/images/level-50/compliance-frameworks-comparison.svg)
 _Figure 1: Major compliance frameworks and their key focus areas_

@@ -16,7 +16,7 @@ Deploy and operate Retrieval-Augmented Generation (RAG) systems at production sc
 
 <details class="diagram-container">
 <summary>View Diagram: Production Edge RAG Architecture</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Production Edge RAG Architecture showing LLM inference, vector stores, and high availability patterns](../assets/images/level-300/edge-rag-production.svg)
 _Figure 1: Enterprise-grade Edge RAG architecture with load balancing, GPU inference, and vector storage replication_

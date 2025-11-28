@@ -78,7 +78,7 @@ Understanding who is responsible for what in each service model:
 
 <details class="diagram-container">
 <summary>View Diagram: Shared Responsibility Matrix (Visual)</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Shared Responsibility Matrix showing customer vs provider responsibilities across IaaS, PaaS, and SaaS](../assets/images/level-50/shared-responsibility-matrix.svg)
 _Figure 1: Shared Responsibility Matrix across cloud service models_
@@ -88,7 +88,7 @@ _Figure 1: Shared Responsibility Matrix across cloud service models_
 
 <details class="diagram-container">
 <summary>View Diagram: Shared Responsibility Model (Table)</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 | Layer | On-Premises | IaaS | PaaS | SaaS |
 |:------|:-----------:|:----:|:----:|:----:|

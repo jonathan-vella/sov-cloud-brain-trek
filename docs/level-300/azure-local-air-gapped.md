@@ -11,7 +11,7 @@ nav_order: 1
 
 <details class="diagram-container">
 <summary>View Diagram: Air-Gapped Architecture</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Air-Gapped Architecture showing secure zones, data diodes, and offline update mechanisms](../assets/images/level-300/air-gapped-architecture.svg)
 _Figure 1: Air-gapped Azure Local architecture with secure transfer mechanisms_

@@ -15,7 +15,7 @@ Understanding how to properly classify, handle, and protect data is fundamental 
 
 <details class="diagram-container">
 <summary>View Diagram: Data Classification Pyramid</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Data Classification Pyramid](../assets/images/level-50/data-classification-pyramid.svg)
 _Figure: Data classification levels from Restricted (highest protection) to Public (basic controls)_

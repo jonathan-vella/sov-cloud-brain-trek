@@ -30,7 +30,7 @@ Cloud computing is the delivery of computing services—including servers, stora
 
 <details class="diagram-container">
 <summary>View Diagram: Five Essential Cloud Characteristics (NIST)</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![NIST Cloud Computing Essential Characteristics](../assets/images/level-50/cloud-computing-mindmap.svg)
 _Figure: The five essential characteristics of cloud computing as defined by NIST SP 800-145_
@@ -74,7 +74,7 @@ _Figure: The five essential characteristics of cloud computing as defined by NIS
 
 <details class="diagram-container">
 <summary>View Diagram: Traditional IT vs Cloud Computing</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Traditional IT vs Cloud Computing](../assets/images/level-50/traditional-vs-cloud.svg)
 _Figure: Traditional IT requires weeks/months for provisioning while cloud enables instant deployment_
@@ -118,7 +118,7 @@ _Figure: Traditional IT requires weeks/months for provisioning while cloud enabl
 
 <details class="diagram-container">
 <summary>View Diagram: CapEx vs OpEx Comparison</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![CapEx vs OpEx Comparison](../assets/images/level-100/capex-opex-comparison.svg)
 _Figure: Capital Expenditure (CapEx) vs Operational Expenditure (OpEx) cost models over time_
@@ -132,7 +132,7 @@ Cloud computing is built on virtualization technology. Understanding hypervisors
 
 <details class="diagram-container">
 <summary>View Diagram: Hypervisor Types</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Hypervisor Types Comparison](../assets/images/level-50/hypervisor-types.svg)
 _Figure: Type 1 (bare-metal) hypervisors run directly on hardware for better performance; Type 2 (hosted) run on top of an OS for development/testing_

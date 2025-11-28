@@ -19,7 +19,7 @@ Azure provides hundreds of services organized into key categories. Rather than d
 
 <details class="diagram-container">
 <summary>View Diagram: Azure Compute Options</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Azure Compute Options](../assets/images/level-50/azure-compute-options.svg)
 _Figure 1: Azure compute options from full control (VMs) to fully managed (Serverless)_
@@ -44,7 +44,7 @@ Essential services for running applications and workloads.
 
 <details class="diagram-container">
 <summary>View Diagram: Azure Storage Tiers</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Azure Storage Tiers](../assets/images/level-50/azure-storage-tiers.svg)
 _Figure 2: Azure Storage tiers - balance access needs with cost_
@@ -69,7 +69,7 @@ Scalable storage solutions for all data types.
 
 <details class="diagram-container">
 <summary>View Diagram: Azure Networking Fundamentals</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Azure Networking Fundamentals](../assets/images/level-50/azure-networking-fundamentals.svg)
 _Figure 3: Azure networking components - VNets, subnets, and connectivity_

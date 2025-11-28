@@ -15,7 +15,7 @@ Compliance frameworks provide structured approaches to meeting regulatory and in
 
 <details class="diagram-container">
 <summary>View Diagram: Major Compliance Framework Timeline</summary>
-<div class="diagram-content">
+<div class="diagram-content" markdown="1">
 
 ![Regulatory Timeline](../assets/images/level-100/regulatory-timeline.svg)
 _Figure: Timeline of major compliance and data protection regulations_
