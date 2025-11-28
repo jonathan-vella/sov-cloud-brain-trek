@@ -273,6 +273,35 @@ Explanation content here...
 </details>
 ```
 
+### Markdown Inside HTML Blocks (Critical)
+
+When including Markdown syntax (images, links, emphasis) inside HTML elements, you **must** add the `markdown="1"` attribute. Without this, Kramdown will not process Markdown inside raw HTML.
+
+```markdown
+<!-- ❌ WRONG: Markdown won't be processed -->
+<div class="diagram-content">
+![Architecture diagram](path/to/image.svg)
+</div>
+
+<!-- ✅ CORRECT: Markdown is processed -->
+<div class="diagram-content" markdown="1">
+![Architecture diagram](path/to/image.svg)
+</div>
+```
+
+Common patterns requiring `markdown="1"`:
+
+```markdown
+<div class="custom-container" markdown="1">
+
+**Bold text**, _italic_, and [links](url.md) work here.
+
+- List items work
+- As do code blocks
+
+</div>
+```
+
 ---
 
 ## Just the Docs Syntax
