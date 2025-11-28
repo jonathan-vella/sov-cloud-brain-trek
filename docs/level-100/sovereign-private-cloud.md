@@ -280,7 +280,10 @@ Dell PowerEdge R750
 | **Two-Way Mirror** | 2 nodes | 1 node or drive | 50% | Cost-effective HA |
 | **Three-Way Mirror** | 3 nodes | 2 nodes or drives | 33% | Production workloads |
 | **Mirror-Accelerated Parity** | 4 nodes | 2 nodes or drives | 50-67% | Archive/backup data |
-| **Nested Resiliency** | 4 nodes (2 per site) | 1 site + 1 node | 25-50% | Stretch clusters |
+| **Nested Resiliency** | 4 nodes | 2 nodes or drives | 25-50% | Single-site resilience |
+
+{: .note }
+> **📝 Note:** Stretch clusters (cross-site synchronous replication) are not supported in Azure Local. For multi-site deployments, use Azure Site Recovery or Storage Replica between separate clusters.
 
 **[Learn More: Storage Spaces Direct](https://learn.microsoft.com/en-us/azure-stack/hci/concepts/storage-spaces-direct-overview)**
 

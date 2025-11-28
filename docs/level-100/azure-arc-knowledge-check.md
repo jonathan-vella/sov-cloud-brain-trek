@@ -253,12 +253,15 @@ Arc SQL MI uses Always-On Availability Groups (AG) with synchronous replication 
 
 ### Question 11: Deployment Modes
 
-**What is the main difference between Directly Connected and Indirectly Connected modes for Arc Data Services?**
+{: .note }
+> **📝 Updated November 2025:** Indirectly Connected mode was retired in September 2025.
 
-A) Performance (Directly Connected is faster)  
-B) Direct mode has continuous Azure connectivity, Indirect mode is air-gapped with manual exports  
-C) Cost (Indirect mode is more expensive)  
-D) Features (Indirect mode has more features)
+**Which statement about Azure Arc Data Services connectivity is correct as of November 2025?**
+
+A) Indirectly Connected mode is recommended for maximum security  
+B) Only Directly Connected mode is supported; Indirect mode was retired in September 2025  
+C) Indirectly Connected mode offers better performance  
+D) Both modes are fully supported with identical features
 
 <details>
 <summary>Click to reveal answer</summary>
@@ -266,9 +269,11 @@ D) Features (Indirect mode has more features)
 **Correct Answer: B**
 
 **Explanation:**
-Directly Connected mode maintains regular connectivity to Azure with automatic billing uploads and Azure portal management. Indirectly Connected mode supports air-gapped scenarios with manual export/import of usage data and local management only. Performance is similar, costs are based on usage, and Direct mode has more features (not Indirect).
+As of September 2025, **Indirectly Connected mode has been retired**. Azure Arc-enabled Data Services now only supports Directly Connected mode, which requires continuous Azure connectivity for billing, monitoring, and management through the Azure portal.
 
-**Reference:** [Deployment Modes](azure-arc-data-services#deployment-modes)
+For disconnected/air-gapped scenarios, organizations should use **Azure Local with Disconnected Operations** (Preview), which provides a local Azure portal experience and supports Arc-enabled data services without public cloud connectivity.
+
+**Reference:** [Azure Arc Data Services Connectivity](https://learn.microsoft.com/en-us/azure/azure-arc/data/connectivity)
 </details>
 
 ---

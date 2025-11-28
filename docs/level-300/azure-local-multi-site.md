@@ -7,9 +7,25 @@ nav_order: 1
 
 # Multi-Site Azure Local Architectures
 
+{: .no_toc }
+
+## Table of Contents
+
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
 ## Overview
 
 Deploy Azure Local clusters across multiple physical sites with synchronized operations, failover capabilities, and coordinated governance.
+
+{: .important }
+> **📝 Key Distinction:** Azure Local does NOT support stretch clusters (single cluster spanning multiple sites). This page covers **multi-cluster** architectures where each site has its own Azure Local cluster, connected through replication and Arc management.
+>
+> For **rack-level** high availability within a single cluster, see [Rack-Aware Clustering](../level-200/azure-local-ha-patterns.md#rack-aware-clustering-preview).
 
 <details class="diagram-container">
 <summary>View Diagram: Multi-Site Replication Topology</summary>
@@ -20,6 +36,20 @@ _Figure 1: Azure Local multi-site deployment with synchronous and asynchronous r
 
 </div>
 </details>
+
+---
+
+## Multi-Site vs. Rack-Aware Clustering
+
+| Feature | Rack-Aware Clustering | Multi-Site Architecture |
+|---------|----------------------|------------------------|
+| **Cluster Count** | Single cluster | Multiple clusters |
+| **Physical Scope** | 2 racks (same campus, ≤1ms latency) | Multiple sites (any distance) |
+| **Storage** | Single pool, synchronous | Separate pools, replicated |
+| **Replication** | Built-in (Storage Spaces Direct) | Azure Site Recovery or Storage Replica |
+| **Failover** | Automatic (zone-aware) | Manual or ASR-automated |
+| **Use Case** | Room/building-level HA | Geographic DR |
+| **Status** | Preview | GA |
 
 ---
 

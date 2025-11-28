@@ -32,10 +32,13 @@ Scale Azure Local deployments across multiple sites while maintaining cloud conn
 ### Technical Track
 
 - ✅ Design hub-and-spoke and mesh topologies
-- ✅ Implement stretch clusters across sites
+- ✅ Implement multi-site replication with Azure Site Recovery
 - ✅ Optimize network performance for multi-site
 - ✅ Manage updates across multiple sites
 - ✅ Implement cost optimization strategies
+
+{: .note }
+> **📝 Note:** Stretch clusters are not supported in Azure Local. For multi-site high availability, use Azure Site Recovery or Storage Replica between separate clusters at each site.
 
 ---
 

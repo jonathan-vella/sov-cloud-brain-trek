@@ -104,14 +104,17 @@ Air-gapped environments require **manual certificate renewal process**:
 
 ---
 
-### Question 3: Stretch Cluster Design
+### Question 3: Multi-Site High Availability
 
-A government agency wants a stretch cluster across two data centers 50km apart with synchronous replication. Which configuration is REQUIRED?
+{: .note }
+> **📝 Updated November 2025:** Stretch clusters are not supported in Azure Local. This question covers the supported multi-site patterns.
 
-A) Any network connection; Azure Local handles latency automatically  
-B) < 5ms RTT latency; dedicated DWDM or dark fiber; synchronous storage replication  
-C) < 50ms RTT latency; VPN connection sufficient; asynchronous replication  
-D) Co-located data centers only; stretch clusters don't work beyond single building
+A government agency needs high availability across two data centers 50km apart. Which Azure Local architecture pattern should they implement?
+
+A) Stretch cluster with synchronous replication between sites  
+B) Separate Azure Local clusters at each site with Azure Site Recovery for VM replication  
+C) Single large cluster spanning both sites with shared storage  
+D) Active-passive cluster pair with manual failover scripts only
 
 <details>
 <summary>Click to reveal answer</summary>
@@ -119,29 +122,28 @@ D) Co-located data centers only; stretch clusters don't work beyond single build
 **Correct Answer: B**
 
 **Explanation:**
-Stretch clusters have **strict latency and network requirements**:
+**Stretch clusters are NOT supported in Azure Local**. For multi-site high availability, the recommended approach is:
 
-**Required Configuration:**
+**Recommended Architecture:**
 
-- ✅ **< 5ms RTT (Round-Trip Time)** between sites (Microsoft requirement)
-- ✅ **Dedicated high-bandwidth link** (DWDM/dark fiber preferred)
-- ✅ **Synchronous storage replication** (Storage Spaces Direct requirement)
-- ✅ **Redundant network paths** for resilience
-- ✅ **Consistent network latency** (not just average)
+- ✅ **Separate Azure Local cluster at each site** — Full HA within each site
+- ✅ **Azure Site Recovery (ASR)** — VM replication between sites (15-minute RPO)
+- ✅ **Storage Replica** — Asynchronous volume replication for data protection
+- ✅ **Azure Arc** — Unified management across both clusters
 
-**Technical Reasoning:**
+**Alternative Patterns:**
 
-- Synchronous replication requires immediate acknowledgment from remote site
-- > 5ms RTT causes write performance degradation
-- 50km is feasible with proper connectivity (fiber optic ~5μs/km)
+- **Storage Replica** for asynchronous or synchronous block replication
+- **Active-passive cluster pairs** with documented failover procedures
+- **Backup/restore** for less critical workloads
 
 **Why NOT Others:**
 
-- **A:** Latency matters critically; no automatic compensation
-- **C:** 50ms too high; VPN adds overhead; async replication doesn't meet requirements
-- **D:** 50km is supported if latency requirements met
+- **A:** Stretch clusters are NOT supported in Azure Local (only legacy Azure Stack HCI 22H2)
+- **C:** Azure Local doesn't support shared storage across sites
+- **D:** While valid, ASR provides better automation and management
 
-**Reference:** [Stretch Clusters](azure-local-multi-site#stretch-cluster-requirements)
+**Reference:** [Multi-Site Patterns](azure-local-multi-site) | [Azure Site Recovery](https://learn.microsoft.com/en-us/azure/site-recovery/)
 </details>
 
 ---
@@ -1036,8 +1038,11 @@ D) Time-based access restrictions
 
 - Review [Multi-Site Deployment Patterns](azure-local-multi-site)
 - Study hub-and-spoke vs mesh vs hybrid architectures
-- Understand stretch cluster requirements and limitations
+- Understand Azure Site Recovery and Storage Replica for cross-site HA
 - Practice capacity planning and fault domain design
+
+{: .note }
+> **📝 Reminder:** Stretch clusters are NOT supported in Azure Local. Use Azure Site Recovery or Storage Replica for multi-site scenarios.
 
 ### If you missed questions on Air-Gapped Operations (Q2, Q4, Q6, Q8, Q15)
 

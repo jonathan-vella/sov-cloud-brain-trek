@@ -9,7 +9,7 @@ nav_order: 3
 
 This section covers advanced strategies for building highly available and resilient Azure Local deployments. Understanding these patterns is essential for designing mission-critical systems.
 
-<details class="diagram-container">
+<details class="diagram-container" open>
 <summary>View Diagram: HA Topology Options</summary>
 <div class="diagram-content" markdown="1">
 
@@ -33,31 +33,99 @@ graph TB
         N2A <--> N2C
     end
 
-    subgraph Stretched["Stretched Cluster"]
-        subgraph Site1["Site A"]
-            S1N1[Node 1]
-            S1N2[Node 2]
+    subgraph RackAware["Rack-Aware Cluster (Preview)"]
+        subgraph Rack1["Rack A - Zone 1"]
+            R1N1[Node 1]
+            R1N2[Node 2]
         end
-        subgraph Site2["Site B"]
-            S2N1[Node 3]
-            S2N2[Node 4]
+        subgraph Rack2["Rack B - Zone 2"]
+            R2N1[Node 3]
+            R2N2[Node 4]
         end
-        CW[Cloud Witness]
-        S1N1 <--> S2N1
-        S1N2 <--> S2N2
-        Site1 --> CW
-        Site2 --> CW
+        R1N1 <--> R2N1
+        R1N2 <--> R2N2
+        Rack1 <-.-> Rack2
     end
 
     style TwoNode fill:#E8F4FD,stroke:#0078D4,stroke-width:2px,color:#000
     style ThreeNode fill:#FFF4E6,stroke:#FF8C00,stroke-width:2px,color:#000
-    style Stretched fill:#D4E9D7,stroke:#107C10,stroke-width:2px,color:#000
+    style RackAware fill:#D4E9D7,stroke:#107C10,stroke-width:2px,color:#000
 ```
 
 _Figure 1: Azure Local cluster topology options for different HA requirements_
 
 </div>
 </details>
+
+{: .important }
+> **📝 November 2025 Update:** Stretch clusters (cross-site synchronous replication within a single cluster) are **not supported** in Azure Local. For multi-rack high availability, use **Rack-Aware Clustering** (Preview). For multi-site DR, use Azure Site Recovery or Storage Replica between separate clusters.
+
+---
+
+## Rack-Aware Clustering (Preview)
+
+Rack-aware clustering is an advanced Azure Local architecture that provides rack-level fault tolerance within a single cluster spanning two physical racks.
+
+### Overview
+
+**What It Is:**
+
+- Single Azure Local cluster spanning **two physical racks**
+- Racks can be in different rooms or buildings
+- Requires ≤1ms round-trip latency between racks
+- Each rack functions as a **local availability zone**
+- Single storage pool with data distributed across both racks
+
+**Key Benefits:**
+
+- **High Availability:** Entire rack can fail without data loss
+- **Improved Performance:** Load balancing across racks
+- **Local Availability Zones:** VM placement control per rack
+- **Unified Management:** Single cluster, single control plane
+
+### Requirements
+
+| Component | Requirement |
+|-----------|-------------|
+| **Racks** | Exactly 2 physical racks |
+| **Nodes per Rack** | 2-4 nodes (balanced: 2+2, 3+3, or 4+4) |
+| **Total Nodes** | 4-8 machines maximum |
+| **Network Latency** | ≤1ms RTT between racks |
+| **Bandwidth** | Dedicated high-bandwidth storage network |
+| **Storage** | Local disks only (no External SAN) |
+
+### Supported Configurations
+
+| Configuration | Nodes per Rack | Total Nodes | Scalable To |
+|---------------|----------------|-------------|-------------|
+| **Minimum** | 2+2 | 4 | 3+3 or 4+4 |
+| **Recommended** | 3+3 | 6 | 4+4 |
+| **Maximum** | 4+4 | 8 | — |
+
+### VM Placement and Failover
+
+Rack-aware clusters support **zone-aware VM placement**:
+
+- **Strict Placement:** VM stays in specified zone; fails if zone unavailable
+- **Non-Strict Placement:** VM prefers specified zone; fails over to other zone if needed
+
+**Failover Behavior:**
+
+- Within-rack failure: VM moves to another node in same rack
+- Rack failure (non-strict): VMs fail over to surviving rack
+- Rack failure (strict): VMs remain offline until rack recovers
+
+### Use Cases
+
+- **Manufacturing plants** — Minimize downtime from rack-level failures
+- **Hospitals** — Critical systems with rack-level redundancy
+- **Airports** — High availability across terminal buildings
+- **Data centers** — Room-level isolation for compliance
+
+{: .note }
+> **📝 Preview Limitation:** Rack-aware clustering does not support External Storage Area Networks (SAN). All storage must be local to cluster nodes.
+
+**Reference:** [Rack-Aware Clustering Overview](https://learn.microsoft.com/en-us/azure/azure-local/concepts/rack-aware-cluster-overview)
 
 ## Cluster Quorum Options
 

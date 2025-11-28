@@ -108,27 +108,18 @@ Azure Arc-enabled Data Services bring Azure database services to any infrastruct
 - Automated billing
 - Latest features first
 
-### Indirectly Connected Mode
+### Indirectly Connected Mode (Retired)
 
-**Characteristics:**
+{: .warning }
+> **⚠️ Retired Feature**
+> Indirectly Connected mode was retired in September 2025. For disconnected scenarios requiring Arc-enabled data services, use [Azure Local with Disconnected Operations](azure-local-disconnected-mode.md) which provides a local control plane with Azure portal experience.
 
-- No automatic connection to Azure
-- Manual export/import of usage data
-- Local management only (Azure Data Studio)
-- Manual updates
+**Historical Context:**
 
-**Requirements:**
+This mode previously supported air-gapped environments with manual data export/import. Organizations requiring disconnected database services should now evaluate:
 
-- Kubernetes cluster (any)
-- Local management tools
-- Periodic manual export for billing
-
-**Benefits:**
-
-- Air-gapped support
-- Maximum data residency
-- No Azure dependency
-- Suitable for classified environments
+- **Azure Local Disconnected Operations** — Local Azure portal and management
+- **Traditional SQL Server/PostgreSQL** — Self-managed databases on disconnected infrastructure
 
 ---
 
