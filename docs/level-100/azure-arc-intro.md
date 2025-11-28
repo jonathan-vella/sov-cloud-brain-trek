@@ -436,6 +436,37 @@ Azure Arc consists of three main service categories:
 
 ---
 
+### 4. Additional Arc-Enabled Services
+
+Beyond the core three pillars, Azure Arc enables additional services on Arc-enabled Kubernetes clusters:
+
+{: .note }
+> **📝 Source:** [Azure Arc Overview](https://learn.microsoft.com/en-us/azure/azure-arc/overview) — Microsoft Learn (November 2025)
+
+| Service | Description | Status |
+|---------|-------------|--------|
+| **Edge RAG** | On-premises generative AI with retrieval-augmented generation | Preview |
+| **Container Apps on Azure Arc** | Serverless container platform on Kubernetes | GA |
+| **Event Grid on Kubernetes** | Event-driven architectures on-premises | GA |
+| **App Services on Azure Arc** | Run Azure App Service anywhere | Preview |
+| **Machine Learning on Azure Arc** | ML model training and inference on-premises | Preview |
+
+These services deploy as **cluster extensions** on Arc-enabled Kubernetes clusters and use **custom locations** to create Azure resource projections.
+
+**Edge RAG for Sovereign Scenarios:**
+
+Edge RAG (Preview) is particularly relevant for sovereign cloud scenarios:
+
+- Runs entirely on-premises infrastructure (Azure Local)
+- All customer data stays within on-premises network boundaries
+- Only system metadata sent to Azure (no customer content)
+- Enables generative AI insights from sensitive local data
+- Supports government, healthcare, and financial services use cases
+
+**[Learn More about Edge RAG →](edge-rag-concepts)**
+
+---
+
 ## Comparison Table: Three Arc Services
 
 | Feature | Arc Servers | Arc Kubernetes | Arc Data Services |
@@ -449,6 +480,60 @@ Azure Arc consists of three main service categories:
 | **Licensing** | Included with server OS | Included | Pay-as-you-go |
 | **Data Location** | Local (no data sync) | Local | Local |
 | **Best For** | Traditional VMs/servers | Modern cloud-native apps | Database workloads |
+
+---
+
+## Arc Resource Bridge
+
+{: .note }
+> **📝 Source:** [Arc Resource Bridge Overview](https://learn.microsoft.com/en-us/azure/azure-arc/resource-bridge/overview) — Microsoft Learn (November 2025)
+
+**Arc Resource Bridge** is a Kubernetes-based management cluster that runs on-premises and enables Azure Arc management for private cloud environments.
+
+### What is Arc Resource Bridge?
+
+Arc Resource Bridge is the foundational component that:
+
+- **Hosts management services:** Runs a lightweight Kubernetes cluster on-premises
+- **Enables VM management:** Allows Azure portal to manage VMs in private clouds
+- **Deploys custom locations:** Creates Azure resource projections for on-premises resources
+- **Runs cluster extensions:** Hosts Arc agents and operators for various services
+
+### Supported Private Clouds
+
+| Platform | Supported Versions |
+|----------|-------------------|
+| VMware vSphere | 7.0, 8.0 |
+| Azure Local | All GA versions |
+| System Center VMM (SCVMM) | 2019, 2022 |
+
+### Key Characteristics
+
+**Deployment:**
+
+- For Azure Local: Automatically deployed during cluster setup
+- For VMware/SCVMM: Deploy using Azure CLI or Azure portal
+- Runs as a Kubernetes appliance VM in the private cloud
+
+**Maintenance Requirements:**
+
+{: .warning }
+> **⚠️ Upgrade Requirement:** Arc Resource Bridge must be upgraded at least once every 6 months to maintain supportability. Plan regular maintenance windows for appliance updates.
+
+**Network Considerations:**
+
+- Requires outbound internet connectivity to Azure endpoints
+- Does **NOT** support Azure Private Link (as of November 2025)
+- Firewall rules needed for management endpoints
+
+### What Arc Resource Bridge Enables
+
+When deployed, Arc Resource Bridge unlocks:
+
+- **VM lifecycle management:** Create, delete, start, stop VMs from Azure portal
+- **Azure governance:** Apply Azure Policy to on-premises VMs
+- **Monitoring:** Azure Monitor integration for private cloud resources
+- **Consistent RBAC:** Use Azure role-based access control for on-premises resources
 
 ---
 
