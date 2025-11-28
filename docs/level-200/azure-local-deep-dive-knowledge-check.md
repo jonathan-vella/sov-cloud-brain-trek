@@ -219,7 +219,7 @@ D) One 6-node cluster split across two sites using active-active configuration.
 - You have excellent understanding of Azure Local advanced architecture
 - Ready for production deployment design and implementation responsibilities
 - Qualified for lead architect or senior implementation roles
-- Consider pursuing Azure Stack HCI certifications
+- Consider pursuing Azure Local certifications
 
 **7-8 correct (70-80%):** ✅ **Good - Competent**
 
@@ -306,9 +306,9 @@ D) One 6-node cluster split across two sites using active-active configuration.
    - [Azure Local Advanced Networking](azure-local-advanced-networking)
 
 4. **🌐 Explore external resources:**
-   - [Azure Stack HCI Documentation](https://learn.microsoft.com/azure-stack/hci/)
-   - [Azure Stack HCI Architecture Guide](https://learn.microsoft.com/azure-stack/hci/concepts/system-requirements)
-   - [Azure Stack HCI Tech Community](https://techcommunity.microsoft.com/t5/azure-stack-hci/ct-p/AzureStackHCI)
+   - [Azure Local Documentation](https://learn.microsoft.com/en-us/azure/azure-local/)
+   - [Azure Local Architecture Guide](https://learn.microsoft.com/en-us/azure/azure-local/plan/)
+   - [Azure Local Tech Community](https://techcommunity.microsoft.com/t5/azure-local/ct-p/AzureLocal)
 
 5. **💡 Consider hands-on practice:**
    - Deploy Azure Local in a lab environment

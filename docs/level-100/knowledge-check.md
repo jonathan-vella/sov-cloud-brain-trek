@@ -432,7 +432,7 @@ To reinforce your learning:
 
 1. **Explore Azure Regions:** Browse the [Azure geographies page](https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies/) to understand regional options
 2. **Review Compliance Offerings:** Visit the [Microsoft Trust Center](https://www.microsoft.com/en-us/trust-center) to explore certifications
-3. **Watch Azure Local Videos:** Check out demos on the [Azure Stack HCI YouTube channel](https://www.youtube.com/@AzureStackHCI)
+3. **Watch Azure Local Videos:** Check out demos on the [Azure Local YouTube channel](https://www.youtube.com/@AzureStackHCI) (channel name pending rename)
 
 ---
 

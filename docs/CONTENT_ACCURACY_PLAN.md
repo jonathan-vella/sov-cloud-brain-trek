@@ -398,6 +398,60 @@ Review all knowledge check questions for technical accuracy:
 
 ---
 
+## Step 11: YAML Front Matter Audit
+
+Validate all markdown files have consistent and valid YAML front matter:
+
+**Required fields for all pages:**
+
+```yaml
+---
+layout: default
+title: Page Title
+parent: Parent Section Name    # Required for child pages
+nav_order: N.N                 # Numeric ordering
+---
+```
+
+**Optional fields:**
+
+```yaml
+has_children: true             # For parent pages with sub-pages
+description: "SEO description" # For search optimization
+nav_exclude: true              # For internal/specification files
+```
+
+**Validation script:**
+
+```bash
+# Find files with missing or malformed front matter
+find docs/ -name "*.md" -exec grep -L "^---" {} \;
+
+# Check for required fields
+for f in docs/**/*.md; do
+  if ! grep -q "^layout:" "$f"; then echo "Missing layout: $f"; fi
+  if ! grep -q "^title:" "$f"; then echo "Missing title: $f"; fi
+done
+```
+
+**Common issues to fix:**
+
+- Missing `layout: default`
+- Missing or incorrect `parent:` references
+- Inconsistent `nav_order` numbering (gaps, duplicates)
+- Missing `title:` field
+- Invalid YAML syntax (extra colons, unquoted special chars)
+
+**Files to audit (all docs):**
+
+- `docs/level-50/*.md`
+- `docs/level-100/*.md`
+- `docs/level-200/*.md`
+- `docs/level-300/*.md`
+- `docs/resources/*.md`
+
+---
+
 ## Execution Phases
 
 | Phase | Steps | Effort | Dependencies |
@@ -406,6 +460,7 @@ Review all knowledge check questions for technical accuracy:
 | **Phase 2** | Steps 3-4 (Azure Local + Sovereign Models) | 4-6 hours | Phase 1 |
 | **Phase 3** | Steps 5-7 (Arc + Edge AI + M365) | 4-6 hours | Phase 1 |
 | **Phase 4** | Steps 8-10 (Diagrams + Compliance + Knowledge Checks) | 3-4 hours | Phases 2-3 |
+| **Phase 5** | Step 11 (YAML Front Matter Audit) | 1-2 hours | All phases |
 
 ---
 
