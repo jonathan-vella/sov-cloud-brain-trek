@@ -16,29 +16,61 @@ Replace all Mermaid diagrams with Python-generated SVGs, embed 6 new Level-100 d
 - ✅ `package.json` scripts: `npm run diagrams`, `diagrams:level50`, etc.
 - ✅ Mermaid VS Code extension available for drafting
 
-### Step 2: Convert Level-50 Mermaid diagrams to Python (highest visibility, 8 diagrams)
+### Step 2: Convert Level-50 Mermaid diagrams to Python ✅ N/A
 
-- `cloud-computing-primer.md`: Traditional IT vs Cloud comparison, Cloud characteristics mindmap
-- `cloud-service-models.md`: Shared Responsibility Model, service model layers
-- `security-compliance-basics.md`: CIA Triad, Defense in Depth, encryption states
-- `cloud-deployment-models.md`: Deployment model decision tree
+**Status:** No Mermaid diagrams exist in Level 50. All Level 50 content uses Python-generated SVGs.
 
-### Step 3: Convert Level-100 Mermaid diagrams to Python (4 diagrams)
+### Step 3: Convert Level-100 Mermaid diagrams to Python (19 diagrams)
 
-- `azure-local-connected-mode.md`: Connected mode data flow
-- `azure-local-disconnected-mode.md`: Disconnected sync flow
-- `azure-arc-kubernetes.md`: GitOps workflow with Flux
-- `sovereign-cloud-models.md`: Sovereign cloud selection tree
+Files containing Mermaid diagrams:
 
-### Step 4: Convert Level-200/300 Mermaid diagrams to Python (8 diagrams)
+- `azure-local-connected-mode.md` (1)
+- `azure-local-disconnected-mode.md` (1)
+- `azure-local-overview.md` (1)
+- `azure-local-architecture.md` (1)
+- `azure-arc-intro.md` (3)
+- `azure-arc-servers.md` (1)
+- `azure-arc-kubernetes.md` (2)
+- `sovereign-cloud-models.md` (2)
+- `digital-sovereignty.md` (1)
+- `data-residency-concepts.md` (1)
+- `regulatory-overview.md` (1)
+- `operational-sovereignty.md` (1)
+- `edge-rag-architecture.md` (1)
+- `edge-rag-concepts.md` (1)
+- `rag-fundamentals.md` (1)
 
-- `edge-rag-implementation.md`: RAG implementation flowchart
-- `azure-local-ha-patterns.md`: Failover sequence
-- `arc-policy-and-governance.md`: Policy inheritance hierarchy
-- `encryption-key-management.md`: Key lifecycle states
-- `azure-local-air-gapped.md`: Air-gapped update process
-- `edge-rag-mlops.md`: MLOps continuous improvement
-- `zero-trust-monitoring.md`: Compliance monitoring loop
+### Step 4: Convert Level-200/300 Mermaid diagrams to Python (27 diagrams)
+
+**Level 200 (11 diagrams):**
+
+- `azure-local-ha-patterns.md` (1)
+- `arc-advanced-management.md` (1)
+- `arc-policy-and-governance.md` (1)
+- `compliance-security-patterns.md` (1)
+- `gdpr-implementation.md` (1)
+- `cost-estimation.md` (1)
+- `llm-inference-optimization.md` (1)
+- `presales-solution-design.md` (2)
+- `rag-deployment-strategies.md` (2)
+
+**Level 300 (16 diagrams):**
+
+- `api-gateway-patterns.md` (1)
+- `azure-local-certificate-management.md` (1)
+- `azure-local-multi-site.md` (1)
+- `critical-infrastructure.md` (1)
+- `data-classification.md` (1)
+- `data-mesh-sovereignty.md` (1)
+- `devsecops-pipeline.md` (1)
+- `edge-rag-mlops.md` (1)
+- `event-driven-architecture.md` (2)
+- `financial-services.md` (1)
+- `government-cloud.md` (1)
+- `incident-response.md` (1)
+- `troubleshooting.md` (1)
+- `troubleshooting-tools.md` (1)
+- `zero-trust-architecture.md` (1)
 
 ### Step 5: Embed 6 new Level-100 diagrams into target pages (with collapsible wrappers)
 
