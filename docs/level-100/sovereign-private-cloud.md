@@ -695,11 +695,14 @@ Dell PowerEdge R750
 
 ## Microsoft 365 Local: Productivity in Sovereign Environments
 
+{: .note }
+> **📝 Source:** [What is Microsoft 365 Local?](https://learn.microsoft.com/en-us/azure/azure-local/concepts/microsoft-365-local-overview) — Microsoft Learn (November 2025)
+
 ### What is Microsoft 365 Local?
 
-**Microsoft 365 Local** provides customers with additional deployment choice by bringing together Microsoft's productivity server software into an Azure Local environment that can run entirely in a customer's own datacenter.
+**Microsoft 365 Local** enables organizations to run **Exchange Server**, **SharePoint Server**, and **Skype for Business Server** on Azure Local infrastructure that is entirely customer-owned and managed. It provides enhanced control over data residency, access, and compliance to meet sovereignty requirements.
 
-This provides a **simplified deployment and management framework** for organizations to run Microsoft's trusted productivity servers in environments they fully control. Built on our validated reference architecture and powered by Azure Local, Microsoft 365 Local enables customers to deploy Microsoft productivity workloads like **Exchange Server** and **SharePoint Server** in their own datacenters or sovereign cloud environments — with full control on security, compliance and governance.
+Designed for organizations needing productivity tools in a private cloud environment, Microsoft 365 Local leverages **Azure Arc** to provide a unified control plane with simplified deployment and streamlined updates. The solution includes a validated reference architecture with certified hardware, along with a hardened security baseline and robust controls.
 
 **Private Sovereign Cloud is designed for:**
 
@@ -740,15 +743,18 @@ This provides a **simplified deployment and management framework** for organizat
 
 ### Supported Workloads
 
-**Currently Available:**
+**Available with Microsoft 365 Local:**
 
-- **Exchange Server** - Email, calendaring, contacts, and tasks
-- **SharePoint Server** - Document management, collaboration, intranet sites, and search
+- **Exchange Server** — Enterprise email, calendaring, contacts, and unified communications
+- **SharePoint Server** — Document management, collaboration, intranet sites, and enterprise search  
+- **Skype for Business Server** — Unified communications, presence, and instant messaging
 
-**Future Roadmap:**
+**Key Capabilities:**
 
-- Additional Microsoft productivity server workloads
-- Enhanced integration with Azure Local management
+- Certified and validated solutions by Microsoft and hardware partners
+- Full-stack deployment based on validated reference architecture
+- Supports hybrid connectivity and fully disconnected operations
+- Arc-enabled management for hybrid control
 
 ### Example Deployment Scenario
 

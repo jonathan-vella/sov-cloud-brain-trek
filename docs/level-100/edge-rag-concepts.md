@@ -20,7 +20,15 @@ nav_order: 1
 
 ## Overview
 
+{: .important }
+> **Preview Status:** Edge RAG, enabled by Azure Arc, is currently in **Preview**. Features and availability may change before general availability. See [Supplemental Terms of Use for Microsoft Azure Previews](https://azure.microsoft.com/support/legal/preview-supplemental-terms/).
+
+{: .note }
+> **📝 Source:** [What is Edge Retrieval Augmented Generation (RAG)?](https://learn.microsoft.com/en-us/azure/azure-arc/edge-rag/overview) — Microsoft Learn (November 2025)
+
 **Edge RAG** (Retrieval-Augmented Generation at the Edge) combines the power of large language models with local data retrieval, running entirely on-premises or at the edge. This approach enables organizations to leverage generative AI capabilities while maintaining complete data sovereignty and control.
+
+Edge RAG is an **Azure Arc-enabled Kubernetes extension** that enables you to search on-premises data with generative AI. It is supported and validated on Azure Arc-enabled Kubernetes on Azure Local infrastructure.
 
 ### What is RAG?
 
@@ -55,11 +63,30 @@ User Question → Retrieve Relevant Docs → LLM + Context → Enhanced Answer
 - Privacy-preserving AI
 - Compliance with data residency requirements
 
+### Microsoft Edge RAG Capabilities
+
+Based on the official Microsoft Edge RAG solution, the platform provides:
+
+| Capability | Description |
+|------------|-------------|
+| **Local GenAI Models** | Choice of language models (Phi, Mistral, etc.) running locally on CPU or GPU |
+| **Turnkey RAG Pipeline** | Pre-built data ingestion, chunking, embedding, and retrieval workflows |
+| **Azure RBAC Integration** | Role-based access control using Microsoft Entra ID |
+| **Prompt Engineering Tools** | Out-of-the-box UI for building, evaluating, and deploying chat solutions |
+| **Azure-Equivalent APIs** | Familiar APIs for integration into business applications |
+| **Multiple Search Types** | Vector search, full-text search, hybrid search, and multimodal search |
+
+**Data Sovereignty Guarantee:**
+
+- All customer data stays within on-premises network boundaries
+- Only system metadata (subscription ID, cluster names) sent to Microsoft
+- Customer content is never transmitted to the cloud
+
 ---
 
 ## Edge RAG System Architecture
 
-<details class="diagram-container">
+<details class="diagram-container" open>
 <summary>View Diagram: Edge RAG System Architecture</summary>
 <div class="diagram-content" markdown="1">
 

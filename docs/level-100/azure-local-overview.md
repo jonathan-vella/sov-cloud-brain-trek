@@ -315,45 +315,49 @@ Azure Local excels at running AI/ML workloads on-premises:
 
 ### 7. Microsoft 365 Local: Productivity at the Edge
 
-**Announcing Microsoft 365 Local**
+{: .note }
+> **📝 Source:** [What is Microsoft 365 Local?](https://learn.microsoft.com/en-us/azure/azure-local/concepts/microsoft-365-local-overview) — Microsoft Learn (November 2025)
 
-**Microsoft 365 Local** brings Microsoft's trusted productivity server software into an Azure Local environment that can run entirely in a customer's own datacenter, providing additional deployment choice for organizations requiring maximum control and sovereignty.
+**Microsoft 365 Local** enables organizations to run Exchange Server, SharePoint Server, and Skype for Business Server on Azure Local infrastructure that is entirely customer-owned and managed. It provides enhanced control over data residency, access, and compliance to meet sovereignty requirements.
 
-**Key Characteristics:**
+**Key Capabilities:**
 
-- **Simplified Deployment:** Validated reference architecture powered by Azure Local
-- **Complete Control:** Run Exchange Server and SharePoint Server in environments you fully control
-- **Full Sovereignty:** Maintain complete control over security, compliance, and governance
-- **Disconnected Capability:** Operate productivity workloads in air-gapped or disconnected environments
-- **Integrated Management:** Unified deployment and management framework with Azure Local
+- **Complete Productivity Stack:** Exchange Server, SharePoint Server, and Skype for Business Server
+- **Validated Architecture:** Full-stack deployment based on validated reference architecture with certified hardware
+- **Azure Arc Integration:** Unified control plane with simplified deployment and streamlined updates
+- **Sovereign Private Cloud:** Built on Azure Local with Arc-enabled management for hybrid control
+- **Connectivity Flexibility:** Supports both hybrid connectivity and fully disconnected operations
 
 **Supported Workloads:**
 
-- **Exchange Server** - Email and calendaring on-premises
-- **SharePoint Server** - Document management and collaboration
-- Additional Microsoft server workloads (roadmap)
+- **Exchange Server** — Enterprise email, calendaring, and unified communications
+- **SharePoint Server** — Document management, collaboration, and intranet
+- **Skype for Business Server** — Unified communications and presence
 
 **Designed For:**
 
-- **Governments:** Federal, state, and local agencies requiring maximum data sovereignty
-- **Critical Industries:** Defense contractors, intelligence agencies, critical infrastructure
-- **Regulated Sectors:** Financial services, healthcare organizations with strict compliance requirements
-- **Sovereign Cloud:** Organizations needing the highest standards of data residency and operational autonomy
-- **Disconnected Access:** Environments requiring productivity services without continuous cloud connectivity
+- **Governments:** Organizations needing the strictest jurisdictional and sovereignty mandates
+- **Regulated Industries:** Finance, healthcare, defense requiring complete data residency control
+- **Sovereign Cloud:** Organizations requiring private cloud with Azure-consistent management
+- **Disconnected Environments:** Air-gapped operations with complete isolation
 
-**Benefits:**
+**Hardware Requirements (Enterprise Baseline):**
 
-- ✅ Run Microsoft productivity servers on validated Azure Local infrastructure
-- ✅ Maintain complete control over data location and operations
-- ✅ Meet stringent data residency and sovereignty requirements
-- ✅ Support for both Connected and Disconnected Azure Local modes
-- ✅ Simplified deployment compared to traditional separate server installations
-- ✅ Consistent management experience with Azure Local platform
+The baseline architecture consists of 9 physical servers (Premier Solutions certified):
+
+| Role | Configuration | Purpose |
+|------|---------------|--------|
+| SharePoint + SQL | 3-node Azure Local cluster | Document management and databases |
+| Exchange Mailbox | 4 × single-node clusters | Email storage and processing |
+| Exchange Edge Transport | 2 × single-node clusters | Mail routing and security |
+
+{: .important }
+> **Partner Deployment Required:** Microsoft 365 Local must be deployed by a certified Microsoft 365 Local solution partner. Contact your Microsoft account team or visit [https://aka.ms/m365localsignup](https://aka.ms/m365localsignup).
 
 **Use Case Example:**
-> A government agency runs Microsoft 365 Local on Azure Local in Disconnected Mode to provide email and collaboration services to classified networks. All productivity data remains within the air-gapped environment while maintaining full functionality.
+> A government agency runs Microsoft 365 Local on Azure Local in Disconnected Mode to provide email, collaboration, and unified communications on classified networks. All productivity data remains within the air-gapped environment.
 
-**Reference:** [Microsoft 365 Local Overview](https://learn.microsoft.com/en-us/microsoft-365/local/)
+**Reference:** [What is Microsoft 365 Local?](https://learn.microsoft.com/en-us/azure/azure-local/concepts/microsoft-365-local-overview) — Microsoft Learn
 
 ### 8. Security and Encryption at Rest
 

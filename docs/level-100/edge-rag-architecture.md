@@ -18,6 +18,9 @@ nav_order: 5.2
 
 ---
 
+{: .important }
+> **Preview Status:** Edge RAG is currently in **Preview**. Architecture details and supported components may change. See [Microsoft Learn documentation](https://learn.microsoft.com/en-us/azure/azure-arc/edge-rag/) for the latest information.
+
 ## Edge RAG Reference Architecture
 
 ### High-Level Components
