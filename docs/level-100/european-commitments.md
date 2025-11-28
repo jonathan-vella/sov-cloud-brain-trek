@@ -53,6 +53,9 @@ On April 30, 2025, Microsoft announced five comprehensive commitments to support
 
 **Commitment:** Enable customers to store and process their data within the European Union, with limited and transparent exceptions.
 
+{: .note }
+> **📝 Source:** [What is the EU Data Boundary?](https://learn.microsoft.com/en-us/privacy/eudb/eu-data-boundary-learn) — Microsoft Learn (Updated September 2025)
+
 <details class="diagram-container">
 <summary>View Diagram: EU Data Boundary</summary>
 <div class="diagram-content" markdown="1">
@@ -63,38 +66,53 @@ _Figure: Microsoft EU Data Boundary showing data residency and processing within
 </div>
 </details>
 
+**Geographic Scope:**
+
+The EU Data Boundary consists of **31 countries**:
+
+- **27 EU Member States:** Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden
+- **4 EFTA Countries:** Liechtenstein, Iceland, Norway, Switzerland
+
+**Data Categories Covered:**
+
+| Data Type | Storage Location | Processing Location |
+|-----------|------------------|---------------------|
+| **Customer Data** | EU/EFTA datacenters | EU/EFTA |
+| **Pseudonymized Personal Data** | EU/EFTA datacenters | EU/EFTA |
+| **Professional Services Data** | Stored at rest in EU/EFTA | EU/EFTA |
+
 **Key Features:**
 
 **Data Residency:**
 
-- Customer data stored within the EU
-- Data processing occurs in EU datacenters
-- Backup and disaster recovery within EU
+- Customer data stored within the EU/EFTA
+- Data processing occurs in EU/EFTA datacenters
+- Backup and disaster recovery within EU/EFTA
 
 **Exceptions (Documented and Transparent):**
 
-- Some support scenarios (customer can control)
+- Some support scenarios (customer can control via Customer Lockbox)
 - Certain metadata for service functionality
 - Features requiring global routing (e.g., Azure Front Door)
 
 **Customer Control:**
 
 - Customers can view data transfer scenarios
-- Lockbox controls for support access
+- Customer Lockbox for support access approval
 - Audit logs for all data access
 
 **Services Covered:**
 
-- Azure
+- Azure (regional services in EU/EFTA regions)
 - Microsoft 365
 - Dynamics 365
 - Power Platform
 
-**Implementation Timeline:**
+**Datacenter Locations:**
 
-- Initial services available: 2022
-- Expanded coverage: 2023-2024
-- Ongoing enhancements: 2025+
+Microsoft operates or may use datacenters in: Austria, Belgium, Denmark, Finland, France, Germany, Greece, Ireland, Italy, Netherlands, Norway, Poland, Spain, Sweden, and Switzerland.
+
+**Reference:** [EU Data Boundary Countries and Datacenter Locations](https://learn.microsoft.com/en-us/privacy/eudb/eu-data-boundary-learn#eu-data-boundary-countries-and-datacenter-locations)
 
 
 ---

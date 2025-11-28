@@ -231,7 +231,58 @@ Many countries and sectors have regulations that require:
 
 ---
 
-### 4. Other Sovereign Cloud Initiatives
+### 4. European Partner Cloud Initiatives
+
+Microsoft has partnered with European telecommunications and technology companies to create sovereign cloud offerings that meet strict national requirements.
+
+#### Bleu (France)
+
+**Partners:** Orange and Capgemini  
+**Target Certification:** SecNumCloud (ANSSI - French National Cybersecurity Agency)
+
+**Key Characteristics:**
+
+- Joint venture between Orange, Capgemini, and Microsoft
+- Designed to meet French "Cloud de Confiance" (Trusted Cloud) requirements
+- Targets SecNumCloud certification for French government and critical infrastructure
+- French-operated with data residency in France
+- Access to Microsoft Azure and Microsoft 365 services
+
+**Target Customers:**
+
+- French government agencies
+- Critical national infrastructure operators
+- Organizations requiring SecNumCloud certification
+- French defense and security sectors
+
+{: .note }
+> **📝 Status:** Verify current availability and certification status with Microsoft France or partner websites, as this initiative may be in development or limited availability.
+
+#### Delos Cloud (Germany)
+
+**Partners:** SAP and Arvato Systems (Bertelsmann)  
+**Target:** German cloud platform requirements for public sector
+
+**Key Characteristics:**
+
+- German-operated sovereign cloud infrastructure
+- Designed for German public sector and regulated industries
+- Combines SAP enterprise software with Microsoft cloud services
+- Data residency and operations within Germany
+- Targets German government cloud requirements
+
+**Target Customers:**
+
+- German federal and state government agencies
+- German public sector organizations
+- Regulated industries requiring German data sovereignty
+
+{: .note }
+> **📝 Status:** Verify current availability and service scope with Microsoft Germany or partner websites, as offerings may evolve.
+
+---
+
+### 5. Other Sovereign Cloud Initiatives
 
 **Microsoft continues to expand sovereign cloud capabilities globally:**
 
@@ -251,10 +302,11 @@ Many countries and sectors have regulations that require:
 
 **Israel:**
 
-- Azure Israel regions planned
+- Azure Israel regions
 - Support for Israeli government and defense requirements
 
-**Note:** Many countries' sovereignty needs are now addressed through **Microsoft Cloud for Sovereignty** (Sovereign Public Cloud model) rather than dedicated partner clouds. This provides better service portfolio and faster innovation while still meeting sovereignty requirements.
+{: .important }
+> **📝 Note:** Many countries' sovereignty needs are now addressed through **Microsoft Cloud for Sovereignty** (Sovereign Public Cloud model) rather than dedicated partner clouds. This provides better service portfolio and faster innovation while still meeting sovereignty requirements.
 
 ---
 

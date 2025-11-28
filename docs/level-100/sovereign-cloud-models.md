@@ -30,6 +30,8 @@ _Figure 1: Comparison of sovereign cloud deployment models_
 
 {: .note }
 > ⏱️ **Reading Time:** 20-25 min | 🎯 **Key Topics:** Public vs private sovereign cloud, decision criteria, use cases | 📋 **Prerequisites:** [Digital Sovereignty](digital-sovereignty.md)
+>
+> **📝 Source:** [Microsoft Sovereign Cloud Documentation](https://learn.microsoft.com/en-us/industry/sovereignty/) — Microsoft Learn (November 2025)
 
 ---
 
