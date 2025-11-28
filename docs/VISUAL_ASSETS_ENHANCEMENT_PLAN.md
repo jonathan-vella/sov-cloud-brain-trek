@@ -6,13 +6,15 @@ Replace all Mermaid diagrams with Python-generated SVGs, embed 6 new Level-100 d
 
 ## Steps
 
-### Step 1: Update devcontainer and add diagram regeneration script (unblocks all other work)
+### Step 1: Update devcontainer and add diagram regeneration script ✅ COMPLETED
 
-- Add Cartopy system deps to `.devcontainer/devcontainer.json`: `libgeos-dev`, `libproj-dev`, `proj-data`, `proj-bin`
-- Update `requirements.txt`: `cartopy>=0.22.0`, `pyproj>=3.6.0`, `shapely>=2.0.0`
-- Create `scripts/regenerate-diagrams.py` to batch-regenerate all SVGs
-- Add `npm run diagrams` script to `package.json` (or Makefile)
-- Keep Mermaid VS Code extension for drafting purposes
+**Completed:** 2025-11-28 — All infrastructure already in place.
+
+- ✅ Cartopy system deps in `.devcontainer/devcontainer.json`: `libgeos-dev`, `libproj-dev`, `proj-data`, `proj-bin`
+- ✅ `requirements.txt` includes: `cartopy>=0.22.0`, `pyproj>=3.6.0`, `shapely>=2.0.0`
+- ✅ `scripts/regenerate-diagrams.py` exists — supports `--level` and `--dry-run` flags
+- ✅ `package.json` scripts: `npm run diagrams`, `diagrams:level50`, etc.
+- ✅ Mermaid VS Code extension available for drafting
 
 ### Step 2: Convert Level-50 Mermaid diagrams to Python (highest visibility, 8 diagrams)
 

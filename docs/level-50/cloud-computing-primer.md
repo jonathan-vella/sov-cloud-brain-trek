@@ -116,6 +116,16 @@ _Figure: Traditional IT requires weeks/months for provisioning while cloud enabl
 - No upfront capital investments
 - Variable costs based on actual usage
 
+<details class="diagram-container">
+<summary>View Diagram: CapEx vs OpEx Comparison</summary>
+<div class="diagram-content">
+
+![CapEx vs OpEx Comparison](../assets/images/level-100/capex-opex-comparison.svg)
+_Figure: Capital Expenditure (CapEx) vs Operational Expenditure (OpEx) cost models over time_
+
+</div>
+</details>
+
 ## Virtualization: The Foundation of Cloud
 
 Cloud computing is built on virtualization technology. Understanding hypervisors and virtual machines is essential for grasping how cloud resources work.

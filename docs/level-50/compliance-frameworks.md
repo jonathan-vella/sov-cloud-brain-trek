@@ -13,6 +13,16 @@ description: "Overview of major compliance frameworks and regulations"
 
 Compliance frameworks provide structured approaches to meeting regulatory and industry requirements for data protection, security, and governance.
 
+<details class="diagram-container" open>
+<summary>View Diagram: Major Compliance Framework Timeline</summary>
+<div class="diagram-content">
+
+![Regulatory Timeline](../assets/images/level-100/regulatory-timeline.svg)
+_Figure: Timeline of major compliance and data protection regulations_
+
+</div>
+</details>
+
 ## Major Global Frameworks
 
 ### GDPR (General Data Protection Regulation)

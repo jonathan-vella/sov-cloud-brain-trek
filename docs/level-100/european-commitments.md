@@ -53,6 +53,16 @@ On April 30, 2025, Microsoft announced five comprehensive commitments to support
 
 **Commitment:** Enable customers to store and process their data within the European Union, with limited and transparent exceptions.
 
+<details class="diagram-container" open>
+<summary>View Diagram: EU Data Boundary</summary>
+<div class="diagram-content">
+
+![EU Data Boundary](../assets/images/level-100/eu-data-boundary.svg)
+_Figure: Microsoft EU Data Boundary showing data residency and processing within EU/EFTA countries_
+
+</div>
+</details>
+
 **Key Features:**
 
 **Data Residency:**
